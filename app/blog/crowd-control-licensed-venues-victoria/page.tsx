@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Crowd Control for Licensed Venues in Victoria | Security Guard Company Melbourne",
   description: "What Victorian law requires for crowd control at licensed premises — licensing obligations, RSA, incident reporting, and managing your legal exposure.",
   alternates: { canonical: "/blog/crowd-control-licensed-venues-victoria/" },
+  openGraph: {
+    title: "Crowd Control for Licensed Venues in Victoria | Security Guard Company Melbourne",
+    description: "What Victorian law requires for crowd control at licensed premises — licensing obligations, RSA, incident reporting, and managing your legal exposure.",
+    url: "https://securityguardcompanymelbourne.com/blog/crowd-control-licensed-venues-victoria/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function CrowdControlLicensedVenuesPost() {

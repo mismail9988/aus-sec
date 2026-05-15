@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Event Security Melbourne | Professional Event Security Services",
   description: "Expert event security services for Melbourne's events industry. Crowd management, access control, VIP security, and security management planning for events of all sizes.",
   alternates: { canonical: "/sectors/events/" },
+  openGraph: {
+    title: "Event Security Melbourne | Professional Event Security Services",
+    description: "Expert event security services for Melbourne's events industry. Crowd management, access control, VIP security, and security management planning for events of all sizes.",
+    url: "https://securityguardcompanymelbourne.com/sectors/events/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function EventsSectorPage() {

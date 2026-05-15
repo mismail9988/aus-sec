@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Corporate Security for Office Buildings Melbourne | Security Guard Company Melbourne",
   description: "How to build an effective corporate security program for Melbourne office buildings — access control, concierge security, visitor management, and after-hours protection.",
   alternates: { canonical: "/blog/corporate-security-office-buildings/" },
+  openGraph: {
+    title: "Corporate Security for Office Buildings Melbourne | Security Guard Company Melbourne",
+    description: "How to build an effective corporate security program for Melbourne office buildings — access control, concierge security, visitor management, and after-hours protection.",
+    url: "https://securityguardcompanymelbourne.com/blog/corporate-security-office-buildings/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function CorporateSecurityOfficePost() {

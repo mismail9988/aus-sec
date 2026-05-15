@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Canine Security Melbourne | Security Dog Patrol Services",
   description: "Professional canine security services in Melbourne. Security dog patrols for construction sites, industrial estates, events, and high-risk properties.",
   alternates: { canonical: "/services/canine-security/" },
+  openGraph: {
+    title: "Canine Security Melbourne | Security Dog Patrol Services",
+    description: "Professional canine security services in Melbourne. Security dog patrols for construction sites, industrial estates, events, and high-risk properties.",
+    url: "https://securityguardcompanymelbourne.com/services/canine-security/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function CanineSecurityPage() {

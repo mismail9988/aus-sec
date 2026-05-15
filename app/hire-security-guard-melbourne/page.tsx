@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Hire a Security Guard Melbourne | How to Hire Security | Security Guard Company Melbourne",
   description: "How to hire a security guard in Melbourne. What to consider, how the process works, what to expect, and how to get a fast quote from Security Guard Company Melbourne.",
   alternates: { canonical: "/hire-security-guard-melbourne/" },
+  openGraph: {
+    title: "Hire a Security Guard Melbourne | How to Hire Security | Security Guard Company Melbourne",
+    description: "How to hire a security guard in Melbourne. What to consider, how the process works, what to expect, and how to get a fast quote from Security Guard Company Melbourne.",
+    url: "https://securityguardcompanymelbourne.com/hire-security-guard-melbourne/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function HireSecurityGuardPage() {

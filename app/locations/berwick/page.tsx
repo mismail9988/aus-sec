@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Berwick | Casey Security Services Melbourne South East",
   description: "Professional security guards in Berwick and the City of Casey. Retail security, construction site security, mobile patrols, and alarm response.",
   alternates: { canonical: "/locations/berwick/" },
+  openGraph: {
+    title: "Security Guards Berwick | Casey Security Services Melbourne South East",
+    description: "Professional security guards in Berwick and the City of Casey. Retail security, construction site security, mobile patrols, and alarm response.",
+    url: "https://securityguardcompanymelbourne.com/locations/berwick/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function BerwickPage() {

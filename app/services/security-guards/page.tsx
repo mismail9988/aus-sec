@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Melbourne | Professional Licenced Security Officers",
   description: "Hire professional, Victoria Police–licenced security guards in Melbourne. Uniformed static guards for corporate, retail, construction, events and more.",
   alternates: { canonical: "/services/security-guards/" },
+  openGraph: {
+    title: "Security Guards Melbourne | Professional Licenced Security Officers",
+    description: "Hire professional, Victoria Police–licenced security guards in Melbourne. Uniformed static guards for corporate, retail, construction, events and more.",
+    url: "https://securityguardcompanymelbourne.com/services/security-guards/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function SecurityGuardsPage() {

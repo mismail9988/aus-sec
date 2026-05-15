@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Dandenong | Security Services Greater Dandenong",
   description: "Professional security guard services in Dandenong and Greater Dandenong. Industrial site security, retail loss prevention, mobile patrols and alarm response.",
   alternates: { canonical: "/locations/dandenong/" },
+  openGraph: {
+    title: "Security Guards Dandenong | Security Services Greater Dandenong",
+    description: "Professional security guard services in Dandenong and Greater Dandenong. Industrial site security, retail loss prevention, mobile patrols and alarm response.",
+    url: "https://securityguardcompanymelbourne.com/locations/dandenong/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function DandenongPage() {

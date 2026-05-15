@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Industries We Serve | Security Guard Company Melbourne",
   description: "Security Guard Company Melbourne provides specialist security solutions across healthcare, retail, corporate, government, education, aviation, and more.",
   alternates: { canonical: "/sectors/" },
+  openGraph: {
+    title: "Industries We Serve | Security Guard Company Melbourne",
+    description: "Security Guard Company Melbourne provides specialist security solutions across healthcare, retail, corporate, government, education, aviation, and more.",
+    url: "https://securityguardcompanymelbourne.com/sectors/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 const sectors = [

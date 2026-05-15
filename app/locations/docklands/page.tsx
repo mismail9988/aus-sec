@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Docklands Melbourne | Corporate & Stadium Security",
   description: "Professional security guards in Melbourne Docklands. Corporate tower security, Marvel Stadium event security, concierge officers, and mobile patrols.",
   alternates: { canonical: "/locations/docklands/" },
+  openGraph: {
+    title: "Security Guards Docklands Melbourne | Corporate & Stadium Security",
+    description: "Professional security guards in Melbourne Docklands. Corporate tower security, Marvel Stadium event security, concierge officers, and mobile patrols.",
+    url: "https://securityguardcompanymelbourne.com/locations/docklands/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function DocklandsPage() {

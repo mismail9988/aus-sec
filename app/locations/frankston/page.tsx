@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Frankston | Security Services Frankston & Mornington Peninsula",
   description: "Professional security guards in Frankston and the Mornington Peninsula. Retail security, mobile patrols, alarm response, and event security.",
   alternates: { canonical: "/locations/frankston/" },
+  openGraph: {
+    title: "Security Guards Frankston | Security Services Frankston & Mornington Peninsula",
+    description: "Professional security guards in Frankston and the Mornington Peninsula. Retail security, mobile patrols, alarm response, and event security.",
+    url: "https://securityguardcompanymelbourne.com/locations/frankston/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function FrankstonPage() {

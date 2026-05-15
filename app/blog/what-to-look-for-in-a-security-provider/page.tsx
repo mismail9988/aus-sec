@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "What to Look for in a Commercial Security Provider | Security Guard Company Melbourne",
   description: "Choosing the right security company is critical. Here are the key factors to evaluate when selecting a commercial security provider in Melbourne.",
   alternates: { canonical: "/blog/what-to-look-for-in-a-security-provider/" },
+  openGraph: {
+    title: "What to Look for in a Commercial Security Provider | Security Guard Company Melbourne",
+    description: "Choosing the right security company is critical. Here are the key factors to evaluate when selecting a commercial security provider in Melbourne.",
+    url: "https://securityguardcompanymelbourne.com/blog/what-to-look-for-in-a-security-provider/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function Post() {

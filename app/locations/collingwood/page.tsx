@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Collingwood | Venue & Commercial Security Melbourne",
   description: "Professional security guards in Collingwood. Venue security, crowd control on Smith Street, retail security, mobile patrols, and commercial property security.",
   alternates: { canonical: "/locations/collingwood/" },
+  openGraph: {
+    title: "Security Guards Collingwood | Venue & Commercial Security Melbourne",
+    description: "Professional security guards in Collingwood. Venue security, crowd control on Smith Street, retail security, mobile patrols, and commercial property security.",
+    url: "https://securityguardcompanymelbourne.com/locations/collingwood/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function CollingwoodPage() {

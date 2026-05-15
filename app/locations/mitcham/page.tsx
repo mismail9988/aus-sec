@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Mitcham | Whitehorse Security Services Melbourne East",
   description: "Professional security guards in Mitcham and Whitehorse. Retail security, commercial property security, mobile patrols, and alarm response.",
   alternates: { canonical: "/locations/mitcham/" },
+  openGraph: {
+    title: "Security Guards Mitcham | Whitehorse Security Services Melbourne East",
+    description: "Professional security guards in Mitcham and Whitehorse. Retail security, commercial property security, mobile patrols, and alarm response.",
+    url: "https://securityguardcompanymelbourne.com/locations/mitcham/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function MitchamPage() {

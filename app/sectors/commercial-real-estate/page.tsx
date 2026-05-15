@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Commercial Real Estate Security Melbourne | Security Guard Company Melbourne",
   description: "Integrated security for office towers, mixed-use developments, and property portfolios across Melbourne. Trusted by leading property managers.",
   alternates: { canonical: "/sectors/commercial-real-estate/" },
+  openGraph: {
+    title: "Commercial Real Estate Security Melbourne | Security Guard Company Melbourne",
+    description: "Integrated security for office towers, mixed-use developments, and property portfolios across Melbourne. Trusted by leading property managers.",
+    url: "https://securityguardcompanymelbourne.com/sectors/commercial-real-estate/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function CommercialRealEstateSectorPage() {

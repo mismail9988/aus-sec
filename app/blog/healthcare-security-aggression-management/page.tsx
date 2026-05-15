@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Managing Patient Aggression in Healthcare Security | Security Guard Company Melbourne",
   description: "How healthcare security teams manage patient and visitor aggression — de-escalation, environment design, and when to call security.",
   alternates: { canonical: "/blog/healthcare-security-aggression-management/" },
+  openGraph: {
+    title: "Managing Patient Aggression in Healthcare Security | Security Guard Company Melbourne",
+    description: "How healthcare security teams manage patient and visitor aggression — de-escalation, environment design, and when to call security.",
+    url: "https://securityguardcompanymelbourne.com/blog/healthcare-security-aggression-management/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function HealthcareAggressionPost() {

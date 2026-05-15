@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Healthcare Security Melbourne | Security Guard Company Melbourne",
   description: "Specialist healthcare security services for hospitals, clinics, and aged care facilities across Melbourne. Trained, licenced, and compassionate security personnel.",
   alternates: { canonical: "/sectors/healthcare/" },
+  openGraph: {
+    title: "Healthcare Security Melbourne | Security Guard Company Melbourne",
+    description: "Specialist healthcare security services for hospitals, clinics, and aged care facilities across Melbourne. Trained, licenced, and compassionate security personnel.",
+    url: "https://securityguardcompanymelbourne.com/sectors/healthcare/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function HealthcareSectorPage() {

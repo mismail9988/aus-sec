@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Epping | Northern Suburbs Security Services Melbourne",
   description: "Professional security guards in Epping and Whittlesea. Retail security at Pacific Epping, industrial security, mobile patrols, and alarm response in Melbourne's north.",
   alternates: { canonical: "/locations/epping/" },
+  openGraph: {
+    title: "Security Guards Epping | Northern Suburbs Security Services Melbourne",
+    description: "Professional security guards in Epping and Whittlesea. Retail security at Pacific Epping, industrial security, mobile patrols, and alarm response in Melbourne's north.",
+    url: "https://securityguardcompanymelbourne.com/locations/epping/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function EppingPage() {

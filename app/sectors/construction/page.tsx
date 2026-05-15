@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Construction Site Security Melbourne | Security Guard Company Melbourne",
   description: "24/7 construction site security across Melbourne and Victoria. Protecting plant, equipment, materials, and access points for builders and developers.",
   alternates: { canonical: "/sectors/construction/" },
+  openGraph: {
+    title: "Construction Site Security Melbourne | Security Guard Company Melbourne",
+    description: "24/7 construction site security across Melbourne and Victoria. Protecting plant, equipment, materials, and access points for builders and developers.",
+    url: "https://securityguardcompanymelbourne.com/sectors/construction/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function ConstructionSectorPage() {

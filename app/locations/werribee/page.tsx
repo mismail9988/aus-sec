@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Werribee | Western Suburbs Security Services",
   description: "Professional security guards in Werribee and Melbourne's outer west. Industrial security, construction site security, retail loss prevention, and mobile patrols.",
   alternates: { canonical: "/locations/werribee/" },
+  openGraph: {
+    title: "Security Guards Werribee | Western Suburbs Security Services",
+    description: "Professional security guards in Werribee and Melbourne's outer west. Industrial security, construction site security, retail loss prevention, and mobile patrols.",
+    url: "https://securityguardcompanymelbourne.com/locations/werribee/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function WerribeePage() {

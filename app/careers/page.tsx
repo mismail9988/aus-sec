@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Careers in Security Melbourne | Security Guard Company Melbourne",
   description: "Join Melbourne's trusted security team. We're looking for professional, licenced security officers across Melbourne and Victoria. Apply today.",
   alternates: { canonical: "/careers/" },
+  openGraph: {
+    title: "Careers in Security Melbourne | Security Guard Company Melbourne",
+    description: "Join Melbourne's trusted security team. We're looking for professional, licenced security officers across Melbourne and Victoria. Apply today.",
+    url: "https://securityguardcompanymelbourne.com/careers/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 const benefits = [

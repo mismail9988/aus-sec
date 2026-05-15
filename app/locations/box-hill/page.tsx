@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Box Hill | Eastern Suburbs Security Services",
   description: "Professional security guards in Box Hill. Retail security, hospital security, mobile patrols, and commercial property security in Melbourne's eastern suburbs.",
   alternates: { canonical: "/locations/box-hill/" },
+  openGraph: {
+    title: "Security Guards Box Hill | Eastern Suburbs Security Services",
+    description: "Professional security guards in Box Hill. Retail security, hospital security, mobile patrols, and commercial property security in Melbourne's eastern suburbs.",
+    url: "https://securityguardcompanymelbourne.com/locations/box-hill/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function BoxHillPage() {

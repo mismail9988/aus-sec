@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Armed Security Melbourne | Cash in Transit & High-Value Asset Protection",
   description: "Licensed armed security services in Melbourne. Cash in transit, high-value asset protection, and armed escort for businesses with elevated security requirements.",
   alternates: { canonical: "/services/armed-security/" },
+  openGraph: {
+    title: "Armed Security Melbourne | Cash in Transit & High-Value Asset Protection",
+    description: "Licensed armed security services in Melbourne. Cash in transit, high-value asset protection, and armed escort for businesses with elevated security requirements.",
+    url: "https://securityguardcompanymelbourne.com/services/armed-security/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function ArmedSecurityPage() {

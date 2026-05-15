@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Coburg | Inner North Security Services Melbourne",
   description: "Professional security guards in Coburg and Brunswick. Retail security on Sydney Road, venue security, mobile patrols, and commercial property security.",
   alternates: { canonical: "/locations/coburg/" },
+  openGraph: {
+    title: "Security Guards Coburg | Inner North Security Services Melbourne",
+    description: "Professional security guards in Coburg and Brunswick. Retail security on Sydney Road, venue security, mobile patrols, and commercial property security.",
+    url: "https://securityguardcompanymelbourne.com/locations/coburg/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function CoburgPage() {

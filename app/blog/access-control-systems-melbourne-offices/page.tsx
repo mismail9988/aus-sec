@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Access Control Systems for Melbourne Offices | Security Guard Company Melbourne",
   description: "How to choose and implement an access control system for your Melbourne office. Card systems, biometrics, cloud-based platforms, and what actually works.",
   alternates: { canonical: "/blog/access-control-systems-melbourne-offices/" },
+  openGraph: {
+    title: "Access Control Systems for Melbourne Offices | Security Guard Company Melbourne",
+    description: "How to choose and implement an access control system for your Melbourne office. Card systems, biometrics, cloud-based platforms, and what actually works.",
+    url: "https://securityguardcompanymelbourne.com/blog/access-control-systems-melbourne-offices/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function AccessControlOfficesPost() {

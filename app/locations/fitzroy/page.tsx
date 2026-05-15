@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Fitzroy Melbourne | Venue & Commercial Security",
   description: "Professional security guards in Fitzroy and Collingwood. Venue crowd control, retail security on Brunswick Street, mobile patrols, and commercial property security.",
   alternates: { canonical: "/locations/fitzroy/" },
+  openGraph: {
+    title: "Security Guards Fitzroy Melbourne | Venue & Commercial Security",
+    description: "Professional security guards in Fitzroy and Collingwood. Venue crowd control, retail security on Brunswick Street, mobile patrols, and commercial property security.",
+    url: "https://securityguardcompanymelbourne.com/locations/fitzroy/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function FitzroyPage() {

@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Event Security Planning Guide Melbourne | Security Guard Company Melbourne",
   description: "A comprehensive guide to planning event security in Melbourne. Risk assessment, security management plans, staffing, and working with Victoria Police.",
   alternates: { canonical: "/blog/event-security-planning-guide/" },
+  openGraph: {
+    title: "Event Security Planning Guide Melbourne | Security Guard Company Melbourne",
+    description: "A comprehensive guide to planning event security in Melbourne. Risk assessment, security management plans, staffing, and working with Victoria Police.",
+    url: "https://securityguardcompanymelbourne.com/blog/event-security-planning-guide/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function EventSecurityPlanningPost() {

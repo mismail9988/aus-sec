@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Wodonga | Border Security Services Albury Wodonga",
   description: "Professional security guards in Wodonga and Albury-Wodonga. Industrial security, retail security, mobile patrols, and alarm response on the NSW-Victoria border.",
   alternates: { canonical: "/locations/wodonga/" },
+  openGraph: {
+    title: "Security Guards Wodonga | Border Security Services Albury Wodonga",
+    description: "Professional security guards in Wodonga and Albury-Wodonga. Industrial security, retail security, mobile patrols, and alarm response on the NSW-Victoria border.",
+    url: "https://securityguardcompanymelbourne.com/locations/wodonga/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function WodongaPage() {

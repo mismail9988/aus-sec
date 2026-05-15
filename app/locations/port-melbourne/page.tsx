@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Port Melbourne | Commercial & Industrial Security",
   description: "Professional security guards in Port Melbourne. Industrial port security, commercial property security, mobile patrols, and residential building security.",
   alternates: { canonical: "/locations/port-melbourne/" },
+  openGraph: {
+    title: "Security Guards Port Melbourne | Commercial & Industrial Security",
+    description: "Professional security guards in Port Melbourne. Industrial port security, commercial property security, mobile patrols, and residential building security.",
+    url: "https://securityguardcompanymelbourne.com/locations/port-melbourne/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function PortMelbournePage() {

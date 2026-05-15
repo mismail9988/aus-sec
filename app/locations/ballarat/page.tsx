@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Ballarat | Professional Security Services Ballarat",
   description: "Licenced security guards in Ballarat. Industrial security, retail loss prevention, event security, and mobile patrol services across the Ballarat region.",
   alternates: { canonical: "/locations/ballarat/" },
+  openGraph: {
+    title: "Security Guards Ballarat | Professional Security Services Ballarat",
+    description: "Licenced security guards in Ballarat. Industrial security, retail loss prevention, event security, and mobile patrol services across the Ballarat region.",
+    url: "https://securityguardcompanymelbourne.com/locations/ballarat/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function BallaratPage() {

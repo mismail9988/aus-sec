@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Emergency Security Melbourne | 24/7 Urgent Security Response",
   description: "24/7 emergency security response in Melbourne. Need security urgently? We deploy licensed guards fast — same day response for urgent security requirements.",
   alternates: { canonical: "/emergency-security/" },
+  openGraph: {
+    title: "Emergency Security Melbourne | 24/7 Urgent Security Response",
+    description: "24/7 emergency security response in Melbourne. Need security urgently? We deploy licensed guards fast — same day response for urgent security requirements.",
+    url: "https://securityguardcompanymelbourne.com/emergency-security/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function EmergencySecurityPage() {

@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards South Melbourne | Corporate & Commercial Security",
   description: "Professional security guards in South Melbourne. Corporate security, concierge officers, mobile patrols, and alarm response for South Melbourne businesses.",
   alternates: { canonical: "/locations/south-melbourne/" },
+  openGraph: {
+    title: "Security Guards South Melbourne | Corporate & Commercial Security",
+    description: "Professional security guards in South Melbourne. Corporate security, concierge officers, mobile patrols, and alarm response for South Melbourne businesses.",
+    url: "https://securityguardcompanymelbourne.com/locations/south-melbourne/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function SouthMelbournePage() {

@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Alarm System Guide for Melbourne Businesses | Security Guard Company Melbourne",
   description: "Everything Melbourne businesses need to know about alarm systems — types, monitoring options, grading, and how to choose the right system.",
   alternates: { canonical: "/blog/alarm-system-guide-melbourne-business/" },
+  openGraph: {
+    title: "Alarm System Guide for Melbourne Businesses | Security Guard Company Melbourne",
+    description: "Everything Melbourne businesses need to know about alarm systems — types, monitoring options, grading, and how to choose the right system.",
+    url: "https://securityguardcompanymelbourne.com/blog/alarm-system-guide-melbourne-business/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function AlarmSystemGuidePost() {

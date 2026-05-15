@@ -6,6 +6,14 @@ export const metadata: Metadata = {
   title: "Retail Security Melbourne | Loss Prevention & Store Security Guards",
   description: "Professional retail security and loss prevention in Melbourne. Reduce theft, protect staff, and improve store safety with licenced retail security officers.",
   alternates: { canonical: "/services/retail-security/" },
+  openGraph: {
+    title: "Retail Security Melbourne | Loss Prevention & Store Security Guards",
+    description: "Professional retail security and loss prevention in Melbourne. Reduce theft, protect staff, and improve store safety with licenced retail security officers.",
+    url: "https://securityguardcompanymelbourne.com/services/retail-security/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function RetailSecurityPage() {

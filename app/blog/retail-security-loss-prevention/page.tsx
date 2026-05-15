@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Retail Security & Loss Prevention Melbourne | Security Guard Company Melbourne",
   description: "How modern retail security goes beyond loss prevention to improve the customer experience and support business performance.",
   alternates: { canonical: "/blog/retail-security-loss-prevention/" },
+  openGraph: {
+    title: "Retail Security & Loss Prevention Melbourne | Security Guard Company Melbourne",
+    description: "How modern retail security goes beyond loss prevention to improve the customer experience and support business performance.",
+    url: "https://securityguardcompanymelbourne.com/blog/retail-security-loss-prevention/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function Post() {

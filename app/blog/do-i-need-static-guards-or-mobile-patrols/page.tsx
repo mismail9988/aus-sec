@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Static Guards vs Mobile Patrols: Which Do You Need? | Security Guard Company Melbourne",
   description: "Understanding the difference between static security guards and mobile patrol services — and how to choose the right option for your business.",
   alternates: { canonical: "/blog/do-i-need-static-guards-or-mobile-patrols/" },
+  openGraph: {
+    title: "Static Guards vs Mobile Patrols: Which Do You Need? | Security Guard Company Melbourne",
+    description: "Understanding the difference between static security guards and mobile patrol services — and how to choose the right option for your business.",
+    url: "https://securityguardcompanymelbourne.com/blog/do-i-need-static-guards-or-mobile-patrols/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function Post() {

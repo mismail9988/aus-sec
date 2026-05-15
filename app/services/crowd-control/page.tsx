@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Crowd Control Melbourne | Licenced Crowd Controllers & Bouncers",
   description: "Licenced crowd controllers for Melbourne venues, nightclubs, bars, and events. RSA-endorsed, experienced, professional door staff.",
   alternates: { canonical: "/services/crowd-control/" },
+  openGraph: {
+    title: "Crowd Control Melbourne | Licenced Crowd Controllers & Bouncers",
+    description: "Licenced crowd controllers for Melbourne venues, nightclubs, bars, and events. RSA-endorsed, experienced, professional door staff.",
+    url: "https://securityguardcompanymelbourne.com/services/crowd-control/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function CrowdControlPage() {

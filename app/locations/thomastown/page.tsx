@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Thomastown | Northern Industrial Security Melbourne",
   description: "Professional security guards in Thomastown and Whittlesea. Industrial site security, warehouse security, mobile patrols, and alarm response.",
   alternates: { canonical: "/locations/thomastown/" },
+  openGraph: {
+    title: "Security Guards Thomastown | Northern Industrial Security Melbourne",
+    description: "Professional security guards in Thomastown and Whittlesea. Industrial site security, warehouse security, mobile patrols, and alarm response.",
+    url: "https://securityguardcompanymelbourne.com/locations/thomastown/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function ThomasdownPage() {

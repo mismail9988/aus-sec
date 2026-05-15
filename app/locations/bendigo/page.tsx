@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Bendigo | Professional Security Services Bendigo",
   description: "Licenced security guards in Bendigo. Industrial security, retail loss prevention, healthcare security, event security, and mobile patrols across Bendigo.",
   alternates: { canonical: "/locations/bendigo/" },
+  openGraph: {
+    title: "Security Guards Bendigo | Professional Security Services Bendigo",
+    description: "Licenced security guards in Bendigo. Industrial security, retail loss prevention, healthcare security, event security, and mobile patrols across Bendigo.",
+    url: "https://securityguardcompanymelbourne.com/locations/bendigo/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function BendigoPage() {

@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Richmond Melbourne | Commercial & Venue Security",
   description: "Professional security guards in Richmond. Retail security on Bridge Road and Swan Street, venue security, mobile patrols, and commercial property security.",
   alternates: { canonical: "/locations/richmond/" },
+  openGraph: {
+    title: "Security Guards Richmond Melbourne | Commercial & Venue Security",
+    description: "Professional security guards in Richmond. Retail security on Bridge Road and Swan Street, venue security, mobile patrols, and commercial property security.",
+    url: "https://securityguardcompanymelbourne.com/locations/richmond/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function RichmondPage() {

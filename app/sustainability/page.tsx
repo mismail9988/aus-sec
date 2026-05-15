@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Sustainability & Corporate Responsibility | Security Guard Company Melbourne",
   description: "Our commitment to sustainability, ethical employment, and community responsibility at Security Guard Company Melbourne.",
   alternates: { canonical: "/sustainability/" },
+  openGraph: {
+    title: "Sustainability & Corporate Responsibility | Security Guard Company Melbourne",
+    description: "Our commitment to sustainability, ethical employment, and community responsibility at Security Guard Company Melbourne.",
+    url: "https://securityguardcompanymelbourne.com/sustainability/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function SustainabilityPage() {

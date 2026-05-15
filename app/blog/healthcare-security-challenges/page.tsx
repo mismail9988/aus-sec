@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Biggest Challenges in Healthcare Security | Security Guard Company Melbourne",
   description: "Healthcare security is uniquely complex. We explore the key challenges facing Melbourne hospitals and clinics — and how to address them.",
   alternates: { canonical: "/blog/healthcare-security-challenges/" },
+  openGraph: {
+    title: "Biggest Challenges in Healthcare Security | Security Guard Company Melbourne",
+    description: "Healthcare security is uniquely complex. We explore the key challenges facing Melbourne hospitals and clinics — and how to address them.",
+    url: "https://securityguardcompanymelbourne.com/blog/healthcare-security-challenges/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function Post() {

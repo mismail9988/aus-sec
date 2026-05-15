@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Mobile Patrol vs Static Guard: Which Costs Less? | Security Guard Company Melbourne",
   description: "A cost comparison of mobile patrol services vs static security guards — what each provides, when each is appropriate, and the real numbers.",
   alternates: { canonical: "/blog/mobile-patrol-vs-static-guard-cost/" },
+  openGraph: {
+    title: "Mobile Patrol vs Static Guard: Which Costs Less? | Security Guard Company Melbourne",
+    description: "A cost comparison of mobile patrol services vs static security guards — what each provides, when each is appropriate, and the real numbers.",
+    url: "https://securityguardcompanymelbourne.com/blog/mobile-patrol-vs-static-guard-cost/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function MobilePatrolVsStaticCostPost() {

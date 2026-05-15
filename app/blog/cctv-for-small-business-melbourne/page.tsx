@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "CCTV for Small Business Melbourne: What You Need to Know | Security Guard Company Melbourne",
   description: "A practical guide to CCTV systems for Melbourne small businesses. What to buy, where to put it, privacy rules, and how to actually use footage when you need it.",
   alternates: { canonical: "/blog/cctv-for-small-business-melbourne/" },
+  openGraph: {
+    title: "CCTV for Small Business Melbourne: What You Need to Know | Security Guard Company Melbourne",
+    description: "A practical guide to CCTV systems for Melbourne small businesses. What to buy, where to put it, privacy rules, and how to actually use footage when you need it.",
+    url: "https://securityguardcompanymelbourne.com/blog/cctv-for-small-business-melbourne/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function CCTVSmallBusinessPost() {

@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Pakenham | Outer South East Security Services Melbourne",
   description: "Professional security guards in Pakenham and the outer south-east. Construction site security, retail security, mobile patrols, and alarm response.",
   alternates: { canonical: "/locations/pakenham/" },
+  openGraph: {
+    title: "Security Guards Pakenham | Outer South East Security Services Melbourne",
+    description: "Professional security guards in Pakenham and the outer south-east. Construction site security, retail security, mobile patrols, and alarm response.",
+    url: "https://securityguardcompanymelbourne.com/locations/pakenham/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function PakenhamPage() {

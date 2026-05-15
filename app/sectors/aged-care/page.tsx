@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Aged Care Security Melbourne | Security Services for Aged Care Facilities",
   description: "Professional security services for aged care facilities in Melbourne. Protecting vulnerable residents while maintaining a respectful, safe environment.",
   alternates: { canonical: "/sectors/aged-care/" },
+  openGraph: {
+    title: "Aged Care Security Melbourne | Security Services for Aged Care Facilities",
+    description: "Professional security services for aged care facilities in Melbourne. Protecting vulnerable residents while maintaining a respectful, safe environment.",
+    url: "https://securityguardcompanymelbourne.com/sectors/aged-care/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function AgedCarePage() {

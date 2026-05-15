@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "CCTV & Surveillance Systems Melbourne | Security Guard Company Melbourne",
   description: "High-definition CCTV and surveillance systems for Melbourne businesses. Remote monitoring, analytics, and cloud storage. Professional installation and support.",
   alternates: { canonical: "/services/electronic-security/cctv/" },
+  openGraph: {
+    title: "CCTV & Surveillance Systems Melbourne | Security Guard Company Melbourne",
+    description: "High-definition CCTV and surveillance systems for Melbourne businesses. Remote monitoring, analytics, and cloud storage. Professional installation and support.",
+    url: "https://securityguardcompanymelbourne.com/services/electronic-security/cctv/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function CCTVPage() {

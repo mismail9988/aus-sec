@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Retail Security in the Self-Checkout Era | Security Guard Company Melbourne",
   description: "How self-checkout technology has changed retail theft patterns — and what loss prevention strategies actually work in 2025.",
   alternates: { canonical: "/blog/retail-security-self-checkout-era/" },
+  openGraph: {
+    title: "Retail Security in the Self-Checkout Era | Security Guard Company Melbourne",
+    description: "How self-checkout technology has changed retail theft patterns — and what loss prevention strategies actually work in 2025.",
+    url: "https://securityguardcompanymelbourne.com/blog/retail-security-self-checkout-era/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function RetailSecuritySelfCheckoutPost() {

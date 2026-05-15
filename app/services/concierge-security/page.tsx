@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Concierge Security Melbourne | Corporate Reception & Security Services",
   description: "Professional concierge security officers for Melbourne offices, hotels, and mixed-use buildings. Front-of-house security with customer service excellence.",
   alternates: { canonical: "/services/concierge-security/" },
+  openGraph: {
+    title: "Concierge Security Melbourne | Corporate Reception & Security Services",
+    description: "Professional concierge security officers for Melbourne offices, hotels, and mixed-use buildings. Front-of-house security with customer service excellence.",
+    url: "https://securityguardcompanymelbourne.com/services/concierge-security/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function ConciergeSecurityPage() {

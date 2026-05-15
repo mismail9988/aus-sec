@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Case Studies Melbourne | Client Success Stories",
   description: "Real security case studies from Melbourne businesses. See how Security Guard Company Melbourne reduced theft, improved safety, and solved complex security challenges.",
   alternates: { canonical: "/case-studies/" },
+  openGraph: {
+    title: "Security Case Studies Melbourne | Client Success Stories",
+    description: "Real security case studies from Melbourne businesses. See how Security Guard Company Melbourne reduced theft, improved safety, and solved complex security challenges.",
+    url: "https://securityguardcompanymelbourne.com/case-studies/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 const caseStudies = [

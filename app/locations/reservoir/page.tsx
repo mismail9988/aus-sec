@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Reservoir | Northern Suburbs Security Melbourne",
   description: "Professional security guards in Reservoir and Darebin. Retail security, mobile patrols, commercial property security, and alarm response.",
   alternates: { canonical: "/locations/reservoir/" },
+  openGraph: {
+    title: "Security Guards Reservoir | Northern Suburbs Security Melbourne",
+    description: "Professional security guards in Reservoir and Darebin. Retail security, mobile patrols, commercial property security, and alarm response.",
+    url: "https://securityguardcompanymelbourne.com/locations/reservoir/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function ReservoirPage() {

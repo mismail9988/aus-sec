@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Client Reviews & Testimonials | Security Guard Company Melbourne",
   description: "Read what Melbourne businesses say about Security Guard Company Melbourne. Real reviews from retail, corporate, construction, and event clients across Victoria.",
   alternates: { canonical: "/reviews/" },
+  openGraph: {
+    title: "Client Reviews & Testimonials | Security Guard Company Melbourne",
+    description: "Read what Melbourne businesses say about Security Guard Company Melbourne. Real reviews from retail, corporate, construction, and event clients across Victoria.",
+    url: "https://securityguardcompanymelbourne.com/reviews/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 const reviews = [

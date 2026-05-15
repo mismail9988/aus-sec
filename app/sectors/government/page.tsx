@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Government Security Melbourne | Security Guard Company Melbourne",
   description: "Trusted security services for government buildings, agencies, and public facilities across Victoria. Fully vetted, licenced, and compliant security personnel.",
   alternates: { canonical: "/sectors/government/" },
+  openGraph: {
+    title: "Government Security Melbourne | Security Guard Company Melbourne",
+    description: "Trusted security services for government buildings, agencies, and public facilities across Victoria. Fully vetted, licenced, and compliant security personnel.",
+    url: "https://securityguardcompanymelbourne.com/sectors/government/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function GovernmentSectorPage() {

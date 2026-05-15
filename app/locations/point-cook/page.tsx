@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Point Cook | Wyndham Vale Security Services Melbourne",
   description: "Professional security guards in Point Cook and Wyndham Vale. Construction site security, retail security, mobile patrols, and alarm response in Melbourne's west.",
   alternates: { canonical: "/locations/point-cook/" },
+  openGraph: {
+    title: "Security Guards Point Cook | Wyndham Vale Security Services Melbourne",
+    description: "Professional security guards in Point Cook and Wyndham Vale. Construction site security, retail security, mobile patrols, and alarm response in Melbourne's west.",
+    url: "https://securityguardcompanymelbourne.com/locations/point-cook/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function PointCookPage() {

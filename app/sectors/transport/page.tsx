@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Transport Security Melbourne | Rail, Bus & Infrastructure Security",
   description: "Professional security services for Melbourne's transport sector. Rail station security, bus terminus security, transport hub protection, and passenger safety.",
   alternates: { canonical: "/sectors/transport/" },
+  openGraph: {
+    title: "Transport Security Melbourne | Rail, Bus & Infrastructure Security",
+    description: "Professional security services for Melbourne's transport sector. Rail station security, bus terminus security, transport hub protection, and passenger safety.",
+    url: "https://securityguardcompanymelbourne.com/sectors/transport/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function TransportPage() {

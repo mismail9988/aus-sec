@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guard Licensing in Victoria Explained | Security Guard Company Melbourne",
   description: "Everything you need to know about security guard licensing in Victoria — what licences exist, how to check them, and why it matters for businesses hiring security.",
   alternates: { canonical: "/blog/security-guard-licence-victoria/" },
+  openGraph: {
+    title: "Security Guard Licensing in Victoria Explained | Security Guard Company Melbourne",
+    description: "Everything you need to know about security guard licensing in Victoria — what licences exist, how to check them, and why it matters for businesses hiring security.",
+    url: "https://securityguardcompanymelbourne.com/blog/security-guard-licence-victoria/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function SecurityLicenceVictoriaPost() {

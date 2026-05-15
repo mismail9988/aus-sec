@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Glen Waverley | Eastern Suburbs Security Services",
   description: "Professional security guards in Glen Waverley and Monash. Retail security at The Glen, corporate office security, mobile patrols, and alarm response.",
   alternates: { canonical: "/locations/glen-waverley/" },
+  openGraph: {
+    title: "Security Guards Glen Waverley | Eastern Suburbs Security Services",
+    description: "Professional security guards in Glen Waverley and Monash. Retail security at The Glen, corporate office security, mobile patrols, and alarm response.",
+    url: "https://securityguardcompanymelbourne.com/locations/glen-waverley/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function GlenWaverleyPage() {

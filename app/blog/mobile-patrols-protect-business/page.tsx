@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "How Mobile Patrols Protect Your Business | Security Guard Company Melbourne",
   description: "Mobile patrol security offers flexibility, visibility, and cost-effectiveness. Here's how they can protect your Melbourne business.",
   alternates: { canonical: "/blog/mobile-patrols-protect-business/" },
+  openGraph: {
+    title: "How Mobile Patrols Protect Your Business | Security Guard Company Melbourne",
+    description: "Mobile patrol security offers flexibility, visibility, and cost-effectiveness. Here's how they can protect your Melbourne business.",
+    url: "https://securityguardcompanymelbourne.com/blog/mobile-patrols-protect-business/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function Post() {

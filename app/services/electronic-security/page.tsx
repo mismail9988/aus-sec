@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Electronic Security Solutions Melbourne | Security Guard Company Melbourne",
   description: "CCTV, access control, alarm systems, and remote monitoring solutions for Melbourne businesses. Integrated electronic security that works alongside our personnel.",
   alternates: { canonical: "/services/electronic-security/" },
+  openGraph: {
+    title: "Electronic Security Solutions Melbourne | Security Guard Company Melbourne",
+    description: "CCTV, access control, alarm systems, and remote monitoring solutions for Melbourne businesses. Integrated electronic security that works alongside our personnel.",
+    url: "https://securityguardcompanymelbourne.com/services/electronic-security/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 const solutions = [

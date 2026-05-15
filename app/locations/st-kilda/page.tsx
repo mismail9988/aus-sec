@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards St Kilda | Venue & Event Security St Kilda Melbourne",
   description: "Professional security guards in St Kilda. Crowd control, venue security, event security, and mobile patrols for St Kilda's hospitality and entertainment precincts.",
   alternates: { canonical: "/locations/st-kilda/" },
+  openGraph: {
+    title: "Security Guards St Kilda | Venue & Event Security St Kilda Melbourne",
+    description: "Professional security guards in St Kilda. Crowd control, venue security, event security, and mobile patrols for St Kilda's hospitality and entertainment precincts.",
+    url: "https://securityguardcompanymelbourne.com/locations/st-kilda/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function StKildaPage() {

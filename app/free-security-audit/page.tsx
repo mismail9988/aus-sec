@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Free Security Audit Melbourne | Site Security Assessment",
   description: "Get a free security audit for your Melbourne business. Our experts assess your vulnerabilities and recommend the right security solution — no obligation.",
   alternates: { canonical: "/free-security-audit/" },
+  openGraph: {
+    title: "Free Security Audit Melbourne | Site Security Assessment",
+    description: "Get a free security audit for your Melbourne business. Our experts assess your vulnerabilities and recommend the right security solution — no obligation.",
+    url: "https://securityguardcompanymelbourne.com/free-security-audit/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function FreeSecurityAuditPage() {

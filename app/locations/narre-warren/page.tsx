@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Narre Warren | Westfield Knox & Casey Security Services",
   description: "Professional security guards in Narre Warren. Retail security at Westfield Knox, mobile patrols, construction site security, and alarm response.",
   alternates: { canonical: "/locations/narre-warren/" },
+  openGraph: {
+    title: "Security Guards Narre Warren | Westfield Knox & Casey Security Services",
+    description: "Professional security guards in Narre Warren. Retail security at Westfield Knox, mobile patrols, construction site security, and alarm response.",
+    url: "https://securityguardcompanymelbourne.com/locations/narre-warren/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function NarreWarrenPage() {

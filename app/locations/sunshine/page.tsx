@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Sunshine | Western Suburbs Security Services Melbourne",
   description: "Professional security guards in Sunshine and Brimbank. Retail security, industrial site security, mobile patrols, and alarm response in Melbourne's west.",
   alternates: { canonical: "/locations/sunshine/" },
+  openGraph: {
+    title: "Security Guards Sunshine | Western Suburbs Security Services Melbourne",
+    description: "Professional security guards in Sunshine and Brimbank. Retail security, industrial site security, mobile patrols, and alarm response in Melbourne's west.",
+    url: "https://securityguardcompanymelbourne.com/locations/sunshine/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function SunshinePage() {

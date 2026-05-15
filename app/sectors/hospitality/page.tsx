@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Hospitality Security Melbourne | Venue & Hotel Security Services",
   description: "Professional security for Melbourne's hospitality sector. Hotel security, venue crowd control, restaurant and bar security, and event security for hospitality businesses.",
   alternates: { canonical: "/sectors/hospitality/" },
+  openGraph: {
+    title: "Hospitality Security Melbourne | Venue & Hotel Security Services",
+    description: "Professional security for Melbourne's hospitality sector. Hotel security, venue crowd control, restaurant and bar security, and event security for hospitality businesses.",
+    url: "https://securityguardcompanymelbourne.com/sectors/hospitality/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function HospitalityPage() {

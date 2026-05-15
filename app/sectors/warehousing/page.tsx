@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Warehouse Security Melbourne | Industrial & Logistics Security Services",
   description: "Professional security for Melbourne's warehousing and logistics sector. Protecting high-value stock, equipment, and assets in industrial environments.",
   alternates: { canonical: "/sectors/warehousing/" },
+  openGraph: {
+    title: "Warehouse Security Melbourne | Industrial & Logistics Security Services",
+    description: "Professional security for Melbourne's warehousing and logistics sector. Protecting high-value stock, equipment, and assets in industrial environments.",
+    url: "https://securityguardcompanymelbourne.com/sectors/warehousing/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function WarehousingPage() {

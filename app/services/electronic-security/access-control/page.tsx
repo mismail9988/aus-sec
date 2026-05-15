@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Access Control Systems Melbourne | Security Guard Company Melbourne",
   description: "Electronic access control systems for Melbourne businesses — from key cards to biometrics. Control who goes where and when.",
   alternates: { canonical: "/services/electronic-security/access-control/" },
+  openGraph: {
+    title: "Access Control Systems Melbourne | Security Guard Company Melbourne",
+    description: "Electronic access control systems for Melbourne businesses — from key cards to biometrics. Control who goes where and when.",
+    url: "https://securityguardcompanymelbourne.com/services/electronic-security/access-control/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function AccessControlPage() {

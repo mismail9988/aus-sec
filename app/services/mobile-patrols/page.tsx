@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Mobile Patrol Security Melbourne | Security Guard Company Melbourne",
   description: "GPS-tracked mobile patrol security services across Melbourne and Victoria. Cost-effective, visible security for businesses, construction sites, and commercial properties.",
   alternates: { canonical: "/services/mobile-patrols/" },
+  openGraph: {
+    title: "Mobile Patrol Security Melbourne | Security Guard Company Melbourne",
+    description: "GPS-tracked mobile patrol security services across Melbourne and Victoria. Cost-effective, visible security for businesses, construction sites, and commercial properties.",
+    url: "https://securityguardcompanymelbourne.com/services/mobile-patrols/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function MobilePatrolsPage() {

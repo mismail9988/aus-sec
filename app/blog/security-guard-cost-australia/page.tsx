@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guard Cost Australia 2025 | What You Should Expect to Pay",
   description: "A complete guide to security guard costs across Australia in 2025 — Award rates, what drives pricing, and how to get real value from your security spend.",
   alternates: { canonical: "/blog/security-guard-cost-australia/" },
+  openGraph: {
+    title: "Security Guard Cost Australia 2025 | What You Should Expect to Pay",
+    description: "A complete guide to security guard costs across Australia in 2025 — Award rates, what drives pricing, and how to get real value from your security spend.",
+    url: "https://securityguardcompanymelbourne.com/blog/security-guard-cost-australia/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function SecurityGuardCostAustraliaPost() {

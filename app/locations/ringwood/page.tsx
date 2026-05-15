@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Ringwood | Eastern Suburbs Security Services Maroondah",
   description: "Professional security guards in Ringwood and the Maroondah area. Retail security at Eastland, mobile patrols, commercial property security, and alarm response.",
   alternates: { canonical: "/locations/ringwood/" },
+  openGraph: {
+    title: "Security Guards Ringwood | Eastern Suburbs Security Services Maroondah",
+    description: "Professional security guards in Ringwood and the Maroondah area. Retail security at Eastland, mobile patrols, commercial property security, and alarm response.",
+    url: "https://securityguardcompanymelbourne.com/locations/ringwood/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function RingwoodPage() {

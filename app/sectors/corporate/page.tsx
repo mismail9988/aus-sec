@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Corporate Security Melbourne | Security Guard Company Melbourne",
   description: "Professional corporate security services for offices, commercial buildings, and business precincts across Melbourne CBD and suburbs.",
   alternates: { canonical: "/sectors/corporate/" },
+  openGraph: {
+    title: "Corporate Security Melbourne | Security Guard Company Melbourne",
+    description: "Professional corporate security services for offices, commercial buildings, and business precincts across Melbourne CBD and suburbs.",
+    url: "https://securityguardcompanymelbourne.com/sectors/corporate/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function CorporateSectorPage() {

@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "How to Budget for Business Security in Melbourne | Security Guard Company Melbourne",
   description: "A practical guide to building a security budget for your Melbourne business — what to include, what things actually cost, and how to prioritise spend for maximum impact.",
   alternates: { canonical: "/blog/security-budget-guide/" },
+  openGraph: {
+    title: "How to Budget for Business Security in Melbourne | Security Guard Company Melbourne",
+    description: "A practical guide to building a security budget for your Melbourne business — what to include, what things actually cost, and how to prioritise spend for maximum impact.",
+    url: "https://securityguardcompanymelbourne.com/blog/security-budget-guide/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function SecurityBudgetGuidePost() {

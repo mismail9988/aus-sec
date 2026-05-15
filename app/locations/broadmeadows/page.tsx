@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Broadmeadows | Northern Suburbs Security Services",
   description: "Professional security guards in Broadmeadows and Melbourne's northern suburbs. Industrial security, retail loss prevention, mobile patrols, and alarm response.",
   alternates: { canonical: "/locations/broadmeadows/" },
+  openGraph: {
+    title: "Security Guards Broadmeadows | Northern Suburbs Security Services",
+    description: "Professional security guards in Broadmeadows and Melbourne's northern suburbs. Industrial security, retail loss prevention, mobile patrols, and alarm response.",
+    url: "https://securityguardcompanymelbourne.com/locations/broadmeadows/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function BroadmeadowsPage() {

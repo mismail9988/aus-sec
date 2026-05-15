@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Footscray | Western Inner Suburbs Security Services",
   description: "Professional security guards in Footscray and Melbourne's inner west. Retail security, venue crowd control, mobile patrols, and commercial property security.",
   alternates: { canonical: "/locations/footscray/" },
+  openGraph: {
+    title: "Security Guards Footscray | Western Inner Suburbs Security Services",
+    description: "Professional security guards in Footscray and Melbourne's inner west. Retail security, venue crowd control, mobile patrols, and commercial property security.",
+    url: "https://securityguardcompanymelbourne.com/locations/footscray/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function FootscrayPage() {

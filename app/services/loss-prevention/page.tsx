@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Loss Prevention Melbourne | Retail Loss Prevention Services",
   description: "Professional loss prevention services for Melbourne retailers. Reduce shrinkage with expert store detectives, CCTV analysis, and staff training.",
   alternates: { canonical: "/services/loss-prevention/" },
+  openGraph: {
+    title: "Loss Prevention Melbourne | Retail Loss Prevention Services",
+    description: "Professional loss prevention services for Melbourne retailers. Reduce shrinkage with expert store detectives, CCTV analysis, and staff training.",
+    url: "https://securityguardcompanymelbourne.com/services/loss-prevention/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function LossPreventionPage() {

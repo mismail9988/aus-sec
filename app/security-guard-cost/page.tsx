@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "How Much Does a Security Guard Cost in Melbourne? | 2025 Pricing Guide",
   description: "Security guard costs in Melbourne explained. What affects pricing, typical hourly rates, and how to get the best value security for your business.",
   alternates: { canonical: "/security-guard-cost/" },
+  openGraph: {
+    title: "How Much Does a Security Guard Cost in Melbourne? | 2025 Pricing Guide",
+    description: "Security guard costs in Melbourne explained. What affects pricing, typical hourly rates, and how to get the best value security for your business.",
+    url: "https://securityguardcompanymelbourne.com/security-guard-cost/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function SecurityGuardCostPage() {

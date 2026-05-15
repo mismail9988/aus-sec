@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "How Many Security Guards Do I Need for My Event? | Security Guard Company Melbourne",
   description: "A practical guide to calculating the right number of security guards for your event in Melbourne. Industry ratios, risk factors, and what affects staffing numbers.",
   alternates: { canonical: "/blog/how-many-security-guards-do-i-need-for-my-event/" },
+  openGraph: {
+    title: "How Many Security Guards Do I Need for My Event? | Security Guard Company Melbourne",
+    description: "A practical guide to calculating the right number of security guards for your event in Melbourne. Industry ratios, risk factors, and what affects staffing numbers.",
+    url: "https://securityguardcompanymelbourne.com/blog/how-many-security-guards-do-i-need-for-my-event/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function EventSecurityGuardsPost() {

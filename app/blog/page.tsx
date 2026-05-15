@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Insights & Blog | Security Guard Company Melbourne",
   description: "Expert security insights, tips, and industry news from Security Guard Company Melbourne. Stay informed about the latest in security technology and best practices.",
   alternates: { canonical: "/blog/" },
+  openGraph: {
+    title: "Security Insights & Blog | Security Guard Company Melbourne",
+    description: "Expert security insights, tips, and industry news from Security Guard Company Melbourne. Stay informed about the latest in security technology and best practices.",
+    url: "https://securityguardcompanymelbourne.com/blog/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 const posts = [

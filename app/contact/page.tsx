@@ -6,6 +6,14 @@ export const metadata: Metadata = {
   title: "Contact Us | Security Guard Company Melbourne",
   description: "Get in touch with Security Guard Company Melbourne for a free security assessment and quote. We respond within 2 business hours.",
   alternates: { canonical: "/contact/" },
+  openGraph: {
+    title: "Contact Us | Security Guard Company Melbourne",
+    description: "Get in touch with Security Guard Company Melbourne for a free security assessment and quote. We respond within 2 business hours.",
+    url: "https://securityguardcompanymelbourne.com/contact/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function ContactPage() {

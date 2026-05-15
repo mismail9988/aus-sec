@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Alarm Systems & Remote Monitoring Melbourne | Security Guard Company Melbourne",
   description: "Professionally monitored alarm systems for Melbourne businesses. 24/7 monitoring with rapid physical response from our mobile patrol team.",
   alternates: { canonical: "/services/electronic-security/alarms/" },
+  openGraph: {
+    title: "Alarm Systems & Remote Monitoring Melbourne | Security Guard Company Melbourne",
+    description: "Professionally monitored alarm systems for Melbourne businesses. 24/7 monitoring with rapid physical response from our mobile patrol team.",
+    url: "https://securityguardcompanymelbourne.com/services/electronic-security/alarms/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function AlarmsPage() {

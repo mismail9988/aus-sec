@@ -29,6 +29,20 @@ export const metadata: Metadata = {
     siteName: "Security Guard Company Melbourne",
     locale: "en_AU",
     type: "website",
+    images: [
+      {
+        url: "https://securityguardcompanymelbourne.com/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Security Guard Company Melbourne",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Security Guard Company Melbourne | Professional Security Services",
+    description: "Professional security services across Melbourne and Victoria. Licenced, trained, and trusted.",
+    images: ["https://securityguardcompanymelbourne.com/og-image.jpg"],
   },
 };
 

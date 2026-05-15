@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "About Us | Security Guard Company Melbourne",
   description: "Learn about Security Guard Company Melbourne — our history, values, and commitment to delivering professional security services across Victoria.",
   alternates: { canonical: "/about/" },
+  openGraph: {
+    title: "About Us | Security Guard Company Melbourne",
+    description: "Learn about Security Guard Company Melbourne — our history, values, and commitment to delivering professional security services across Victoria.",
+    url: "https://securityguardcompanymelbourne.com/about/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 const values = [

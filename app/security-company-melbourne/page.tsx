@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Company Melbourne | Choose the Right Security Provider",
   description: "How to choose a security company in Melbourne. What to look for, questions to ask, red flags to avoid, and why Security Guard Company Melbourne is the right choice.",
   alternates: { canonical: "/security-company-melbourne/" },
+  openGraph: {
+    title: "Security Company Melbourne | Choose the Right Security Provider",
+    description: "How to choose a security company in Melbourne. What to look for, questions to ask, red flags to avoid, and why Security Guard Company Melbourne is the right choice.",
+    url: "https://securityguardcompanymelbourne.com/security-company-melbourne/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function SecurityCompanyMelbournePage() {

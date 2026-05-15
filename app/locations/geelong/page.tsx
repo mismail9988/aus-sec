@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Geelong | Professional Security Services Geelong",
   description: "Licenced security guards in Geelong and the Surf Coast. Industrial security, retail loss prevention, event security, and mobile patrols across the Geelong region.",
   alternates: { canonical: "/locations/geelong/" },
+  openGraph: {
+    title: "Security Guards Geelong | Professional Security Services Geelong",
+    description: "Licenced security guards in Geelong and the Surf Coast. Industrial security, retail loss prevention, event security, and mobile patrols across the Geelong region.",
+    url: "https://securityguardcompanymelbourne.com/locations/geelong/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function GeelongPage() {

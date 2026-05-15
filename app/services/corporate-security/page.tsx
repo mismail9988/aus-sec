@@ -6,6 +6,14 @@ export const metadata: Metadata = {
   title: "Corporate Security Melbourne | Office & Business Security Services",
   description: "Professional corporate security services for Melbourne offices and business premises. Access control, concierge security, executive protection and more.",
   alternates: { canonical: "/services/corporate-security/" },
+  openGraph: {
+    title: "Corporate Security Melbourne | Office & Business Security Services",
+    description: "Professional corporate security services for Melbourne offices and business premises. Access control, concierge security, executive protection and more.",
+    url: "https://securityguardcompanymelbourne.com/services/corporate-security/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function CorporateSecurityPage() {

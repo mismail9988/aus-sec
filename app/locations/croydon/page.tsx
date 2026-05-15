@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Croydon | Maroondah Security Services Melbourne East",
   description: "Professional security guards in Croydon and Maroondah. Retail security, construction site security, mobile patrols, and alarm response in Melbourne's east.",
   alternates: { canonical: "/locations/croydon/" },
+  openGraph: {
+    title: "Security Guards Croydon | Maroondah Security Services Melbourne East",
+    description: "Professional security guards in Croydon and Maroondah. Retail security, construction site security, mobile patrols, and alarm response in Melbourne's east.",
+    url: "https://securityguardcompanymelbourne.com/locations/croydon/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function CroydonPage() {

@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Access Control Best Practices for Melbourne Businesses | Security Guard Company Melbourne",
   description: "The essential access control best practices every Melbourne business should follow — from credential management to audit trails and integration with your security system.",
   alternates: { canonical: "/blog/access-control-best-practices/" },
+  openGraph: {
+    title: "Access Control Best Practices for Melbourne Businesses | Security Guard Company Melbourne",
+    description: "The essential access control best practices every Melbourne business should follow — from credential management to audit trails and integration with your security system.",
+    url: "https://securityguardcompanymelbourne.com/blog/access-control-best-practices/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function AccessControlBestPracticesPost() {

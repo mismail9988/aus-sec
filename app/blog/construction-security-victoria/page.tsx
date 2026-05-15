@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Construction Site Security in Victoria: What Works | Security Guard Company Melbourne",
   description: "A practical guide to construction site security in Victoria — the real theft risks, what security measures work, and how to combine them cost-effectively.",
   alternates: { canonical: "/blog/construction-security-victoria/" },
+  openGraph: {
+    title: "Construction Site Security in Victoria: What Works | Security Guard Company Melbourne",
+    description: "A practical guide to construction site security in Victoria — the real theft risks, what security measures work, and how to combine them cost-effectively.",
+    url: "https://securityguardcompanymelbourne.com/blog/construction-security-victoria/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function ConstructionSecurityVictoriaPost() {

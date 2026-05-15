@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Services Melbourne | Security Guard Company Melbourne",
   description: "Comprehensive security services in Melbourne including corporate security, retail security, event security, mobile patrols, and more. Fully licenced and insured.",
   alternates: { canonical: "/services/" },
+  openGraph: {
+    title: "Security Services Melbourne | Security Guard Company Melbourne",
+    description: "Comprehensive security services in Melbourne including corporate security, retail security, event security, mobile patrols, and more. Fully licenced and insured.",
+    url: "https://securityguardcompanymelbourne.com/services/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 const services = [

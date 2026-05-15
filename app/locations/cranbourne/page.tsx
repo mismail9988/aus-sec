@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Cranbourne | South East Melbourne Security Services",
   description: "Professional security guards in Cranbourne. Retail security, construction site security, mobile patrols, and alarm response in Melbourne's south-east growth corridor.",
   alternates: { canonical: "/locations/cranbourne/" },
+  openGraph: {
+    title: "Security Guards Cranbourne | South East Melbourne Security Services",
+    description: "Professional security guards in Cranbourne. Retail security, construction site security, mobile patrols, and alarm response in Melbourne's south-east growth corridor.",
+    url: "https://securityguardcompanymelbourne.com/locations/cranbourne/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function CranbournePage() {

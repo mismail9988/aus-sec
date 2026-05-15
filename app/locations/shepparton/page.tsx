@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Shepparton | Regional Victoria Security Services",
   description: "Professional security guards in Shepparton and the Goulburn Valley. Industrial security, retail security, agricultural security, and mobile patrols.",
   alternates: { canonical: "/locations/shepparton/" },
+  openGraph: {
+    title: "Security Guards Shepparton | Regional Victoria Security Services",
+    description: "Professional security guards in Shepparton and the Goulburn Valley. Industrial security, retail security, agricultural security, and mobile patrols.",
+    url: "https://securityguardcompanymelbourne.com/locations/shepparton/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function SheppartonPage() {

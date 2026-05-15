@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Education Security Melbourne | Security Guard Company Melbourne",
   description: "Safe and welcoming campus security for universities, TAFEs, schools, and educational institutions across Melbourne and Victoria.",
   alternates: { canonical: "/sectors/education/" },
+  openGraph: {
+    title: "Education Security Melbourne | Security Guard Company Melbourne",
+    description: "Safe and welcoming campus security for universities, TAFEs, schools, and educational institutions across Melbourne and Victoria.",
+    url: "https://securityguardcompanymelbourne.com/sectors/education/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function EducationSectorPage() {

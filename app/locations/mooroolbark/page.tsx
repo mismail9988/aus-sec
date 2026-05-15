@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Mooroolbark | Yarra Ranges Security Services Melbourne",
   description: "Professional security guards in Mooroolbark and the Yarra Ranges. Retail security, mobile patrols, construction site security, and alarm response.",
   alternates: { canonical: "/locations/mooroolbark/" },
+  openGraph: {
+    title: "Security Guards Mooroolbark | Yarra Ranges Security Services Melbourne",
+    description: "Professional security guards in Mooroolbark and the Yarra Ranges. Retail security, mobile patrols, construction site security, and alarm response.",
+    url: "https://securityguardcompanymelbourne.com/locations/mooroolbark/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function MooroolbarkPage() {

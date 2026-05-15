@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "3 Ways to Protect Your Construction Site | Security Guard Company Melbourne",
   description: "Construction site theft costs Australian builders millions each year. These three strategies can dramatically reduce your site's exposure to theft and vandalism.",
   alternates: { canonical: "/blog/construction-site-security-tips/" },
+  openGraph: {
+    title: "3 Ways to Protect Your Construction Site | Security Guard Company Melbourne",
+    description: "Construction site theft costs Australian builders millions each year. These three strategies can dramatically reduce your site's exposure to theft and vandalism.",
+    url: "https://securityguardcompanymelbourne.com/blog/construction-site-security-tips/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function Post() {

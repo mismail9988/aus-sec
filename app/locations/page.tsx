@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guard Services Across Melbourne & Victoria | Security Guard Company Melbourne",
   description: "Professional security guard services across Melbourne's suburbs and regional Victoria. Local knowledge, fast response, licenced officers.",
   alternates: { canonical: "/locations/" },
+  openGraph: {
+    title: "Security Guard Services Across Melbourne & Victoria | Security Guard Company Melbourne",
+    description: "Professional security guard services across Melbourne's suburbs and regional Victoria. Local knowledge, fast response, licenced officers.",
+    url: "https://securityguardcompanymelbourne.com/locations/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 const locations = [

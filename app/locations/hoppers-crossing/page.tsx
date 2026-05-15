@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Hoppers Crossing | Western Suburbs Security Melbourne",
   description: "Professional security guards in Hoppers Crossing and Wyndham. Retail security at Werribee Plaza, industrial security, mobile patrols, and alarm response.",
   alternates: { canonical: "/locations/hoppers-crossing/" },
+  openGraph: {
+    title: "Security Guards Hoppers Crossing | Western Suburbs Security Melbourne",
+    description: "Professional security guards in Hoppers Crossing and Wyndham. Retail security at Werribee Plaza, industrial security, mobile patrols, and alarm response.",
+    url: "https://securityguardcompanymelbourne.com/locations/hoppers-crossing/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function HoppersCrossingPage() {

@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Retail Security Melbourne | Security Guard Company Melbourne",
   description: "Professional retail security and loss prevention services for shopping centres, retail stores, and outlets across Melbourne.",
   alternates: { canonical: "/sectors/retail/" },
+  openGraph: {
+    title: "Retail Security Melbourne | Security Guard Company Melbourne",
+    description: "Professional retail security and loss prevention services for shopping centres, retail stores, and outlets across Melbourne.",
+    url: "https://securityguardcompanymelbourne.com/sectors/retail/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function RetailSectorPage() {

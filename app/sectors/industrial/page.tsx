@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Industrial Security Melbourne | Manufacturing & Industrial Site Security",
   description: "Professional security services for Melbourne's industrial sector. Manufacturing plant security, industrial estate patrols, perimeter protection, and after-hours coverage.",
   alternates: { canonical: "/sectors/industrial/" },
+  openGraph: {
+    title: "Industrial Security Melbourne | Manufacturing & Industrial Site Security",
+    description: "Professional security services for Melbourne's industrial sector. Manufacturing plant security, industrial estate patrols, perimeter protection, and after-hours coverage.",
+    url: "https://securityguardcompanymelbourne.com/sectors/industrial/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function IndustrialPage() {

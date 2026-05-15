@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Security Guards Melbourne CBD | Professional Security Services City",
   description: "Licenced security guards in Melbourne CBD. Corporate security, concierge officers, mobile patrols, and event security for the city's businesses and buildings.",
   alternates: { canonical: "/locations/melbourne-cbd/" },
+  openGraph: {
+    title: "Security Guards Melbourne CBD | Professional Security Services City",
+    description: "Licenced security guards in Melbourne CBD. Corporate security, concierge officers, mobile patrols, and event security for the city's businesses and buildings.",
+    url: "https://securityguardcompanymelbourne.com/locations/melbourne-cbd/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function MelbourneCBDPage() {

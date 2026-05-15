@@ -3,6 +3,14 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
+  openGraph: {
+    title: "Security Guard Company Melbourne | Professional Security Services",
+    description: "Melbourne's trusted security guard company. Professional security services for corporate, retail, events, and residential clients across Melbourne and Victoria.",
+    url: "https://securityguardcompanymelbourne.com/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 const services = [

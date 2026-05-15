@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Aviation Security Melbourne | Security Guard Company Melbourne",
   description: "Specialist aviation security personnel for airports, cargo facilities, and aviation precincts across Melbourne and Victoria.",
   alternates: { canonical: "/sectors/aviation/" },
+  openGraph: {
+    title: "Aviation Security Melbourne | Security Guard Company Melbourne",
+    description: "Specialist aviation security personnel for airports, cargo facilities, and aviation precincts across Melbourne and Victoria.",
+    url: "https://securityguardcompanymelbourne.com/sectors/aviation/",
+    siteName: "Security Guard Company Melbourne",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function AviationSectorPage() {
