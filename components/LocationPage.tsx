@@ -82,8 +82,8 @@ export default function LocationPage({
                 <Link href="/contact" className="block w-full bg-[#c8102e] text-white font-bold py-3 text-sm uppercase tracking-widest text-center hover:bg-[#a00d25] transition-colors">
                   Request {suburb} Security Quote
                 </Link>
-                <a href="tel:1300000000" className="block w-full mt-3 border border-[#1a1a2e] text-[#1a1a2e] font-bold py-3 text-sm uppercase tracking-widest text-center hover:bg-[#1a1a2e] hover:text-white transition-colors">
-                  1300 XXX XXX
+                <a href="mailto:info@securityguardcompanymelbourne.com" className="block w-full mt-3 border border-[#1a1a2e] text-[#1a1a2e] font-bold py-3 text-sm uppercase tracking-widest text-center hover:bg-[#1a1a2e] hover:text-white transition-colors">
+                  Email Us
                 </a>
               </div>
             </div>

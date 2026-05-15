@@ -120,8 +120,8 @@ export default function SecurityGuardCostPage() {
                 <Link href="/contact" className="block w-full bg-[#c8102e] text-white font-bold py-3 text-sm uppercase tracking-widest text-center hover:bg-[#a00d25] transition-colors mb-3">
                   Request a Quote
                 </Link>
-                <a href="tel:1300000000" className="block w-full border border-gray-600 text-gray-300 font-bold py-3 text-sm uppercase tracking-widest text-center hover:bg-white hover:text-[#1a1a2e] transition-colors">
-                  1300 XXX XXX
+                <a href="mailto:info@securityguardcompanymelbourne.com" className="block w-full border border-gray-600 text-gray-300 font-bold py-3 text-sm uppercase tracking-widest text-center hover:bg-white hover:text-[#1a1a2e] transition-colors">
+                  Email Us
                 </a>
                 <div className="mt-6 pt-6 border-t border-gray-700">
                   <p className="text-gray-500 text-xs uppercase tracking-wide mb-3">We Are</p>

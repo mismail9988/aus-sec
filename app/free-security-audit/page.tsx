@@ -102,7 +102,7 @@ export default function FreeSecurityAuditPage() {
                   >
                     Book My Free Audit
                   </Link>
-                  <p className="text-gray-600 text-xs text-center">Or call us: <a href="tel:1300000000" className="text-gray-400 hover:text-white">1300 XXX XXX</a></p>
+                  <p className="text-gray-600 text-xs text-center">Or <a href="mailto:info@securityguardcompanymelbourne.com" className="text-gray-400 hover:text-white">email us directly</a></p>
                 </div>
               </div>
             </div>

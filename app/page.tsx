@@ -365,10 +365,10 @@ export default function HomePage() {
                 Request a Melbourne Security Quote
               </Link>
               <a
-                href="tel:1300000000"
+                href="mailto:info@securityguardcompanymelbourne.com"
                 className="border-2 border-white/40 text-white font-bold px-8 py-4 text-sm uppercase tracking-widest hover:border-white hover:bg-white/10 transition-colors text-center"
               >
-                Call 1300 XXX XXX
+                Email Us Now
               </a>
             </div>
           </div>

@@ -7,7 +7,6 @@ export default function LocalBusinessSchema() {
     description:
       "Melbourne's trusted security guard company. Professional, licenced security services for corporate, retail, events, and residential clients across Melbourne and Victoria.",
     url: "https://securityguardcompanymelbourne.com",
-    telephone: "1300000000",
     email: "info@securityguardcompanymelbourne.com",
     address: {
       "@type": "PostalAddress",

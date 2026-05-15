@@ -65,8 +65,8 @@ export default function NotFound() {
             <p className="text-gray-400">Call us or request a quote — we respond within 2 business hours.</p>
           </div>
           <div className="flex items-center gap-4">
-            <a href="tel:1300000000" className="border border-gray-600 text-gray-300 font-bold px-6 py-3 text-sm uppercase tracking-widest hover:bg-white hover:text-[#1a1a2e] transition-colors">
-              1300 XXX XXX
+            <a href="mailto:info@securityguardcompanymelbourne.com" className="border border-gray-600 text-gray-300 font-bold px-6 py-3 text-sm uppercase tracking-widest hover:bg-white hover:text-[#1a1a2e] transition-colors">
+              Email Us
             </a>
             <Link href="/contact/" className="bg-[#c8102e] text-white font-bold px-6 py-3 text-sm uppercase tracking-widest hover:bg-[#a00d25] transition-colors">
               Get a Quote
