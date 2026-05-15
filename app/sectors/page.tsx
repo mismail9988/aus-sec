@@ -193,7 +193,7 @@ export default function SectorsPage() {
                 <h2 className="text-[#1a1a2e] font-black text-lg uppercase tracking-tight mb-3">{sector.title}</h2>
                 <p className="text-[#767676] text-sm leading-relaxed flex-1">{sector.desc}</p>
                 <div className="inline-flex items-center gap-2 mt-5 text-[#c8102e] font-bold text-sm uppercase tracking-wide group-hover:gap-3 transition-all">
-                  Learn more
+                  View {sector.title}
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>

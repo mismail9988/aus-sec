@@ -225,7 +225,7 @@ export default function HomePage() {
                   href={service.href}
                   className="inline-flex items-center gap-2 mt-5 text-[#c8102e] font-bold text-sm uppercase tracking-wide hover:gap-3 transition-all"
                 >
-                  Read more
+                  View {service.title}
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
