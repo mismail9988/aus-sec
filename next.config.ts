@@ -60,6 +60,7 @@ const nextConfig: NextConfig = {
       { source: "/enquire", destination: "/contact/", permanent: true },
       { source: "/industries", destination: "/sectors/", permanent: true },
       { source: "/industry", destination: "/sectors/", permanent: true },
+      { source: "/blog/event-security-planning", destination: "/blog/event-security-planning-guide/", permanent: true },
       { source: "/insights", destination: "/blog/", permanent: true },
       { source: "/news", destination: "/blog/", permanent: true },
       { source: "/articles", destination: "/blog/", permanent: true },
