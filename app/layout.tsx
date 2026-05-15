@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { Source_Sans_3 } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import SiteChrome from "@/components/SiteChrome";
 import LocalBusinessSchema from "@/components/LocalBusinessSchema";
 
 const sourceSans = Source_Sans_3({
@@ -70,9 +69,7 @@ export default function RootLayout({
         />
       </head>
       <body suppressHydrationWarning className="font-[var(--font-source-sans)] min-h-screen flex flex-col bg-white text-[#2d2d2d]">
-        <Header />
-        <main className="flex-1">{children}</main>
-        <Footer />
+        <SiteChrome>{children}</SiteChrome>
       </body>
     </html>
   );
