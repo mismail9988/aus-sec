@@ -46,8 +46,8 @@ export default function MobilePatrolsPage() {
               <h2 className="text-3xl font-black text-[#1a1a2e] uppercase leading-tight mb-4">Visible Security Without the Full-Time Cost</h2>
               <div className="w-10 h-0.5 bg-[#c8102e] mb-8" />
               <div className="space-y-4 text-[#4a4a4a] leading-relaxed">
-                <p>Our mobile patrol officers operate from marked security vehicles, conducting regular checks on your site throughout their shift. Patrol times are randomised to prevent predictability — a key deterrent against opportunistic crime.</p>
-                <p>At each visit, your officer performs a thorough physical inspection: checking perimeters, testing access points, looking for signs of intrusion or vandalism, and confirming the site is secure. All visits are GPS-logged and time-stamped.</p>
+                <p>Our patrol officers operate from marked vehicles, checking your site throughout their shift. We randomise patrol times to prevent predictability — this deters opportunistic crime.</p>
+                <p>At each visit, your officer checks perimeters, tests access points, looks for signs of intrusion or vandalism, and confirms the site is secure. All visits are GPS-logged and time-stamped.</p>
                 <p>You receive detailed patrol reports after each visit — giving you full visibility of your site&apos;s security status without needing to be there yourself.</p>
               </div>
             </div>

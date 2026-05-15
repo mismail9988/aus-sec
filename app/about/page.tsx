@@ -90,10 +90,9 @@ export default function AboutPage() {
                   deliver peace of mind.
                 </p>
                 <p>
-                  We saw an industry where standards were inconsistent, guard quality was variable,
-                  and clients were too often left to manage the consequences of poor security. We set
-                  out to do it differently — with rigorous recruitment, thorough training, and a
-                  culture that puts client outcomes first.
+                  Standards were inconsistent, guard quality varied, and clients often dealt with the
+                  fallout from poor security. We did things differently — rigorous recruitment,
+                  thorough training, and a culture that puts client outcomes first.
                 </p>
                 <p>
                   Today, we serve hundreds of clients across Melbourne and regional Victoria,

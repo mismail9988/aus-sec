@@ -22,9 +22,9 @@ export default function CrowdControlPage() {
       name="Crowd Control Melbourne"
       intro="Licenced, RSA-endorsed crowd controllers for Melbourne venues, nightclubs, bars, restaurants, and events."
       description={[
-        "Crowd control is a specialist discipline requiring licenced security officers with specific endorsements under Victorian law. Security Guard Company Melbourne provides experienced crowd controllers for licensed venues, hospitality businesses, and public events across Melbourne.",
-        "Our crowd controllers are fully licenced under the Private Security Act 2004 and hold the required crowd control endorsement. Every officer is trained in responsible service of alcohol (RSA), conflict de-escalation, physical intervention as a last resort, and the legal obligations of crowd controllers in Victoria.",
-        "We understand the pressures of operating a licensed venue — from balancing patron experience with safety, to managing difficult situations in a legally compliant way. Our officers are selected for their communication skills and ability to de-escalate situations before they become incidents.",
+        "Crowd control needs licenced guards with specific endorsements under Victorian law. Security Guard Company Melbourne provides experienced crowd controllers for licensed venues, hospitality businesses, and public events across Melbourne.",
+        "Our crowd controllers are fully licenced under the Private Security Act 2004 with the required endorsement. Every officer is trained in RSA, conflict de-escalation, physical intervention as a last resort, and the legal duties of crowd controllers in Victoria.",
+        "We understand running a licensed venue — balancing patron experience with safety and handling situations the right way. Our officers are chosen for their communication skills and ability to de-escalate before things get serious.",
       ]}
       features={[
         { title: "Door Staff", desc: "Experienced crowd controllers managing patron entry, ID checks, and capacity at licensed venues." },

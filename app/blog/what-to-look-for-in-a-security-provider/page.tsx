@@ -18,22 +18,22 @@ export const metadata: Metadata = {
 export default function Post() {
   return (
     <BlogPost title="What to Look for in a Commercial Security Provider" category="Security Advice" date="2 May 2025" readTime="6 min read">
-      <p>Choosing a security provider is one of the most important decisions you&apos;ll make for your business. The right partner protects your people, assets, and reputation. The wrong one can create liability, gaps in coverage, and damage to your brand.</p>
-      <p>Here are the key factors you should evaluate when selecting a commercial security provider in Melbourne.</p>
+      <p>Choosing a security provider is one of the most important decisions you&apos;ll make. The right provider protects your people and assets. The wrong one creates liability, coverage gaps, and brand damage.</p>
+      <p>Here are the key things to check when selecting a commercial security provider in Melbourne.</p>
 
       <h2 style={{fontSize:"1.5rem",fontWeight:900,color:"#1a1a2e",textTransform:"uppercase",margin:"2rem 0 1rem"}}>1. Licensing and Compliance</h2>
-      <p>In Victoria, all security guards must hold a current individual licence issued under the Private Security Act 2004. The company itself must also hold a security business licence. Before signing any contract, verify that the provider and all their guards are fully licenced and compliant.</p>
-      <p>Ask to see licence numbers and verify them with Consumer Affairs Victoria. A reputable provider will have no issue providing this information upfront.</p>
+      <p>In Victoria, all security guards need a current individual licence under the Private Security Act 2004. The company must also hold a security business licence. Check both before you sign anything.</p>
+      <p>Ask for licence numbers and verify them with Consumer Affairs Victoria. Good providers share this information freely — no hesitation.</p>
 
       <h2 style={{fontSize:"1.5rem",fontWeight:900,color:"#1a1a2e",textTransform:"uppercase",margin:"2rem 0 1rem"}}>2. Insurance Coverage</h2>
-      <p>Ensure the provider carries comprehensive public liability insurance and workers&apos; compensation for all deployed guards. Inadequate insurance coverage can leave your business exposed to significant liability in the event of an incident.</p>
+      <p>Make sure the provider has public liability insurance and workers&apos; comp for all guards. Without it, your business carries the risk if something goes wrong on-site.</p>
 
       <h2 style={{fontSize:"1.5rem",fontWeight:900,color:"#1a1a2e",textTransform:"uppercase",margin:"2rem 0 1rem"}}>3. Guard Training and Vetting</h2>
-      <p>Ask specifically about the provider&apos;s recruitment and training processes. At minimum, all guards should hold the required Certificate II in Security Operations, have undergone a National Police Check, and received site-specific induction training before deployment.</p>
-      <p>The best providers go beyond minimum requirements — offering ongoing professional development, specialist industry training, and regular performance reviews.</p>
+      <p>Ask about their recruitment and training process. Guards should have Certificate II in Security Operations, a National Police Check, and site-specific training before they start.</p>
+      <p>The best providers go further — ongoing development, specialist industry training, and regular performance reviews.</p>
 
       <h2 style={{fontSize:"1.5rem",fontWeight:900,color:"#1a1a2e",textTransform:"uppercase",margin:"2rem 0 1rem"}}>4. Communication and Reporting</h2>
-      <p>How does the provider communicate with you? Will you receive regular reports? Is there a dedicated account manager? Can you reach someone at 3am if there&apos;s an incident? These are critical questions that many businesses fail to ask before signing.</p>
+      <p>Ask: How do they keep in touch? Will you get regular reports? Is there a dedicated point of contact? Can you reach someone at 3am if there&apos;s an incident? Many businesses skip these questions — don&apos;t.</p>
 
       <h2 style={{fontSize:"1.5rem",fontWeight:900,color:"#1a1a2e",textTransform:"uppercase",margin:"2rem 0 1rem"}}>5. References and Track Record</h2>
       <p>Ask for references from clients in similar industries. A provider with proven experience in your sector will understand your specific security challenges and have protocols already developed for your environment.</p>

@@ -22,9 +22,9 @@ export default function SecurityGuardsPage() {
       name="Security Guards Melbourne"
       intro="Professional, Victoria Police–licenced security guards for businesses across Melbourne and Victoria. Uniformed, trained, and available 24/7."
       description={[
-        "Security Guard Company Melbourne provides fully licenced, uniformed security guards for a wide range of commercial, retail, industrial, and residential applications. Every officer we deploy holds a current Victorian Security Licence and has undergone comprehensive vetting including background checks, reference verification, and our own internal training program.",
-        "Our security guards are more than a uniform at the front door. They are trained in conflict de-escalation, emergency response procedures, first aid, and the specific requirements of your industry. Whether you need a single officer for a short-term requirement or a team of guards for an ongoing contract, we have the resources to staff your site properly.",
-        "We understand that every client's needs are different. That's why we take time to understand your site, your risks, and your operational requirements before we deploy — ensuring the officer we send is the right fit for your specific environment.",
+        "Security Guard Company Melbourne provides fully licenced, uniformed security guards for commercial, retail, industrial, and residential sites. Every guard holds a current Victorian Security Licence and has passed background checks, reference verification, and our internal training program.",
+        "Our guards are more than a uniform at the door. They&apos;re trained in conflict de-escalation, emergency response, first aid, and your industry&apos;s specific requirements. Need one officer or a full team? We have the resources to staff your site properly.",
+        "Every client&apos;s needs are different. We take time to understand your site and risks before we deploy — so the officer we send is the right fit for your environment.",
       ]}
       features={[
         { title: "Uniformed Static Guards", desc: "Visible deterrence and professional presence at your site entrance, lobby, or any fixed post." },

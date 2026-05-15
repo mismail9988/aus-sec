@@ -22,9 +22,9 @@ export default function EventSecurityPage() {
       name="Event Security Melbourne"
       intro="Professional event security and crowd management for concerts, festivals, corporate events, and private functions across Melbourne."
       description={[
-        "Events present unique security challenges that require specialist planning, trained personnel, and clear operational protocols. Security Guard Company Melbourne has extensive experience providing security for events across Melbourne — from small private functions to large-scale public events with thousands of attendees.",
-        "Our event security team includes crowd management specialists, access control personnel, search teams, and roving security officers. We work with event organisers during the planning phase to conduct a thorough risk assessment, develop a security management plan, and ensure compliance with venue and local council requirements.",
-        "Every event is staffed with the right number of licenced security officers for the size, type, and risk profile of your event. Our supervisors maintain communication throughout the event and have clear escalation protocols in place for any incident.",
+        "Events need specialist planning, trained staff, and clear procedures. Security Guard Company Melbourne has extensive experience across Melbourne — from small private functions to large public events with thousands of attendees.",
+        "Our event security team includes crowd managers, access control staff, search teams, and roving officers. We work with organisers in the planning phase to assess risks, build a security plan, and meet venue and council requirements.",
+        "We staff every event with the right number of licenced officers based on size, type, and risk. Supervisors stay in contact throughout and have clear escalation steps ready for any incident.",
       ]}
       features={[
         { title: "Event Risk Assessment", desc: "Pre-event risk assessment and security management plan development to meet venue and council requirements." },

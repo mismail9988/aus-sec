@@ -47,7 +47,7 @@ export default function HireSecurityGuardPage() {
               <div className="w-10 h-0.5 bg-[#c8102e] mb-8" />
 
               <div className="space-y-6 text-[#4a4a4a] leading-relaxed">
-                <p>Hiring a security guard in Melbourne is simpler than many businesses expect — but getting it right requires thinking through a few key considerations before you approach providers. This guide walks you through what to think about, how to evaluate providers, and what the hiring process looks like.</p>
+                <p>Hiring a security guard in Melbourne is simpler than many think — but you need to work through a few key things before you contact providers. This guide covers what to consider, how to evaluate companies, and what the process looks like.</p>
 
                 <h3 className="text-xl font-black text-[#1a1a2e] uppercase mt-8 mb-4">Step 1: Define Your Requirement</h3>
                 <p>Before contacting security companies, be clear on what you actually need. Consider:</p>
@@ -68,12 +68,12 @@ export default function HireSecurityGuardPage() {
                 </ul>
 
                 <h3 className="text-xl font-black text-[#1a1a2e] uppercase mt-8 mb-4">Step 2: Verify Licensing</h3>
-                <p>In Victoria, all security work must be performed by a licenced security company and by individually licenced security officers. Under the Private Security Act 2004, it is illegal to operate as a security company or work as a security officer without the appropriate licence.</p>
-                <p className="mt-4">Ask any provider for their Master Licence number and verify it on the Victoria Police Business Licencing Authority website. Engaging an unlicensed provider exposes you to significant legal and insurance risks.</p>
+                <p>In Victoria, all security work must use a licenced security company and licenced security officers. It&apos;s illegal under the Private Security Act 2004 to operate without the right licence.</p>
+                <p className="mt-4">Ask any provider for their Master Licence number and check it on the Victoria Police Business Licencing Authority website. Using an unlicensed provider puts you at legal and insurance risk.</p>
 
                 <h3 className="text-xl font-black text-[#1a1a2e] uppercase mt-8 mb-4">Step 3: Get Comparable Quotes</h3>
                 <p>Get quotes from at least two or three licenced, insured providers. Make sure quotes cover the same scope — the same hours, same roles, same deliverables — so you&apos;re making a genuine like-for-like comparison.</p>
-                <p className="mt-4">Be wary of quotes that are significantly below market rates — this is a common indicator of Award non-compliance, unlicensed labour, or inadequate insurance coverage.</p>
+                <p className="mt-4">Watch out for prices well below the market rate — they often mean Award non-compliance, unlicensed workers, or poor insurance.</p>
 
                 <h3 className="text-xl font-black text-[#1a1a2e] uppercase mt-8 mb-4">Step 4: Brief the Provider Properly</h3>
                 <p>A good security company will take time to understand your site before deploying officers. Expect to be asked about your premises, your specific risks, your clientele, and any relevant procedures. The more information you provide, the better the service you&apos;ll receive.</p>

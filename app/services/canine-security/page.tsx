@@ -22,9 +22,9 @@ export default function CanineSecurityPage() {
       name="Canine Security Services"
       intro="Professional security dog and handler teams for Melbourne — the most cost-effective deterrent for high-risk sites and large properties."
       description={[
-        "A security dog and handler team provides a level of deterrence that no uniformed officer alone can match. The presence of a trained security dog dramatically reduces the likelihood of trespass, vandalism, and theft — particularly on large sites, construction areas, and industrial properties where complete perimeter coverage by foot patrol alone is not practical.",
-        "Security Guard Company Melbourne provides licensed security dog handlers and their trained dogs for patrol, search, and detection operations across Melbourne and Victoria. All handlers are licensed under the Private Security Act 2004 with the relevant canine endorsement, and all dogs are trained, certified, and maintained to industry standards.",
-        "Canine security is particularly effective for construction sites, industrial estates, vacant properties, events, and any site where a strong visible deterrent is required. The combination of a trained dog and experienced handler covers ground quickly, responds to threats confidently, and provides a presence that deters even determined intruders.",
+        "A security dog and handler team deters crime far better than a guard alone. A trained dog dramatically cuts the risk of trespass, vandalism, and theft — especially on large sites, construction areas, and industrial properties where guards can&apos;t cover the whole perimeter on foot.",
+        "We provide licenced dog handlers and trained dogs for patrol, search, and detection work across Melbourne and Victoria. All handlers are licenced under the Private Security Act 2004 with the canine endorsement. All dogs are trained, certified, and kept to industry standards.",
+        "Canine security works best for construction sites, industrial estates, vacant properties, and events where a strong visible deterrent matters. A dog and handler covers ground quickly, responds to threats confidently, and stops determined intruders.",
       ]}
       features={[
         { title: "Construction Site Patrols", desc: "Handler and dog teams patrolling construction sites overnight — the most effective deterrent against equipment and materials theft." },

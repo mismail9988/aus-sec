@@ -48,8 +48,8 @@ export default function SecurityCompanyMelbournePage() {
               <div className="w-10 h-0.5 bg-[#c8102e] mb-8" />
               <div className="space-y-4 text-[#4a4a4a] leading-relaxed">
                 <p>Security Guard Company Melbourne is a fully licenced, locally-operated security company serving businesses and organisations across Melbourne and Victoria. We provide the full spectrum of security services — from uniformed static guards and mobile patrols to electronic security systems and event security management.</p>
-                <p>We believe that good security comes from good people — which is why we invest in thorough vetting, above-award wages, and ongoing training for every officer we deploy. A security guard who is well-treated and well-trained performs better, stays longer, and represents your business more professionally.</p>
-                <p>Unlike large national providers who view Melbourne as a market to be managed from a head office elsewhere, we are a Melbourne business focused entirely on delivering excellent service in the city and state we know best.</p>
+                <p>Good security comes from good people. We invest in thorough vetting, above-award wages, and ongoing training for every officer. Well-treated, well-trained guards perform better, stay longer, and represent your business more professionally.</p>
+                <p>Big national providers manage Melbourne from an interstate head office. We&apos;re a Melbourne business — focused entirely on delivering great service here.</p>
               </div>
             </div>
             <div className="grid grid-cols-1 gap-px bg-gray-200">
@@ -112,7 +112,7 @@ export default function SecurityCompanyMelbournePage() {
             <p className="text-[#c8102e] text-xs uppercase tracking-widest font-bold mb-3">Due Diligence</p>
             <h2 className="text-3xl font-black text-[#1a1a2e] uppercase mb-4">What to Ask Any Security Company</h2>
             <div className="w-10 h-0.5 bg-[#c8102e] mx-auto mb-6" />
-            <p className="text-[#4a4a4a] leading-relaxed">Before engaging any security provider in Victoria, ask these questions to verify you&apos;re dealing with a legitimate, compliant company.</p>
+            <p className="text-[#4a4a4a] leading-relaxed">Before you hire any security provider in Victoria, ask these questions to check they&apos;re legitimate and compliant.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {[

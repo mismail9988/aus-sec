@@ -44,7 +44,7 @@ export default function SustainabilityPage() {
             <h2 className="text-4xl font-black text-[#1a1a2e] uppercase mb-4">Beyond Security</h2>
             <div className="w-12 h-1 bg-[#c8102e] mx-auto mb-6" />
             <p className="text-[#4a4a4a] leading-relaxed">
-              Security Guard Company Melbourne is committed to operating in a way that is ethical, sustainable, and beneficial to our broader community. This means how we treat our staff, how we work with clients, and how we conduct ourselves as a Melbourne business.
+              We operate ethically and sustainably — for our people, our clients, and our community. That means how we treat our staff, how we work with clients, and how we show up as a Melbourne business.
             </p>
           </div>
 
@@ -57,12 +57,12 @@ export default function SustainabilityPage() {
               },
               {
                 title: "Ethical Employment",
-                desc: "We are committed to providing genuine employment with proper entitlements — superannuation, leave, and workers' compensation — for all of our security officers. We do not use sham contracting or exploitative labour arrangements.",
+                desc: "We provide genuine employment with proper entitlements — superannuation, leave, and workers' comp — for all our guards. No sham contracting, no exploitative arrangements.",
                 items: ["Proper superannuation entitlements", "Paid leave for permanent staff", "Workers' compensation coverage", "No sham contracting arrangements"],
               },
               {
                 title: "Environmental Responsibility",
-                desc: "We are actively working to reduce our environmental footprint — from transitioning our patrol fleet to lower-emission vehicles to reducing paper-based reporting through our digital patrol management systems.",
+                desc: "We&apos;re cutting our environmental impact by moving to lower-emission patrol vehicles and using digital reporting instead of paper.",
                 items: ["Lower-emission vehicle transition", "Digital reporting systems", "Reduced paper waste", "Responsible procurement"],
               },
               {
