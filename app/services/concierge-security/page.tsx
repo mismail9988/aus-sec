@@ -1,0 +1,48 @@
+import type { Metadata } from "next";
+import ServicePage from "@/components/ServicePage";
+
+export const metadata: Metadata = {
+  title: "Concierge Security Melbourne | Corporate Reception & Security Services",
+  description: "Professional concierge security officers for Melbourne offices, hotels, and mixed-use buildings. Front-of-house security with customer service excellence.",
+  alternates: { canonical: "/services/concierge-security/" },
+};
+
+export default function ConciergeSecurityPage() {
+  return (
+    <ServicePage
+      category="Security Services"
+      name="Concierge Security Services"
+      intro="Security officers who combine genuine security expertise with the professional front-of-house presence your building demands."
+      description={[
+        "Concierge security sits at the intersection of security and hospitality — and it's a discipline that requires a specific type of officer. Security Guard Company Melbourne places concierge security officers who are as comfortable welcoming a CEO to a building as they are managing an access control system or responding to an incident.",
+        "Our concierge officers are deployed at the front desk, lobby, or reception of corporate buildings, hotels, residential towers, and mixed-use developments. They manage visitor access, handle deliveries, monitor CCTV, and maintain the building's security posture — all while presenting as a professional first point of contact for the building.",
+        "We understand that in premium buildings, your security officer is part of the building's brand. We select and brief our concierge officers accordingly.",
+      ]}
+      features={[
+        { title: "Front Desk Management", desc: "Professional reception of visitors, residents, and contractors with proper access control procedures." },
+        { title: "Visitor Management", desc: "Visitor registration, pass issuance, host notification, and departure logging." },
+        { title: "Package & Delivery Handling", desc: "Receiving and logging deliveries, notifying residents or tenants, and managing courier access." },
+        { title: "CCTV Monitoring", desc: "Monitoring building camera systems from the concierge desk and escalating anomalies." },
+        { title: "Intercom & Access Management", desc: "Managing intercom systems, granting remote access, and handling after-hours entry requests." },
+        { title: "Incident Reporting", desc: "Logging and escalating all security incidents, maintenance issues, and unusual events." },
+        { title: "Emergency Response", desc: "First response to building emergencies including medical events, fire alarms, and security breaches." },
+        { title: "After-Hours Coverage", desc: "Overnight and weekend concierge security for buildings requiring 24/7 front desk presence." },
+        { title: "Tenant & Resident Support", desc: "Assisting tenants and residents with building-related queries, key management, and access issues." },
+      ]}
+      whyChoose={[
+        "Officers selected specifically for concierge roles — professional presentation required",
+        "Training in customer service as well as security procedures",
+        "Experience in corporate, residential, and mixed-use buildings",
+        "Coordination with building management systems and property managers",
+        "Uniform and presentation standards that match your building's brand",
+        "Thorough handover procedures for shift changes — no gaps in coverage",
+      ]}
+      breadcrumbs={[
+        { label: "Services", href: "/services" },
+        { label: "Concierge Security", href: "/services/concierge-security" },
+      ]}
+      ctaTitle="Upgrade Your Building's Security Presence"
+      ctaSubtitle="Professional concierge security for Melbourne's best buildings."
+    />
+  );
+}
