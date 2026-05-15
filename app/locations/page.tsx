@@ -107,12 +107,45 @@ export default function LocationsPage() {
 
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start mb-16">
+            <div>
+              <p className="text-[#c8102e] text-xs uppercase tracking-widest font-bold mb-4">Our Coverage Area</p>
+              <h2 className="text-3xl font-black text-[#1a1a2e] uppercase leading-tight mb-4">Security Guards Across Melbourne & Victoria</h2>
+              <div className="w-10 h-0.5 bg-[#c8102e] mb-8" />
+              <div className="space-y-4 text-[#4a4a4a] leading-relaxed">
+                <p>Security Guard Company Melbourne provides professional security guard services across Melbourne's suburbs and throughout regional Victoria. Whether you need security in the Melbourne CBD, an outer suburban industrial estate, or a regional Victorian city, we have locally-based officers ready to deploy.</p>
+                <p>Unlike national security companies that roster officers from centralised pools and dispatch them across vast distances, we maintain local teams in each area we service. This means faster response times, officers who understand the local environment, and genuine accountability to clients in your community.</p>
+                <p>Our coverage spans all of metropolitan Melbourne — from the inner city to the outer suburbs — plus major regional centres including Geelong, Ballarat, Bendigo, Shepparton, and Wodonga. We continuously expand our coverage based on client demand. If your location is not listed, contact us — we will advise on availability for your area.</p>
+              </div>
+            </div>
+            <div className="space-y-4">
+              {[
+                { title: "Local Officers", desc: "We roster officers who live and work in each area, ensuring local knowledge and fast deployment." },
+                { title: "Fast Response Times", desc: "Metro Melbourne patrol response averages 30 minutes. Regional response times are discussed at engagement." },
+                { title: "Consistent Standards", desc: "Every officer across every location is vetted, licenced, and trained to the same standard — regardless of suburb." },
+                { title: "Single Point of Contact", desc: "One account manager regardless of how many locations you operate across Victoria." },
+              ].map((item, i) => (
+                <div key={i} className="flex gap-4 p-5 border border-gray-200">
+                  <div className="w-8 h-8 bg-[#c8102e] flex items-center justify-center shrink-0">
+                    <svg className="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-[#1a1a2e] font-black uppercase text-sm mb-1">{item.title}</h3>
+                    <p className="text-[#767676] text-sm">{item.desc}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <p className="text-[#c8102e] text-xs uppercase tracking-widest font-bold mb-3">Our Coverage Area</p>
+            <p className="text-[#c8102e] text-xs uppercase tracking-widest font-bold mb-3">Select Your Area</p>
             <h2 className="text-4xl font-black text-[#1a1a2e] uppercase mb-4">Melbourne & Regional Victoria</h2>
             <div className="w-12 h-1 bg-[#c8102e] mx-auto mb-6" />
             <p className="text-[#4a4a4a] leading-relaxed">
-              We provide security guard services across Melbourne and throughout Victoria. With locally-based patrol teams, we offer fast response times and genuine local knowledge — not a national provider dispatching from a distant depot.
+              Select your suburb or region below to find out more about our security guard services in your area, including local response times, available services, and nearby coverage.
             </p>
           </div>
 

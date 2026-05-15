@@ -61,6 +61,9 @@ export default function ContactPage() {
               <div>
                 <h2 className="text-2xl font-black text-[#1a1a2e] uppercase mb-2">Get In Touch</h2>
                 <div className="w-8 h-0.5 bg-[#c8102e] mb-6" />
+                <p className="text-[#4a4a4a] text-sm leading-relaxed">
+                  We respond to all enquiries within 2 business hours. For urgent or same-day security requirements, email us directly and mark your message as urgent — we monitor email around the clock.
+                </p>
               </div>
 
               <div className="space-y-6">
@@ -134,6 +137,70 @@ export default function ContactPage() {
                 <div className="w-8 h-0.5 bg-[#c8102e] mb-8" />
                 <ContactForm />
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* What to expect */}
+      <section className="py-16 bg-[#f4f4f4]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <p className="text-[#c8102e] text-xs uppercase tracking-widest font-bold mb-3">Our Process</p>
+            <h2 className="text-3xl font-black text-[#1a1a2e] uppercase mb-4">What Happens After You Contact Us</h2>
+            <div className="w-10 h-0.5 bg-[#c8102e] mx-auto" />
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-px bg-gray-200 mb-16">
+            {[
+              { step: "01", title: "We Review Your Enquiry", desc: "Within 2 business hours, a security specialist reviews your requirements and prepares relevant questions." },
+              { step: "02", title: "We Call or Email You", desc: "We follow up to clarify your requirements, understand your site, and discuss the right approach for your situation." },
+              { step: "03", title: "You Receive a Proposal", desc: "We provide a detailed, no-obligation proposal covering the recommended service, staffing, and transparent pricing." },
+              { step: "04", title: "We Get Started", desc: "Once you approve, we handle everything — officer briefing, site induction, and first-day deployment." },
+            ].map((item, i) => (
+              <div key={i} className="bg-white p-8">
+                <div className="text-[#c8102e] font-black text-3xl mb-3 leading-none">{item.step}</div>
+                <h3 className="text-[#1a1a2e] font-black uppercase text-sm tracking-wide mb-2">{item.title}</h3>
+                <p className="text-[#767676] text-sm leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+            <div>
+              <h3 className="text-2xl font-black text-[#1a1a2e] uppercase mb-4">Common Questions</h3>
+              <div className="space-y-5">
+                {[
+                  { q: "How quickly can you deploy security guards?", a: "For standard engagements we typically deploy within 48–72 hours of agreement. For emergency and short-notice requirements, same-day or next-day deployment is often possible — contact us directly to discuss." },
+                  { q: "Do you require a long-term contract?", a: "No. We offer both ongoing contracts and short-term or one-off engagements. Many clients start with a short engagement and continue on a rolling basis. We do not lock you in." },
+                  { q: "What areas of Melbourne do you service?", a: "We cover all metropolitan Melbourne suburbs and major regional Victorian centres including Geelong, Ballarat, Bendigo, and Shepparton. View our full locations list for details." },
+                  { q: "Are your guards fully licenced?", a: "Yes. All security officers we deploy hold a current Victoria Police Security Licence under the Private Security Act 2004. We verify this before every deployment." },
+                ].map((item, i) => (
+                  <div key={i} className="border-l-4 border-[#c8102e] pl-5">
+                    <h4 className="text-[#1a1a2e] font-black text-sm uppercase tracking-wide mb-1">{item.q}</h4>
+                    <p className="text-[#4a4a4a] text-sm leading-relaxed">{item.a}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className="bg-[#1a1a2e] p-8">
+              <h3 className="text-white font-black uppercase text-sm tracking-widest mb-5">Why Choose Security Guard Company Melbourne</h3>
+              <ul className="space-y-3">
+                {[
+                  "All guards hold current Victoria Police security licences",
+                  "Fully insured — public liability and workers compensation",
+                  "No lock-in contracts — flexibility to scale up or down",
+                  "Transparent pricing — no hidden fees or surcharges",
+                  "Dedicated account manager for every client",
+                  "24/7 operations centre — always reachable",
+                  "Rapid deployment for emergency requirements",
+                  "Serving Melbourne CBD, all suburbs, and regional VIC",
+                ].map((item, i) => (
+                  <li key={i} className="flex items-start gap-3 text-gray-300 text-sm">
+                    <span className="w-1.5 h-1.5 bg-[#c8102e] rounded-full mt-1.5 shrink-0" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
