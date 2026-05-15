@@ -59,7 +59,7 @@ export default function BlogPost({ title, category, date, readTime, children }: 
                 <p className="text-gray-400 text-sm">Get a free, no-obligation security assessment for your business.</p>
               </div>
               <Link href="/contact" className="shrink-0 bg-[#c8102e] text-white font-bold px-6 py-3 text-sm uppercase tracking-widest hover:bg-[#a00d25] transition-colors">
-                Request a Quote
+                Get a Free Security Assessment
               </Link>
             </div>
           </div>

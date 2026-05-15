@@ -80,7 +80,7 @@ export default function LocationPage({
                 <h3 className="text-[#1a1a2e] font-black uppercase text-sm tracking-widest mb-5">Get a Quote</h3>
                 <p className="text-[#4a4a4a] text-sm mb-5">Fast response. Local knowledge. No lock-in contracts.</p>
                 <Link href="/contact" className="block w-full bg-[#c8102e] text-white font-bold py-3 text-sm uppercase tracking-widest text-center hover:bg-[#a00d25] transition-colors">
-                  Contact Us Now
+                  Request {suburb} Security Quote
                 </Link>
                 <a href="tel:1300000000" className="block w-full mt-3 border border-[#1a1a2e] text-[#1a1a2e] font-bold py-3 text-sm uppercase tracking-widest text-center hover:bg-[#1a1a2e] hover:text-white transition-colors">
                   1300 XXX XXX
@@ -143,7 +143,7 @@ export default function LocationPage({
             <p className="text-gray-400">Local expertise. Fast response. Competitive pricing.</p>
           </div>
           <Link href="/contact" className="shrink-0 bg-[#c8102e] text-white font-bold px-8 py-4 text-sm uppercase tracking-widest hover:bg-[#a00d25] transition-colors">
-            Get a Free Quote
+            Get Security Guards in {suburb}
           </Link>
         </div>
       </section>

@@ -109,7 +109,7 @@ export default function SectorPage({
             <p className="text-gray-400">Tailored solutions, competitive pricing, no lock-in contracts.</p>
           </div>
           <Link href="/contact" className="shrink-0 bg-[#c8102e] text-white font-bold px-8 py-4 text-sm uppercase tracking-widest hover:bg-[#a00d25] transition-colors">
-            Request a Quote
+            Enquire About {name} Security
           </Link>
         </div>
       </section>

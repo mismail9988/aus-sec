@@ -134,13 +134,13 @@ export default function HomePage() {
                 href="/contact"
                 className="bg-[#c8102e] text-white font-bold px-8 py-4 text-sm uppercase tracking-widest hover:bg-[#a00d25] transition-colors text-center"
               >
-                Request a Free Quote
+                Get a Free Security Quote in Melbourne
               </Link>
               <Link
                 href="/services"
                 className="border-2 border-white/40 text-white font-bold px-8 py-4 text-sm uppercase tracking-widest hover:border-white hover:bg-white/10 transition-colors text-center"
               >
-                Our Services
+                View Our Security Services
               </Link>
             </div>
           </div>
@@ -225,7 +225,7 @@ export default function HomePage() {
               href="/services"
               className="inline-block border-2 border-[#1a1a2e] text-[#1a1a2e] font-bold px-8 py-3.5 text-sm uppercase tracking-widest hover:bg-[#1a1a2e] hover:text-white transition-colors"
             >
-              View All Services
+              View All Security Services
             </Link>
           </div>
         </div>
@@ -362,7 +362,7 @@ export default function HomePage() {
                 href="/contact"
                 className="bg-[#c8102e] text-white font-bold px-8 py-4 text-sm uppercase tracking-widest hover:bg-[#a00d25] transition-colors text-center"
               >
-                Get a Free Quote
+                Request a Melbourne Security Quote
               </Link>
               <a
                 href="tel:1300000000"
