@@ -36,11 +36,12 @@ export default function Footer() {
                 { href: "/services/mobile-patrols", label: "Mobile Patrols" },
                 { href: "/services/event-security", label: "Event Security" },
                 { href: "/services/retail-security", label: "Retail Security" },
+                { href: "/services/loss-prevention", label: "Loss Prevention" },
+                { href: "/services/concierge-security", label: "Concierge Security" },
+                { href: "/services/armed-security", label: "Armed Security" },
                 { href: "/services/crowd-control", label: "Crowd Control" },
                 { href: "/services/canine-security", label: "Canine Security" },
                 { href: "/services/electronic-security", label: "Electronic Security" },
-                { href: "/services/electronic-security/cctv", label: "CCTV & Surveillance" },
-                { href: "/services/electronic-security/alarms", label: "Alarm Systems" },
               ].map((link) => (
                 <li key={link.href}>
                   <Link href={link.href} className="text-gray-400 hover:text-white text-sm transition-colors flex items-center gap-2 group">
@@ -81,14 +82,17 @@ export default function Footer() {
             <h3 className="text-white font-black uppercase text-xs tracking-widest mb-5 pb-3 border-b border-gray-700">Company</h3>
             <ul className="space-y-2.5">
               {[
+                { href: "/security-company-melbourne", label: "Security Company Melbourne" },
+                { href: "/hire-security-guard-melbourne", label: "How to Hire a Security Guard" },
                 { href: "/about", label: "About Us" },
+                { href: "/sustainability", label: "Sustainability" },
                 { href: "/reviews", label: "Client Reviews" },
                 { href: "/case-studies", label: "Case Studies" },
                 { href: "/free-security-audit", label: "Free Security Audit" },
                 { href: "/emergency-security", label: "Emergency Security" },
+                { href: "/security-guard-cost", label: "Security Guard Cost" },
                 { href: "/blog", label: "Insights" },
                 { href: "/careers", label: "Careers" },
-                { href: "/security-guard-cost", label: "Security Guard Cost" },
                 { href: "/contact", label: "Contact Us" },
               ].map((link) => (
                 <li key={link.href}>

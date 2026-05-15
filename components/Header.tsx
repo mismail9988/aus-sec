@@ -94,6 +94,8 @@ const nav = [
       {
         group: "Our Credentials",
         links: [
+          { href: "/security-company-melbourne", label: "Security Company Melbourne" },
+          { href: "/hire-security-guard-melbourne", label: "How to Hire a Security Guard" },
           { href: "/reviews", label: "Client Reviews" },
           { href: "/case-studies", label: "Case Studies" },
           { href: "/free-security-audit", label: "Free Security Audit" },

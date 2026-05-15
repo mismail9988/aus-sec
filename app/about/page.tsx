@@ -200,7 +200,10 @@ export default function AboutPage() {
             <h2 className="text-3xl font-black text-[#1a1a2e] uppercase mb-2">
               Work With Melbourne&apos;s Trusted Security Team
             </h2>
-            <p className="text-[#767676]">Contact us today to discuss your security needs.</p>
+            <p className="text-[#767676] mb-3">Contact us today to discuss your security needs.</p>
+            <Link href="/sustainability" className="text-[#c8102e] text-sm font-bold hover:underline">
+              Read about our sustainability &amp; ethical commitments →
+            </Link>
           </div>
           <Link
             href="/contact"

@@ -14,7 +14,7 @@ const services = [
     ),
     title: "Corporate Security",
     desc: "Professional uniformed guards for offices, commercial buildings, and corporate campuses across Melbourne.",
-    href: "/services",
+    href: "/services/corporate-security",
   },
   {
     icon: (
@@ -22,9 +22,9 @@ const services = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
       </svg>
     ),
-    title: "Retail Security",
-    desc: "Loss prevention and customer safety solutions for retail stores, shopping centres, and outlets.",
-    href: "/services",
+    title: "Retail & Loss Prevention",
+    desc: "Loss prevention officers and uniformed guards reducing shrinkage and protecting staff in retail environments.",
+    href: "/services/loss-prevention",
   },
   {
     icon: (
@@ -34,7 +34,7 @@ const services = [
     ),
     title: "Event Security",
     desc: "Crowd management and access control for concerts, festivals, corporate events, and private functions.",
-    href: "/services",
+    href: "/services/event-security",
   },
   {
     icon: (
@@ -44,7 +44,7 @@ const services = [
     ),
     title: "Mobile Patrols",
     desc: "GPS-tracked mobile patrol services providing visible security deterrence across your site or multiple locations.",
-    href: "/services",
+    href: "/services/mobile-patrols",
   },
   {
     icon: (
@@ -52,9 +52,9 @@ const services = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
       </svg>
     ),
-    title: "Residential Security",
-    desc: "Gate control, concierge security, and property patrols for homes, estates, and residential complexes.",
-    href: "/services",
+    title: "Concierge Security",
+    desc: "Front-of-house security officers combining professional reception duties with access control and building security.",
+    href: "/services/concierge-security",
   },
   {
     icon: (
@@ -62,9 +62,9 @@ const services = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
       </svg>
     ),
-    title: "Construction Security",
-    desc: "24/7 site protection for construction projects — safeguarding equipment, materials, and access points.",
-    href: "/services",
+    title: "Armed Security",
+    desc: "Licenced armed security officers for cash-in-transit, high-value asset protection, and specialised risk environments.",
+    href: "/services/armed-security",
   },
 ];
 
@@ -143,6 +143,12 @@ export default function HomePage() {
                 View Our Security Services
               </Link>
             </div>
+            <p className="text-gray-400 text-sm mt-4">
+              New to hiring security?{" "}
+              <Link href="/hire-security-guard-melbourne" className="text-white underline hover:text-[#c8102e] transition-colors">
+                Read our guide to hiring a security guard in Melbourne
+              </Link>
+            </p>
           </div>
         </div>
       </section>
@@ -301,12 +307,20 @@ export default function HomePage() {
                   </li>
                 ))}
               </ul>
-              <Link
-                href="/contact"
-                className="inline-block bg-[#c8102e] text-white font-bold px-8 py-4 text-sm uppercase tracking-widest hover:bg-[#a00d25] transition-colors"
-              >
-                Request a Free Quote
-              </Link>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Link
+                  href="/contact"
+                  className="inline-block bg-[#c8102e] text-white font-bold px-8 py-4 text-sm uppercase tracking-widest hover:bg-[#a00d25] transition-colors text-center"
+                >
+                  Request a Free Quote
+                </Link>
+                <Link
+                  href="/security-company-melbourne"
+                  className="inline-block border-2 border-[#1a1a2e] text-[#1a1a2e] font-bold px-8 py-4 text-sm uppercase tracking-widest hover:bg-[#1a1a2e] hover:text-white transition-colors text-center"
+                >
+                  Why Choose Us
+                </Link>
+              </div>
             </div>
           </div>
         </div>
