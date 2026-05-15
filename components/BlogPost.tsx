@@ -37,7 +37,18 @@ export default function BlogPost({ title, category, date, readTime, children }: 
 
       <article className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="prose prose-lg max-w-none text-[#4a4a4a] leading-relaxed">
+          <div className="max-w-none text-[#4a4a4a] leading-relaxed
+            [&>p]:mb-6 [&>p]:text-[17px] [&>p]:leading-8
+            [&>h2]:text-2xl [&>h2]:font-black [&>h2]:text-[#1a1a2e] [&>h2]:uppercase [&>h2]:mt-12 [&>h2]:mb-4 [&>h2]:tracking-wide
+            [&>h3]:text-lg [&>h3]:font-black [&>h3]:text-[#1a1a2e] [&>h3]:uppercase [&>h3]:mt-8 [&>h3]:mb-3
+            [&>ul]:mb-6 [&>ul]:pl-0 [&>ul]:space-y-2
+            [&>ul>li]:flex [&>ul>li]:gap-3 [&>ul>li]:items-start [&>ul>li]:text-[17px] [&>ul>li]:leading-7
+            [&>ul>li]:before:content-[''] [&>ul>li]:before:w-1.5 [&>ul>li]:before:h-1.5 [&>ul>li]:before:bg-[#c8102e] [&>ul>li]:before:rounded-full [&>ul>li]:before:mt-2.5 [&>ul>li]:before:shrink-0
+            [&>ol]:mb-6 [&>ol]:pl-6 [&>ol]:space-y-2 [&>ol]:list-decimal
+            [&>ol>li]:text-[17px] [&>ol>li]:leading-7 [&>ol>li]:pl-1 [&>ol>li]:marker:text-[#c8102e] [&>ol>li]:marker:font-black
+            [&>blockquote]:border-l-4 [&>blockquote]:border-[#c8102e] [&>blockquote]:pl-6 [&>blockquote]:py-2 [&>blockquote]:my-8 [&>blockquote]:bg-[#f4f4f4] [&>blockquote]:italic [&>blockquote]:text-[#4a4a4a]
+            [&_strong]:font-bold [&_strong]:text-[#1a1a2e]
+            [&_a]:text-[#c8102e] [&_a]:underline [&_a:hover]:text-[#a00d25]">
             {children}
           </div>
 
