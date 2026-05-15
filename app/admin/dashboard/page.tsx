@@ -44,7 +44,7 @@ export default function AdminDashboard() {
 
   async function fetchData() {
     const res = await fetch("/api/admin/leads/");
-    if (res.status === 401) { router.push("/admin/"); return; }
+    if (res.status === 401) { router.push("/admin/login/"); return; }
     const data = await res.json();
     setLeads(data.leads || []);
     setAudits(data.audits || []);
@@ -62,7 +62,7 @@ export default function AdminDashboard() {
 
   async function handleLogout() {
     await fetch("/api/admin/logout/", { method: "POST" });
-    router.push("/admin/");
+    router.push("/admin/login/");
   }
 
   useEffect(() => { fetchData(); }, []);
