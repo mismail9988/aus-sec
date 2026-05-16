@@ -137,7 +137,13 @@ export default function Footer() {
       <div className="border-t border-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row justify-between items-center gap-3">
           <p className="text-gray-500 text-xs">&copy; {new Date().getFullYear()} Security Guard Company Melbourne. All rights reserved.</p>
-          <p className="text-gray-600 text-xs">Security Licence: XXXXXXXX &bull; ABN: XX XXX XXX XXX &bull; Melbourne, VIC, Australia</p>
+          <div className="flex items-center gap-4">
+            <Link href="/privacy-policy/" className="text-gray-600 text-xs hover:text-gray-400 transition-colors">Privacy Policy</Link>
+            <span className="text-gray-700">·</span>
+            <Link href="/terms/" className="text-gray-600 text-xs hover:text-gray-400 transition-colors">Terms of Service</Link>
+            <span className="text-gray-700">·</span>
+            <p className="text-gray-600 text-xs">Security Licence: XXXXXXXX &bull; ABN: XX XXX XXX XXX</p>
+          </div>
         </div>
       </div>
     </footer>

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ApplicationForm from "@/components/ApplicationForm";
 
 export const metadata: Metadata = {
   title: "Careers in Security Melbourne | Security Guard Company Melbourne",
@@ -125,9 +126,9 @@ export default function CareersPage() {
                   </div>
                 ))}
               </div>
-              <Link href="/contact" className="block mt-8 bg-[#c8102e] text-white font-bold text-center py-3 text-sm uppercase tracking-widest hover:bg-[#a00d25] transition-colors">
+              <a href="#apply" className="block mt-8 bg-[#c8102e] text-white font-bold text-center py-3 text-sm uppercase tracking-widest hover:bg-[#a00d25] transition-colors">
                 Apply Now
-              </Link>
+              </a>
             </div>
           </div>
         </div>
@@ -151,12 +152,24 @@ export default function CareersPage() {
                   </div>
                   <p className="text-[#767676] text-sm">{role.desc}</p>
                 </div>
-                <Link href="/contact" className="shrink-0 bg-[#c8102e] text-white font-bold px-6 py-3 text-xs uppercase tracking-widest hover:bg-[#a00d25] transition-colors text-center">
+                <a href="#apply" className="shrink-0 bg-[#c8102e] text-white font-bold px-6 py-3 text-xs uppercase tracking-widest hover:bg-[#a00d25] transition-colors text-center">
                   Apply
-                </Link>
+                </a>
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Application Form */}
+      <section id="apply" className="py-20 bg-[#f4f4f4]">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <p className="text-[#c8102e] text-xs uppercase tracking-widest font-bold mb-3">Apply Today</p>
+            <h2 className="text-3xl font-black text-[#1a1a2e] uppercase">Submit Your Application</h2>
+            <div className="w-12 h-1 bg-[#c8102e] mx-auto mt-4" />
+          </div>
+          <ApplicationForm roles={roles.map(r => r.title)} />
         </div>
       </section>
     </>
