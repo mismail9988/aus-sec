@@ -18,6 +18,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/case-studies",
     "/free-security-audit",
     "/emergency-security",
+    "/faqs",
+    "/book",
   ];
 
   const service_pages = [
@@ -36,6 +38,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/services/electronic-security/cctv",
     "/services/electronic-security/access-control",
     "/services/electronic-security/alarms",
+    "/services/construction-security",
+  ];
+
+  const booking_pages = [
+    "/book/event-security",
+    "/book/mobile-patrols",
+    "/book/corporate-security",
+    "/book/retail-security",
+    "/book/construction-security",
+    "/book/crowd-control",
+    "/book/canine-security",
+    "/book/concierge-security",
+    "/book/armed-security",
+    "/book/loss-prevention",
+    "/book/emergency-security",
+    "/book/contract-security",
+    "/book/security-audit",
   ];
 
   const sector_pages = [
@@ -123,6 +142,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const all_pages = [
     ...static_pages,
     ...service_pages,
+    ...booking_pages,
     ...sector_pages,
     ...location_pages,
     ...blog_pages,
@@ -135,6 +155,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority:
       path === "/" ? 1.0
       : path.startsWith("/services/") && path.split("/").length === 3 ? 0.9
+      : path.startsWith("/book/") && path !== "/book" ? 0.85
       : path.startsWith("/locations/") && path !== "/locations" ? 0.85
       : path.startsWith("/sectors/") && path !== "/sectors" ? 0.8
       : path.startsWith("/blog/") && path !== "/blog" ? 0.7

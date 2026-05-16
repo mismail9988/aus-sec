@@ -39,6 +39,13 @@ const nav = [
     ],
   },
   {
+    group: "Finance",
+    items: [
+      { href: "/admin/invoices/", label: "Invoices", icon: "M9 14l6-6m-5.5.5h.01m4.99 5h.01M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5" },
+      { href: "/admin/invoices/new/", label: "New Invoice", icon: "M12 4v16m8-8H4" },
+    ],
+  },
+  {
     group: "Reports",
     items: [
       { href: "/admin/reports/", label: "Overview", icon: "M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" },

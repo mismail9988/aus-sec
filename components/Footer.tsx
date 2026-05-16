@@ -118,6 +118,7 @@ export default function Footer() {
                 { href: "/emergency-security", label: "Emergency Security" },
                 { href: "/security-guard-cost", label: "Security Guard Cost" },
                 { href: "/blog", label: "Insights" },
+                { href: "/faqs", label: "FAQs" },
                 { href: "/careers", label: "Careers" },
                 { href: "/contact", label: "Contact Us" },
               ].map((link) => (

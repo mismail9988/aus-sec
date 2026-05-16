@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { supabaseAdmin } from "@/lib/supabase";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
@@ -83,27 +84,71 @@ const stats = [
   { value: "100%", label: "Licenced Guards" },
 ];
 
-const testimonials = [
+const fallbackTestimonials = [
   {
     name: "James Mitchell",
     role: "Operations Manager — Collins Street Office",
     text: "Exceptional service from start to finish. Their guards are professional, punctual, and handle every situation with composure. Highly recommended.",
+    rating: 5,
   },
   {
     name: "Sarah Chen",
     role: "Event Director — Melbourne Events Co.",
     text: "We rely on Security Guard Company Melbourne for all our major events. Their team is always well-prepared, courteous, and keeps everything running safely.",
+    rating: 5,
   },
   {
     name: "David O'Brien",
     role: "Store Manager — Southland Shopping Centre",
     text: "Since engaging their retail security team, our shrinkage has dropped significantly. Proactive, vigilant, and a pleasure to work with.",
+    rating: 5,
   },
 ];
 
-export default function HomePage() {
+export default async function HomePage() {
+  const { data: dbTestimonials } = await supabaseAdmin
+    .from("testimonials")
+    .select("name, role, text, rating, company")
+    .eq("published", true)
+    .order("created_at", { ascending: false })
+    .limit(3);
+
+  const testimonials = dbTestimonials && dbTestimonials.length > 0
+    ? dbTestimonials.map(t => ({
+        name: t.name,
+        role: t.company ? (t.role ? `${t.role} — ${t.company}` : t.company) : (t.role || ""),
+        text: t.text,
+        rating: t.rating || 5,
+      }))
+    : fallbackTestimonials;
+
+  const avgRating = testimonials.reduce((sum, t) => sum + (t.rating || 5), 0) / testimonials.length;
+
+  const reviewSchema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    name: "Security Guard Company Melbourne",
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: avgRating.toFixed(1),
+      reviewCount: testimonials.length,
+      bestRating: "5",
+      worstRating: "1",
+    },
+    review: testimonials.map(t => ({
+      "@type": "Review",
+      author: { "@type": "Person", name: t.name },
+      reviewBody: t.text,
+      reviewRating: { "@type": "Rating", ratingValue: t.rating || 5, bestRating: "5", worstRating: "1" },
+    })),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
+      />
       {/* ── Hero ─────────────────────────────────────────────────────── */}
       <section className="relative bg-[#1a1a2e] overflow-hidden min-h-[85vh] flex items-center">
         {/* Background pattern overlay */}
@@ -348,7 +393,7 @@ export default function HomePage() {
               <div key={i} className="bg-white p-8 flex flex-col">
                 {/* Stars */}
                 <div className="flex gap-1 mb-5">
-                  {[...Array(5)].map((_, j) => (
+                  {[...Array(t.rating || 5)].map((_, j) => (
                     <svg key={j} className="w-4 h-4 text-[#c8102e]" fill="currentColor" viewBox="0 0 20 20">
                       <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                     </svg>
