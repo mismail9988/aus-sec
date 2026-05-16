@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { supabaseAdmin } from "@/lib/supabase";
 
 export const metadata: Metadata = {
   title: "Client Reviews & Testimonials | Security Guard Company Melbourne",
@@ -15,7 +16,7 @@ export const metadata: Metadata = {
   },
 };
 
-const reviews = [
+const hardcodedReviews = [
   {
     name: "James Hartley",
     role: "Facility Manager",
@@ -114,6 +115,8 @@ const reviews = [
   },
 ];
 
+type Review = { name: string; role: string; company: string; sector: string; rating: number; text: string };
+
 const sectors = ["All", "Corporate", "Retail", "Construction", "Events", "Healthcare", "Hospitality", "Warehousing", "Aged Care", "Commercial Real Estate"];
 
 function StarRating({ rating }: { rating: number }) {
@@ -133,7 +136,23 @@ function StarRating({ rating }: { rating: number }) {
   );
 }
 
-export default function ReviewsPage() {
+export default async function ReviewsPage() {
+  const { data: dbReviews } = await supabaseAdmin
+    .from("testimonials")
+    .select("name, role, company, text, rating")
+    .eq("published", true)
+    .order("created_at", { ascending: false });
+
+  const dynamicReviews: Review[] = (dbReviews || []).map(r => ({
+    name: r.name,
+    role: r.role || "",
+    company: r.company || "",
+    sector: "General",
+    rating: r.rating || 5,
+    text: r.text,
+  }));
+
+  const reviews: Review[] = [...dynamicReviews, ...hardcodedReviews];
   const avgRating = (reviews.reduce((a, r) => a + r.rating, 0) / reviews.length).toFixed(1);
 
   return (
