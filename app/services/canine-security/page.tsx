@@ -49,6 +49,8 @@ export default function CanineSecurityPage() {
         { label: "Services", href: "/services" },
         { label: "Canine Security", href: "/services/canine-security" },
       ]}
+      bookingHref="/book/canine-security/"
+
       ctaTitle="Deploy Canine Security at Your Site"
       ctaSubtitle="The most effective deterrent for construction sites, industrial estates, and high-risk properties."
     />

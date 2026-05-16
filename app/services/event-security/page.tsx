@@ -50,6 +50,8 @@ export default function EventSecurityPage() {
         { label: "Services", href: "/services" },
         { label: "Event Security", href: "/services/event-security" },
       ]}
+      bookingHref="/book/event-security/"
+
       ctaTitle="Get an Event Security Quote"
       ctaSubtitle="Tell us about your event and we'll put together a tailored security plan."
     />

@@ -49,6 +49,8 @@ export default function CrowdControlPage() {
         { label: "Services", href: "/services" },
         { label: "Crowd Control", href: "/services/crowd-control" },
       ]}
+      bookingHref="/book/crowd-control/"
+
       ctaTitle="Get Crowd Control for Your Venue"
       ctaSubtitle="Professional, licenced door staff — available 7 nights a week."
     />

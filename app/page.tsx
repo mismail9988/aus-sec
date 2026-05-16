@@ -139,13 +139,13 @@ export default function HomePage() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
-                href="/contact"
+                href="/book/"
                 className="bg-[#c8102e] text-white font-bold px-8 py-4 text-sm uppercase tracking-widest hover:bg-[#a00d25] transition-colors text-center"
               >
-                Get a Free Security Quote in Melbourne
+                Book a Security Service
               </Link>
               <Link
-                href="/services"
+                href="/contact"
                 className="border-2 border-white/40 text-white font-bold px-8 py-4 text-sm uppercase tracking-widest hover:border-white hover:bg-white/10 transition-colors text-center"
               >
                 View Our Security Services

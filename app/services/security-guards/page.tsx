@@ -50,6 +50,8 @@ export default function SecurityGuardsPage() {
         { label: "Services", href: "/services" },
         { label: "Security Guards", href: "/services/security-guards" },
       ]}
+      bookingHref="/book/quote/"
+
       ctaTitle="Get a Security Guard Quote"
       ctaSubtitle="Fast response. Competitive pricing. No lock-in contracts."
     />

@@ -51,6 +51,8 @@ export default function CorporateSecurityPage() {
           { label: "Services", href: "/services" },
           { label: "Corporate Security", href: "/services/corporate-security" },
         ]}
+        bookingHref="/book/corporate-security/"
+
         ctaTitle="Secure Your Corporate Environment"
         ctaSubtitle="Professional corporate security — contact us for a building assessment."
       />

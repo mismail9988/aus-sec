@@ -16,6 +16,7 @@ interface ServicePageProps {
   breadcrumbs: { label: string; href: string }[];
   ctaTitle: string;
   ctaSubtitle: string;
+  bookingHref?: string;
   icon?: ReactNode;
 }
 
@@ -29,6 +30,7 @@ export default function ServicePage({
   breadcrumbs,
   ctaTitle,
   ctaSubtitle,
+  bookingHref,
   icon,
 }: ServicePageProps) {
   return (
@@ -39,7 +41,17 @@ export default function ServicePage({
           <p className="text-[#c8102e] text-xs uppercase tracking-widest font-bold mb-4">{category}</p>
           <h1 className="text-4xl md:text-5xl font-black text-white uppercase leading-tight mb-4">{name}</h1>
           <div className="w-12 h-1 bg-[#c8102e] mb-6" />
-          <p className="text-gray-300 text-lg max-w-2xl font-light">{intro}</p>
+          <p className="text-gray-300 text-lg max-w-2xl font-light mb-8">{intro}</p>
+          <div className="flex flex-wrap gap-3">
+            {bookingHref && (
+              <Link href={bookingHref} className="bg-[#c8102e] text-white font-bold px-6 py-3 text-sm uppercase tracking-widest hover:bg-[#a00d25] transition-colors">
+                Book Now
+              </Link>
+            )}
+            <Link href="/contact" className="border border-white text-white font-bold px-6 py-3 text-sm uppercase tracking-widest hover:bg-white hover:text-[#1a1a2e] transition-colors">
+              Get a Free Quote
+            </Link>
+          </div>
         </div>
       </section>
 
@@ -114,9 +126,16 @@ export default function ServicePage({
             <h2 className="text-3xl font-black text-white uppercase mb-2">{ctaTitle}</h2>
             <p className="text-gray-400">{ctaSubtitle}</p>
           </div>
-          <Link href="/contact" className="shrink-0 bg-[#c8102e] text-white font-bold px-8 py-4 text-sm uppercase tracking-widest hover:bg-[#a00d25] transition-colors">
-            Enquire About {name}
-          </Link>
+          <div className="flex flex-col sm:flex-row gap-3 shrink-0">
+            {bookingHref && (
+              <Link href={bookingHref} className="bg-[#c8102e] text-white font-bold px-8 py-4 text-sm uppercase tracking-widest hover:bg-[#a00d25] transition-colors text-center">
+                Book Now
+              </Link>
+            )}
+            <Link href="/contact" className="border border-white text-white font-bold px-8 py-4 text-sm uppercase tracking-widest hover:bg-white hover:text-[#1a1a2e] transition-colors text-center">
+              Get a Quote
+            </Link>
+          </div>
         </div>
       </section>
     </>

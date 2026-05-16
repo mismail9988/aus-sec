@@ -49,6 +49,8 @@ export default function ConciergeSecurityPage() {
         { label: "Services", href: "/services" },
         { label: "Concierge Security", href: "/services/concierge-security" },
       ]}
+      bookingHref="/book/concierge-security/"
+
       ctaTitle="Upgrade Your Building's Security Presence"
       ctaSubtitle="Professional concierge security for Melbourne's best buildings."
     />

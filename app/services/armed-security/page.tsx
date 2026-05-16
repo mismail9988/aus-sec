@@ -49,6 +49,8 @@ export default function ArmedSecurityPage() {
         { label: "Services", href: "/services" },
         { label: "Armed Security", href: "/services/armed-security" },
       ]}
+      bookingHref="/book/armed-security/"
+
       ctaTitle="Discuss Your Armed Security Requirement"
       ctaSubtitle="Confidential consultation — we'll assess your risk profile and recommend the right solution."
     />

@@ -51,6 +51,8 @@ export default function RetailSecurityPage() {
           { label: "Services", href: "/services" },
           { label: "Retail Security", href: "/services/retail-security" },
         ]}
+        bookingHref="/book/retail-security/"
+
         ctaTitle="Reduce Retail Theft Today"
         ctaSubtitle="Get a loss prevention assessment and quote for your store."
       />

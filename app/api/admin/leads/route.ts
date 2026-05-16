@@ -42,12 +42,16 @@ export async function PATCH(req: NextRequest) {
   const user = await verifyAdmin(token);
   if (!user) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
-  const { id, table, status } = await req.json();
+  const { id, table, status, notes } = await req.json();
   const tableName = table === "audit" ? "audit_bookings" : "leads";
+
+  const update: Record<string, string> = {};
+  if (status) update.status = status;
+  if (notes !== undefined) update.notes = notes;
 
   const { error } = await supabaseAdmin
     .from(tableName)
-    .update({ status })
+    .update(update)
     .eq("id", id);
 
   if (error) return NextResponse.json({ error: error.message }, { status: 500 });

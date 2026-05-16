@@ -49,6 +49,8 @@ export default function LossPreventionPage() {
         { label: "Services", href: "/services" },
         { label: "Loss Prevention", href: "/services/loss-prevention" },
       ]}
+      bookingHref="/book/loss-prevention/"
+
       ctaTitle="Reduce Your Retail Shrinkage"
       ctaSubtitle="Get a free shrinkage assessment and loss prevention proposal."
     />
