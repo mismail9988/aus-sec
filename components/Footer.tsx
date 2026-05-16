@@ -41,6 +41,7 @@ export default function Footer() {
                 { href: "/services/armed-security", label: "Armed Security" },
                 { href: "/services/crowd-control", label: "Crowd Control" },
                 { href: "/services/canine-security", label: "Canine Security" },
+                { href: "/services/construction-security", label: "Construction Security" },
                 { href: "/services/electronic-security", label: "Electronic Security" },
               ].map((link) => (
                 <li key={link.href}>
@@ -66,6 +67,31 @@ export default function Footer() {
                 { href: "/locations/werribee", label: "Werribee" },
                 { href: "/locations/broadmeadows", label: "Broadmeadows" },
                 { href: "/locations", label: "All Locations →" },
+              ].map((link) => (
+                <li key={link.href}>
+                  <Link href={link.href} className="text-gray-400 hover:text-white text-sm transition-colors flex items-center gap-2 group">
+                    <span className="w-1 h-1 bg-[#c8102e] rounded-full group-hover:w-2 transition-all shrink-0" />
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Book Now */}
+          <div>
+            <h3 className="text-white font-black uppercase text-xs tracking-widest mb-5 pb-3 border-b border-gray-700">Book a Service</h3>
+            <ul className="space-y-2.5">
+              {[
+                { href: "/book/", label: "All Booking Forms" },
+                { href: "/book/quote/", label: "Request a Quote" },
+                { href: "/book/event-security/", label: "Event Security" },
+                { href: "/book/mobile-patrols/", label: "Mobile Patrols" },
+                { href: "/book/construction-security/", label: "Construction Security" },
+                { href: "/book/corporate-security/", label: "Corporate Security" },
+                { href: "/book/crowd-control/", label: "Crowd Control" },
+                { href: "/book/canine-security/", label: "Canine Security" },
+                { href: "/book/emergency-security/", label: "Emergency Request" },
               ].map((link) => (
                 <li key={link.href}>
                   <Link href={link.href} className="text-gray-400 hover:text-white text-sm transition-colors flex items-center gap-2 group">

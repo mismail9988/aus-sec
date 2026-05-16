@@ -21,6 +21,7 @@ const nav = [
           { href: "/services/concierge-security", label: "Concierge Security" },
           { href: "/services/canine-security", label: "Canine Security" },
           { href: "/services/armed-security", label: "Armed Security" },
+          { href: "/services/construction-security", label: "Construction Security" },
         ],
       },
       {
@@ -213,6 +214,9 @@ export default function Header() {
                   )}
                 </div>
               ))}
+              <Link href="/book/" className="ml-2 border border-[#c8102e] text-[#c8102e] font-bold px-5 py-2.5 text-xs uppercase tracking-wide hover:bg-[#c8102e] hover:text-white transition-colors">
+                Book Now
+              </Link>
               <Link href="/contact" className="ml-2 bg-[#c8102e] text-white font-bold px-5 py-2.5 text-xs uppercase tracking-wide hover:bg-[#a00d25] transition-colors">
                 Get a Quote
               </Link>
@@ -270,7 +274,10 @@ export default function Header() {
                 )}
               </div>
             ))}
-            <Link href="/contact" className="block mt-4 bg-[#c8102e] text-white font-bold py-3 text-sm uppercase tracking-widest text-center hover:bg-[#a00d25] transition-colors" onClick={() => setMenuOpen(false)}>
+            <Link href="/book/" className="block mt-3 border border-[#c8102e] text-[#c8102e] font-bold py-3 text-sm uppercase tracking-widest text-center hover:bg-[#c8102e] hover:text-white transition-colors" onClick={() => setMenuOpen(false)}>
+              Book a Service
+            </Link>
+            <Link href="/contact" className="block mt-2 bg-[#c8102e] text-white font-bold py-3 text-sm uppercase tracking-widest text-center hover:bg-[#a00d25] transition-colors" onClick={() => setMenuOpen(false)}>
               Get a Quote
             </Link>
           </div>
