@@ -64,7 +64,7 @@ export default function RetailSecurityPage() {
           { q: "How quickly can you deploy retail security?", a: "For urgent requirements we can often deploy within 24–48 hours. For planned ongoing retail security, we typically allow 3–5 days to match the right officer to your environment." },
           { q: "Do you provide security for shopping centres as well as individual stores?", a: "Yes — individual retail outlets, multi-tenancy strips, and large shopping centres. For centres we work with centre management to develop a coordinated security approach across all tenancies." },
           { q: "Can retail security help with staff safety, not just theft?", a: "Absolutely. Retail environments increasingly face aggression, particularly at self-checkouts and service desks. Our officers are trained in conflict de-escalation and provide a visible protective presence for your staff as well as your stock." },
-        }}
+        ]}
       />
       <section className="py-12 bg-white border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
