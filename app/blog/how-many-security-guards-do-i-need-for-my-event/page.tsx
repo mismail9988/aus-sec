@@ -22,6 +22,7 @@ export default function EventSecurityGuardsPost() {
       title="How Many Security Guards Do I Need for My Event?"
       date="12 May 2025"
       readTime="7 min read"
+      relatedPosts={[{slug:"event-security-planning-guide",title:"Event Security Planning Guide for Melbourne Events",category:"Event Security",excerpt:"How to plan event security properly — from risk assessment and security management plans to briefing your team on the night."},{slug:"crowd-control-licensed-venues-victoria",title:"Crowd Control for Licensed Venues in Victoria: What the Law Requires",category:"Industry",excerpt:"What Victorian law requires for security at licensed premises — licensing obligations, RSA, and incident reporting."},{slug:"security-guard-cost-australia",title:"Security Guard Cost Australia 2025: What You Should Expect to Pay",category:"Security Advice",excerpt:"What security guards actually cost in Australia, why Award compliance matters, and how to evaluate a quote properly."}]}
     >
       <p>One of the most common questions we receive from event organisers is: <em>how many security guards do I actually need?</em></p>
       <p>It&apos;s a genuinely complex question — and the honest answer is that there&apos;s no universal formula. The right number depends on your event type, venue configuration, expected attendance, alcohol service, and your specific risk profile.</p>

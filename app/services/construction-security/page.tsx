@@ -53,6 +53,17 @@ export default function ConstructionSecurityPage() {
       ]}
       ctaTitle="Secure Your Construction Site"
       ctaSubtitle="Guards and canine patrols available from tonight. Response within 2 business hours."
+      testimonial={{
+        text: "We've had no major theft incidents since deploying Security Guard Company Melbourne across our Point Cook subdivision sites. Response to alarm activations is consistently under 20 minutes. Good mobile patrol service and solid reporting every morning.",
+        name: "Tom Elbrecht",
+        role: "Site Manager — Wyndham Growth Development",
+      }}
+      faqs={[
+        { q: "What security is most effective for construction sites?", a: "The most effective approach combines physical guards or canine patrols for after-hours deterrence with CCTV coverage for evidence capture. Mobile patrol vehicles that visit multiple times per night are cost-effective for large or spread-out sites." },
+        { q: "Can you respond to alarm activations at construction sites?", a: "Yes. Our mobile patrol vehicles respond to alarm activations at construction sites, typically within 20–30 minutes. We provide a written alarm response report after every activation." },
+        { q: "Do you provide security for multiple construction sites under one contract?", a: "Yes. Many of our construction clients operate multiple sites simultaneously. We manage security across all locations with a single point of contact and consolidated monthly reporting." },
+        { q: "Is construction site security tax deductible?", a: "In most cases yes — security is a legitimate business expense. We recommend confirming with your accountant. We provide detailed invoices that clearly itemise all services for your records." },
+      ]}
     />
   );
 }

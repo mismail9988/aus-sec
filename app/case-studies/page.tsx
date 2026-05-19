@@ -72,9 +72,19 @@ const caseStudies = [
   },
 ];
 
+const sectorColors: Record<string, string> = {
+  Retail: "bg-blue-100 text-blue-800",
+  Construction: "bg-orange-100 text-orange-800",
+  Healthcare: "bg-green-100 text-green-800",
+  Corporate: "bg-purple-100 text-purple-800",
+  Events: "bg-pink-100 text-pink-800",
+  Warehousing: "bg-yellow-100 text-yellow-800",
+};
+
 export default function CaseStudiesPage() {
   return (
     <>
+      {/* Hero */}
       <section className="bg-[#1a1a2e] py-20 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10" style={{ backgroundImage: "repeating-linear-gradient(45deg,#ffffff08 0,#ffffff08 1px,transparent 0,transparent 50%)", backgroundSize: "20px 20px" }} />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -87,6 +97,7 @@ export default function CaseStudiesPage() {
         </div>
       </section>
 
+      {/* Breadcrumb */}
       <div className="bg-[#f4f4f4] border-b border-gray-200 py-3">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center gap-2 text-xs text-gray-500">
           <Link href="/" className="hover:text-[#c8102e]">Home</Link><span>/</span>
@@ -94,42 +105,64 @@ export default function CaseStudiesPage() {
         </div>
       </div>
 
+      {/* Summary stats bar */}
+      <div className="bg-white border-b border-gray-200 py-6">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
+            {[
+              { value: "6", label: "Industries Covered" },
+              { value: "$580K+", label: "Client Savings Documented" },
+              { value: "61%", label: "Best Incident Reduction" },
+              { value: "Zero", label: "Serious Incidents at Events" },
+            ].map((s, i) => (
+              <div key={i}>
+                <div className="text-2xl font-black text-[#c8102e]">{s.value}</div>
+                <div className="text-xs text-[#767676] uppercase tracking-wide font-bold mt-1">{s.label}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Case studies */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="space-y-12">
+          <div className="space-y-16">
             {caseStudies.map((cs, i) => (
-              <div key={i} className="border border-gray-200">
-                <div className="bg-[#1a1a2e] px-8 py-5 flex items-center justify-between gap-4">
-                  <div>
-                    <span className="text-[#c8102e] text-xs font-bold uppercase tracking-widest mr-4">{cs.sector}</span>
-                    <span className="text-white font-black uppercase text-lg">{cs.client}</span>
-                  </div>
-                  <div className="flex gap-6 shrink-0">
-                    {cs.metrics.map((m) => (
-                      <div key={m.label} className="text-center hidden sm:block">
-                        <div className="text-[#c8102e] font-black text-xl leading-none">{m.value}</div>
-                        <div className="text-gray-400 text-xs mt-0.5">{m.label}</div>
-                      </div>
-                    ))}
+              <div key={i} className="border border-gray-200 shadow-sm overflow-hidden">
+                {/* Header bar */}
+                <div className="bg-[#1a1a2e] px-8 py-5">
+                  <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+                    <div className="flex items-center gap-3 flex-wrap">
+                      <span className={`text-xs font-black uppercase tracking-widest px-3 py-1 ${sectorColors[cs.sector] ?? "bg-gray-100 text-gray-800"}`}>
+                        {cs.sector}
+                      </span>
+                      <span className="text-white font-black uppercase text-base leading-tight">{cs.client}</span>
+                    </div>
+                    <div className="flex gap-8 shrink-0">
+                      {cs.metrics.map((m) => (
+                        <div key={m.label} className="text-center">
+                          <div className="text-[#c8102e] font-black text-2xl leading-none">{m.value}</div>
+                          <div className="text-gray-400 text-xs mt-1 uppercase tracking-wide">{m.label}</div>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-gray-100">
+
+                {/* Content grid */}
+                <div className="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-gray-100">
                   {[
-                    { label: "The Challenge", content: cs.challenge },
-                    { label: "Our Solution", content: cs.solution },
-                    { label: "The Result", content: cs.result },
+                    { label: "The Challenge", content: cs.challenge, icon: "⚠️" },
+                    { label: "Our Solution", content: cs.solution, icon: "🛡️" },
+                    { label: "The Result", content: cs.result, icon: "✅" },
                   ].map((section) => (
                     <div key={section.label} className="bg-white p-8">
-                      <h3 className="text-[#c8102e] font-black uppercase text-xs tracking-widest mb-3">{section.label}</h3>
+                      <div className="flex items-center gap-2 mb-4">
+                        <span className="text-lg">{section.icon}</span>
+                        <h3 className="text-[#c8102e] font-black uppercase text-xs tracking-widest">{section.label}</h3>
+                      </div>
                       <p className="text-[#4a4a4a] text-sm leading-relaxed">{section.content}</p>
-                    </div>
-                  ))}
-                </div>
-                <div className="sm:hidden bg-[#f4f4f4] px-8 py-4 flex gap-6">
-                  {cs.metrics.map((m) => (
-                    <div key={m.label} className="text-center">
-                      <div className="text-[#c8102e] font-black text-xl leading-none">{m.value}</div>
-                      <div className="text-gray-500 text-xs mt-0.5">{m.label}</div>
                     </div>
                   ))}
                 </div>
@@ -139,6 +172,34 @@ export default function CaseStudiesPage() {
         </div>
       </section>
 
+      {/* Sector links */}
+      <section className="py-16 bg-[#f4f4f4] border-t border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-[#c8102e] text-xs uppercase tracking-widest font-bold mb-3">Your Industry</p>
+          <h2 className="text-3xl font-black text-[#1a1a2e] uppercase mb-4">We Know Your Sector</h2>
+          <div className="w-10 h-0.5 bg-[#c8102e] mx-auto mb-10" />
+          <div className="flex flex-wrap justify-center gap-3">
+            {[
+              { label: "Retail Security", href: "/services/retail-security/" },
+              { label: "Construction Security", href: "/services/construction-security/" },
+              { label: "Event Security", href: "/services/event-security/" },
+              { label: "Corporate Security", href: "/services/corporate-security/" },
+              { label: "Loss Prevention", href: "/services/loss-prevention/" },
+              { label: "Concierge Security", href: "/services/concierge-security/" },
+            ].map((link, i) => (
+              <Link
+                key={i}
+                href={link.href}
+                className="border border-[#1a1a2e] text-[#1a1a2e] font-bold text-xs uppercase tracking-widest px-5 py-3 hover:bg-[#1a1a2e] hover:text-white transition-colors"
+              >
+                {link.label}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
       <section className="bg-[#1a1a2e] py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between gap-8">
           <div>

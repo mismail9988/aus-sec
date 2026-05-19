@@ -50,9 +50,18 @@ export default function ConciergeSecurityPage() {
         { label: "Concierge Security", href: "/services/concierge-security" },
       ]}
       bookingHref="/book/concierge-security/"
-
       ctaTitle="Upgrade Your Building's Security Presence"
       ctaSubtitle="Professional concierge security for Melbourne's best buildings."
+      testimonial={{
+        text: "We manage a shared workspace with 200+ members and needed concierge security that matched our culture — not intimidating, but genuinely security-conscious. Security Guard Company Melbourne found us exactly the right officer. Professional, personable, and takes security seriously without making members feel unwelcome.",
+        name: "Rachel Thompson",
+        role: "Operations Manager — Brunswick Creative Hub",
+      }}
+      faqs={[
+        { q: "What does a concierge security officer actually do?", a: "A concierge security officer combines front-of-house reception duties with active security functions. They greet and direct visitors, manage building access control, monitor CCTV, respond to incidents, and maintain a professional security presence — all from the lobby desk." },
+        { q: "How is concierge security different from a standard security guard?", a: "Concierge officers are selected and trained specifically for client-facing environments. They have stronger communication skills, professional presentation standards, and are comfortable handling reception duties alongside their security responsibilities." },
+        { q: "Can concierge security integrate with our building management system?", a: "Yes. Our concierge officers are trained to work with access control platforms, visitor management systems, and building management software. We'll work with your building manager during onboarding to ensure seamless integration." },
+      ]}
     />
   );
 }

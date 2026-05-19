@@ -202,6 +202,28 @@ export default async function HomePage() {
                 Read our guide to hiring a security guard in Melbourne
               </Link>
             </p>
+
+            {/* Trust strip */}
+            <div className="mt-10 pt-10 border-t border-white/10 grid grid-cols-2 sm:grid-cols-4 gap-4">
+              {[
+                { icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z", label: "Fully Licenced", sub: "Private Security Act 2004" },
+                { icon: "M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4", label: "Police Checked", sub: "All guards verified" },
+                { icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z", label: "24/7 Response", sub: "Around the clock" },
+                { icon: "M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z", label: "200+ Guards", sub: "Ready to deploy" },
+              ].map((item, i) => (
+                <div key={i} className="flex items-center gap-3">
+                  <div className="w-9 h-9 bg-white/10 flex items-center justify-center shrink-0">
+                    <svg className="w-5 h-5 text-[#c8102e]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d={item.icon} />
+                    </svg>
+                  </div>
+                  <div>
+                    <div className="text-white font-bold text-xs uppercase tracking-wide">{item.label}</div>
+                    <div className="text-gray-400 text-xs mt-0.5">{item.sub}</div>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
@@ -285,6 +307,42 @@ export default async function HomePage() {
               className="inline-block border-2 border-[#1a1a2e] text-[#1a1a2e] font-bold px-8 py-3.5 text-sm uppercase tracking-widest hover:bg-[#1a1a2e] hover:text-white transition-colors"
             >
               View All Security Services
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ── How It Works ─────────────────────────────────────────────── */}
+      <section className="py-20 bg-[#1a1a2e]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-14">
+            <p className="text-[#c8102e] text-xs uppercase tracking-widest font-bold mb-3">Simple Process</p>
+            <h2 className="text-4xl font-black text-white uppercase mb-4">How It Works</h2>
+            <div className="w-12 h-1 bg-[#c8102e] mx-auto" />
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-0.5 bg-white/10">
+            {[
+              { step: "01", title: "Contact Us", desc: "Call, email, or fill out a booking form. Tell us your requirements — service type, location, dates, and any specific needs.", icon: "M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" },
+              { step: "02", title: "Free Assessment", desc: "We review your requirements and may conduct a free site assessment. You'll receive a detailed, transparent proposal within 24 hours.", icon: "M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" },
+              { step: "03", title: "Confirm & Brief", desc: "Once you approve the proposal, we assign and brief your security team. Every officer receives a detailed site brief before deployment.", icon: "M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" },
+              { step: "04", title: "Deploy & Report", desc: "Guards arrive on time, in uniform. You receive incident reports, shift confirmations, and direct access to your account manager.", icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" },
+            ].map((s, i) => (
+              <div key={i} className="bg-[#1a1a2e] p-8 relative">
+                <div className="text-[#c8102e] text-5xl font-black leading-none mb-5 opacity-30 absolute top-6 right-6">{s.step}</div>
+                <div className="w-12 h-12 bg-[#c8102e]/10 flex items-center justify-center mb-5">
+                  <svg className="w-6 h-6 text-[#c8102e]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d={s.icon} />
+                  </svg>
+                </div>
+                <div className="text-[#c8102e] text-xs font-bold uppercase tracking-widest mb-2">{s.step}</div>
+                <h3 className="text-white font-black uppercase text-lg mb-3">{s.title}</h3>
+                <p className="text-gray-400 text-sm leading-relaxed">{s.desc}</p>
+              </div>
+            ))}
+          </div>
+          <div className="text-center mt-10">
+            <Link href="/book/" className="inline-block bg-[#c8102e] text-white font-bold px-8 py-4 text-sm uppercase tracking-widest hover:bg-[#a00d25] transition-colors">
+              Get Started — Book Now
             </Link>
           </div>
         </div>

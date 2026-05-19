@@ -22,6 +22,7 @@ export default function EventSecurityPlanningPost() {
       title="Event Security Planning Guide for Melbourne Events"
       date="5 May 2025"
       readTime="9 min read"
+      relatedPosts={[{slug:"how-many-security-guards-do-i-need-for-my-event",title:"How Many Security Guards Do I Need for My Event?",category:"Event Security",excerpt:"A practical guide to calculating the right number of security guards for your event — industry ratios and risk factors."},{slug:"crowd-control-licensed-venues-victoria",title:"Crowd Control for Licensed Venues in Victoria: What the Law Requires",category:"Industry",excerpt:"What Victorian law requires for security at licensed premises — licensing obligations, RSA, and incident reporting."},{slug:"security-guard-cost-australia",title:"Security Guard Cost Australia 2025: What You Should Expect to Pay",category:"Security Advice",excerpt:"What security guards actually cost in Australia, why Award compliance matters, and how to evaluate a quote properly."}]}
     >
       <p>Effective event security doesn&apos;t start the day of your event — it starts in the planning phase, weeks or months beforehand. This guide walks through how professional event security planning works in Melbourne, what you need to prepare, and who you need to speak to.</p>
 

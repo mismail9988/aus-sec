@@ -22,6 +22,7 @@ export default function SecurityBudgetGuidePost() {
       title="How to Budget for Business Security in Melbourne"
       date="10 May 2025"
       readTime="8 min read"
+      relatedPosts={[{slug:"security-guard-cost-australia",title:"Security Guard Cost Australia 2025: What You Should Expect to Pay",category:"Security Advice",excerpt:"What security guards actually cost in Australia and how to evaluate a quote properly."},{slug:"do-i-need-static-guards-or-mobile-patrols",title:"Do I Need Static Security Guards or Mobile Patrols?",category:"Security Advice",excerpt:"Understanding the difference between static guards and mobile patrols — and how to choose."},{slug:"what-to-look-for-in-a-security-provider",title:"What to Look for in a Commercial Security Provider",category:"Security Advice",excerpt:"The key factors to evaluate when selecting a commercial security provider in Melbourne."}]}
     >
       <p>Security budgeting is one of the most uncomfortable topics in business — it&apos;s spending money to prevent something that may never happen, with no obvious revenue return, and a market that&apos;s difficult to navigate if you don&apos;t know what things should cost. This guide gives you a practical framework for building a security budget that is proportionate to your actual risk, and spending it where it counts.</p>
 

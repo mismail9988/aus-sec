@@ -22,6 +22,7 @@ export default function MobilePatrolVsStaticCostPost() {
       title="Mobile Patrol vs Static Guard: Which Is More Cost-Effective?"
       date="14 April 2025"
       readTime="6 min read"
+      relatedPosts={[{slug:"do-i-need-static-guards-or-mobile-patrols",title:"Do I Need Static Security Guards or Mobile Patrols?",category:"Security Advice",excerpt:"Understanding the difference between static guards and mobile patrols — and how to choose the right option."},{slug:"mobile-patrols-protect-business",title:"How Mobile Patrols Can Protect Your Business",category:"Mobile Patrols",excerpt:"Mobile patrol security offers flexibility, visibility, and cost-effectiveness for Melbourne businesses."},{slug:"security-guard-cost-australia",title:"Security Guard Cost Australia 2025: What You Should Expect to Pay",category:"Security Advice",excerpt:"What security guards actually cost in Australia and how to evaluate a quote properly."}]}
     >
       <p>The most common security question we receive from small and medium businesses is: do we need a security guard stationed at our premises, or will mobile patrol services be sufficient? The answer significantly affects cost — and understanding both options properly helps you make the right decision.</p>
 

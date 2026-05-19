@@ -22,6 +22,7 @@ export default function AccessControlBestPracticesPost() {
       title="Access Control Best Practices for Melbourne Businesses"
       date="2 May 2025"
       readTime="6 min read"
+      relatedPosts={[{slug:"access-control-systems-melbourne-offices",title:"Access Control Systems for Melbourne Offices",category:"Electronic Security",excerpt:"Cards, biometrics, cloud platforms — what type of access control does your office actually need?"},{slug:"cctv-for-small-business-melbourne",title:"CCTV for Small Business Melbourne: What You Need to Know",category:"Electronic Security",excerpt:"A practical guide to CCTV — what works, what doesn't, and how to use footage."},{slug:"corporate-security-office-buildings",title:"Building a Corporate Security Program for Melbourne Office Buildings",category:"Security Advice",excerpt:"How to build an effective, layered corporate security program for office buildings."}]}
     >
       <p>Access control is only as good as how it&apos;s managed. Many Melbourne businesses invest in a quality system, then undermine it with poor credential hygiene, no audit process, and permissions that grow unchecked over years. These best practices close the gap between what your system is capable of and what it actually delivers.</p>
 

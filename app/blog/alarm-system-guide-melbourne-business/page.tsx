@@ -22,6 +22,7 @@ export default function AlarmSystemGuidePost() {
       title="Alarm System Guide for Melbourne Businesses"
       date="20 April 2025"
       readTime="7 min read"
+      relatedPosts={[{slug:"cctv-for-small-business-melbourne",title:"CCTV for Small Business Melbourne: What You Need to Know",category:"Electronic Security",excerpt:"A practical guide to CCTV — what works, what doesn't, privacy rules, and how to use footage."},{slug:"access-control-systems-melbourne-offices",title:"Access Control Systems for Melbourne Offices",category:"Electronic Security",excerpt:"Cards, biometrics, cloud platforms — what type of access control does your office actually need?"},{slug:"mobile-patrols-protect-business",title:"How Mobile Patrols Can Protect Your Business",category:"Mobile Patrols",excerpt:"Mobile patrol security offers flexibility, visibility, and cost-effectiveness for Melbourne businesses."}]}
     >
       <p>Business alarm systems have evolved significantly over the past decade — from basic audible alarms to fully integrated, IP-connected systems with video verification and smartphone control. This guide helps Melbourne business owners understand their options and make an informed decision.</p>
 

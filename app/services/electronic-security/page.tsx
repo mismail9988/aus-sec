@@ -45,8 +45,32 @@ export default function ElectronicSecurityPage() {
           <p className="text-gray-300 text-lg max-w-2xl leading-relaxed font-light">
             Integrated electronic security technology working alongside our personnel — for a complete, layered security solution.
           </p>
+          <div className="mt-8 flex flex-wrap gap-3">
+            <Link href="/contact/" className="bg-[#c8102e] text-white font-bold px-7 py-3.5 text-sm uppercase tracking-widest hover:bg-[#a00d25] transition-colors">
+              Get a Free Assessment
+            </Link>
+            <Link href="/contact/" className="border border-white/40 text-white font-bold px-7 py-3.5 text-sm uppercase tracking-widest hover:bg-white/10 transition-colors">
+              Speak to Us
+            </Link>
+          </div>
         </div>
       </section>
+
+      {/* Trust badges */}
+      <div className="bg-white border-b border-gray-200 py-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-wrap justify-center gap-x-8 gap-y-3">
+            {["Victoria Police Licenced", "Professional Installation", "Fully Insured", "24/7 Remote Monitoring", "Free Site Assessment"].map((badge, i) => (
+              <div key={i} className="flex items-center gap-2 text-sm">
+                <svg className="w-4 h-4 text-[#c8102e] shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
+                </svg>
+                <span className="text-[#1a1a2e] font-bold uppercase text-xs tracking-wide">{badge}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
 
       <div className="bg-[#f4f4f4] border-b border-gray-200 py-3">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center gap-2 text-xs text-gray-500">
@@ -140,6 +164,24 @@ export default function ElectronicSecurityPage() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Testimonial */}
+      <section className="py-16 bg-white border-t border-gray-100">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <div className="flex justify-center gap-1 mb-6">
+            {[1,2,3,4,5].map((s) => (
+              <svg key={s} className="w-5 h-5 text-yellow-400 fill-yellow-400" viewBox="0 0 20 20">
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+              </svg>
+            ))}
+          </div>
+          <blockquote className="text-[#1a1a2e] text-lg font-light leading-relaxed italic mb-6">
+            &ldquo;Security Guard Company Melbourne designed and installed a full CCTV and access control system across our three warehouses. The integration with our existing alarm monitoring was seamless. The team clearly knew what they were doing — no overselling, sensible recommendations, and the installation was clean and professional.&rdquo;
+          </blockquote>
+          <p className="text-[#1a1a2e] font-black text-sm uppercase tracking-widest">Craig Holden</p>
+          <p className="text-[#767676] text-sm mt-1">Logistics Director — Holden Distribution Group</p>
         </div>
       </section>
 

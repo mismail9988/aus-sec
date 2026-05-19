@@ -50,9 +50,18 @@ export default function CanineSecurityPage() {
         { label: "Canine Security", href: "/services/canine-security" },
       ]}
       bookingHref="/book/canine-security/"
-
       ctaTitle="Deploy Canine Security at Your Site"
       ctaSubtitle="The most effective deterrent for construction sites, industrial estates, and high-risk properties."
+      testimonial={{
+        text: "We had serious problems with equipment theft across our south-east corridor sites. Security Guard Company Melbourne put together a combination of canine patrols and CCTV monitoring that has made a real difference. No major incidents in six months since we started with them.",
+        name: "Michael Torres",
+        role: "Project Manager — Apex Construction Group",
+      }}
+      faqs={[
+        { q: "Are your security dogs accredited?", a: "Yes. All our canine security handlers and dogs hold the relevant accreditations under Victoria's Private Security Act 2004. Our handlers are trained in handler and dog team operations as part of their security licensing." },
+        { q: "What sites are canine security most effective for?", a: "Canine security is most effective for construction sites, industrial properties, large warehouses, and any site with high-value plant or equipment. A dog and handler team provides a deterrent effect many times greater than a static guard alone." },
+        { q: "Can canine patrols run overnight without a handler present?", a: "No — our canine teams always operate as a handler and dog unit. Unaccompanied guard dogs are not used. The handler-dog combination is what delivers both the deterrent effect and the professional incident response capability." },
+      ]}
     />
   );
 }

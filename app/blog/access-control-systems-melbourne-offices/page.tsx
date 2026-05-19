@@ -22,6 +22,7 @@ export default function AccessControlOfficesPost() {
       title="Access Control Systems for Melbourne Offices"
       date="8 April 2025"
       readTime="7 min read"
+      relatedPosts={[{slug:"access-control-best-practices",title:"Access Control Best Practices for Melbourne Businesses",category:"Electronic Security",excerpt:"Credential audits, least privilege, time restrictions — the eight practices that close access control gaps."},{slug:"cctv-for-small-business-melbourne",title:"CCTV for Small Business Melbourne: What You Need to Know",category:"Electronic Security",excerpt:"A practical guide to CCTV — what works, what doesn't, and how to use footage."},{slug:"corporate-security-office-buildings",title:"Building a Corporate Security Program for Melbourne Office Buildings",category:"Security Advice",excerpt:"How to build an effective, layered corporate security program for office buildings."}]}
     >
       <p>Access control is the security technology most businesses underinvest in — and the one that delivers the most consistent, ongoing security value. A well-designed access control system doesn&apos;t just lock doors: it creates a detailed record of who is in your building at any moment, protects sensitive areas from unauthorised access, and gives you control that traditional keys simply can&apos;t provide.</p>
 

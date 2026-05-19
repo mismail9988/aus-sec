@@ -52,9 +52,18 @@ export default function CorporateSecurityPage() {
           { label: "Corporate Security", href: "/services/corporate-security" },
         ]}
         bookingHref="/book/corporate-security/"
-
         ctaTitle="Secure Your Corporate Environment"
         ctaSubtitle="Professional corporate security — contact us for a building assessment."
+        testimonial={{
+          text: "We've had Security Guard Company Melbourne providing concierge security across our Collins Street building for over two years. The quality of their officers is consistently high — professional presentation, excellent communication, and they genuinely understand the corporate environment. Response from their operations team is always immediate.",
+          name: "James Hartley",
+          role: "Facility Manager — Collins Street Corporate Tower",
+        }}
+        faqs={[
+          { q: "What's the difference between a corporate security officer and a concierge guard?", a: "A corporate security officer focuses on access control, incident response, and patrol. A concierge security officer combines reception duties with security — they greet visitors, manage building access, and maintain a professional front-of-house presence while still performing security functions." },
+          { q: "Can you provide security for multiple office buildings?", a: "Yes. We manage security programs across multi-site corporate portfolios. A dedicated account manager oversees all locations with consistent reporting and guard standards across every site." },
+          { q: "Are your corporate security guards trained for WHS obligations?", a: "Yes. Our corporate officers understand workplace health and safety obligations for building managers and are trained to respond appropriately to on-site incidents, medical emergencies, and evacuations." },
+        ]}
       />
       <section className="py-12 bg-white border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

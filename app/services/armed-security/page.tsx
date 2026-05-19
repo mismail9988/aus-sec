@@ -50,9 +50,14 @@ export default function ArmedSecurityPage() {
         { label: "Armed Security", href: "/services/armed-security" },
       ]}
       bookingHref="/book/armed-security/"
-
       ctaTitle="Discuss Your Armed Security Requirement"
       ctaSubtitle="Confidential consultation — we'll assess your risk profile and recommend the right solution."
+      faqs={[
+        { q: "When is armed security necessary?", a: "Armed security is appropriate for environments involving the movement of large amounts of cash, high-value assets, or situations where a credible armed threat has been identified. A risk assessment will determine whether armed officers are warranted for your specific situation." },
+        { q: "What licences do armed security officers hold?", a: "Armed security officers hold a Victoria security licence with a firearms endorsement under the Firearms Act 1996. They are trained in the safe handling, storage, and use of firearms and operate under strict protocols governing when force may be used." },
+        { q: "Is armed security available for cash-in-transit operations?", a: "Yes. We provide armed escort and cash-in-transit security for businesses that handle significant cash volumes. Our officers operate in accordance with industry standards for cash handling and transit security." },
+        { q: "Is the consultation confidential?", a: "Completely. Initial consultations about armed security requirements are handled confidentially by senior management. We understand the sensitive nature of these engagements and treat all enquiries with strict discretion." },
+      ]}
     />
   );
 }

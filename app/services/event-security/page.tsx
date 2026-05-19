@@ -51,9 +51,19 @@ export default function EventSecurityPage() {
         { label: "Event Security", href: "/services/event-security" },
       ]}
       bookingHref="/book/event-security/"
-
       ctaTitle="Get an Event Security Quote"
       ctaSubtitle="Tell us about your event and we'll put together a tailored security plan."
+      testimonial={{
+        text: "We've used Security Guard Company Melbourne for three major events now. Their team is always well-briefed, professional with patrons, and their supervisor stayed in contact with me all night. When an incident arose, it was handled quickly and quietly. Exactly what you need.",
+        name: "Amanda Foster",
+        role: "Events Manager — Melbourne Event Productions",
+      }}
+      faqs={[
+        { q: "How many security guards do I need for my event?", a: "The number depends on your event size, type, and venue layout. As a general guide, 1 guard per 100 attendees is a starting point for low-risk events, rising to 1 per 50 for licensed venues or higher-risk events. We'll advise the right ratio after reviewing your event details." },
+        { q: "Do your guards hold crowd management endorsements?", a: "Yes. All our event security officers hold the required crowd management endorsements under Victoria's Private Security Act 2004. They are trained in crowd behaviour, de-escalation, and emergency procedures." },
+        { q: "Can you provide security for a private function or house party?", a: "Yes. We provide security for events of all sizes — from private parties of 30 people to large public events with thousands of attendees. Small functions typically require a minimum of 2 officers." },
+        { q: "Do you prepare a security management plan?", a: "Yes. For larger events we prepare a full security management plan covering risk assessment, guard positioning, access control procedures, communications, emergency protocols, and debrief reporting. This is included in our event security packages." },
+      ]}
     />
   );
 }

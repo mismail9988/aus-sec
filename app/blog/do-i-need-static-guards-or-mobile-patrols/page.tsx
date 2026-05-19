@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 export default function Post() {
   return (
-    <BlogPost title="Do I Need Static Security Guards or Mobile Patrols?" category="Security Advice" date="15 May 2025" readTime="5 min read">
+    <BlogPost title="Do I Need Static Security Guards or Mobile Patrols?" category="Security Advice" date="15 May 2025" readTime="5 min read" relatedPosts={[{slug:"mobile-patrol-vs-static-guard-cost",title:"Mobile Patrol vs Static Guard: Which Is More Cost-Effective?",category:"Security Advice",excerpt:"The real cost difference between mobile patrols and static guards — when each is appropriate and how to get the right solution for your budget."},{slug:"mobile-patrols-protect-business",title:"How Mobile Patrols Can Protect Your Business Quickly and Effectively",category:"Mobile Patrols",excerpt:"Mobile patrol security offers flexibility, visibility, and cost-effectiveness that static guarding cannot always match."},{slug:"security-guard-cost-australia",title:"Security Guard Cost Australia 2025: What You Should Expect to Pay",category:"Security Advice",excerpt:"What security guards actually cost in Australia, why Award compliance matters, and how to evaluate a quote properly."}]}>
       <p>One of the most common questions we hear from new clients is: &ldquo;Should I get a security guard stationed at my site, or is a mobile patrol service better?&rdquo; The honest answer is that it depends on your specific situation — but there are some clear guidelines that can help you decide.</p>
 
       <h2 style={{fontSize:"1.5rem",fontWeight:900,color:"#1a1a2e",textTransform:"uppercase",margin:"2rem 0 1rem"}}>What is Static Security?</h2>
@@ -45,12 +45,12 @@ export default function Post() {
       </ul>
 
       <h2 style={{fontSize:"1.5rem",fontWeight:900,color:"#1a1a2e",textTransform:"uppercase",margin:"2rem 0 1rem"}}>The Cost Difference</h2>
-      <p>Static guarding is generally more expensive than mobile patrols because you're paying for a dedicated officer at your site for the full duration of the shift. Mobile patrols spread the cost of that officer across multiple clients, making it a more cost-effective option for businesses that don't require constant physical presence.</p>
+      <p>Static guarding is generally more expensive than mobile patrols because you're paying for a dedicated officer at your site for the full duration of the shift. Mobile patrols spread the cost of that officer across multiple clients, making it a more cost-effective option for businesses that don't require constant physical presence. For a detailed cost breakdown, see our <a href="/blog/mobile-patrol-vs-static-guard-cost/">mobile patrol vs static guard cost comparison</a> and our full <a href="/blog/security-guard-cost-australia/">Australia security guard pricing guide</a>.</p>
       <p>However, cost shouldn't be the only consideration. The right security solution is the one that actually addresses your risks — and sometimes that means the higher investment of static guarding is the correct choice.</p>
 
       <h2 style={{fontSize:"1.5rem",fontWeight:900,color:"#1a1a2e",textTransform:"uppercase",margin:"2rem 0 1rem"}}>Can You Use Both?</h2>
-      <p>Absolutely — and many of our clients do. A common approach is to have static guards during business hours and switch to mobile patrols for after-hours coverage. This hybrid model provides strong protection during high-risk periods while managing costs during quieter times.</p>
-      <p>The best way to determine the right solution for your situation is to speak with one of our security consultants. We&apos;ll assess your site, understand your risks, and recommend the most effective and cost-efficient approach.</p>
+      <p>Absolutely — and many of our clients do. A common approach is to have static guards during business hours and switch to <a href="/blog/mobile-patrols-protect-business/">mobile patrols</a> for after-hours coverage. This hybrid model provides strong protection during high-risk periods while managing costs during quieter times.</p>
+      <p>The best way to determine the right solution for your situation is to speak with one of our security consultants. We&apos;ll assess your site, understand your risks, and recommend the most effective and cost-efficient approach. You can also use our <a href="/book/quote/">free quote form</a> to get started.</p>
     </BlogPost>
   );
 }

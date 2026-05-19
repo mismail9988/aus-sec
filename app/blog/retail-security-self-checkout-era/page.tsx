@@ -22,6 +22,7 @@ export default function RetailSecuritySelfCheckoutPost() {
       title="Retail Security in the Self-Checkout Era"
       date="2 May 2025"
       readTime="6 min read"
+      relatedPosts={[{slug:"retail-security-loss-prevention",title:"Using Innovative Security to Improve Retail Performance",category:"Retail",excerpt:"How modern retail security goes beyond loss prevention to improve customer experience."},{slug:"cctv-for-small-business-melbourne",title:"CCTV for Small Business Melbourne: What You Need to Know",category:"Electronic Security",excerpt:"A practical guide to CCTV — what works, what doesn't, and how to use footage."},{slug:"security-guard-cost-australia",title:"Security Guard Cost Australia 2025: What You Should Expect to Pay",category:"Security Advice",excerpt:"What security guards actually cost in Australia and how to evaluate a quote properly."}]}
     >
       <p>Self-checkout technology was supposed to improve the retail experience and reduce costs. For many retailers, it has — but it has also created new theft vectors that traditional loss prevention wasn't designed to address. This article looks at how self-checkout has changed retail theft patterns, and what actually works to manage it.</p>
 
@@ -60,7 +61,7 @@ export default function RetailSecuritySelfCheckoutPost() {
       <p>Self-checkout systems create staff theft opportunities that attended checkouts don't. Employees assigned to monitor self-checkout can deliberately allow associates to pass through without scanning items (sweethearting), or can override alerts in exchange for payment. This requires a different response — periodic audit of override patterns, CCTV review of staff behaviour, and strong supervision culture.</p>
 
       <h2>Building a Self-Checkout Security Program</h2>
-      <p>The most effective self-checkout security programs combine:</p>
+      <p>The most effective self-checkout security programs combine multiple layers. For a broader view of how modern retail security goes beyond loss prevention, see our article on <a href="/blog/retail-security-loss-prevention/">using innovative security to improve retail performance</a>. The key elements:</p>
       <ul>
         <li>Dedicated zone oversight (human presence near the checkout area)</li>
         <li>Purpose-built or AI-assisted CCTV monitoring</li>

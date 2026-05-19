@@ -22,6 +22,7 @@ export default function SecurityLicenceVictoriaPost() {
       title="Security Guard Licensing in Victoria Explained"
       date="15 April 2025"
       readTime="6 min read"
+      relatedPosts={[{slug:"what-to-look-for-in-a-security-provider",title:"What to Look for in a Commercial Security Provider",category:"Security Advice",excerpt:"The key factors to evaluate when selecting a commercial security provider in Melbourne."},{slug:"crowd-control-licensed-venues-victoria",title:"Crowd Control for Licensed Venues in Victoria: What the Law Requires",category:"Industry",excerpt:"What Victorian law requires for security at licensed premises — licensing obligations and RSA."},{slug:"security-guard-cost-australia",title:"Security Guard Cost Australia 2025: What You Should Expect to Pay",category:"Security Advice",excerpt:"What security guards actually cost in Australia and how to evaluate a quote properly."}]}
     >
       <p>In Victoria, the security industry is regulated under the <em>Private Security Act 2004</em>. This legislation requires both security companies and individual security officers to hold appropriate licences before performing security work. Understanding the licensing framework helps you make informed decisions about your security provider.</p>
 

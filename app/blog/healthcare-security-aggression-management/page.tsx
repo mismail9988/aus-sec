@@ -22,6 +22,7 @@ export default function HealthcareAggressionPost() {
       title="Managing Patient Aggression in Healthcare Security"
       date="18 April 2025"
       readTime="7 min read"
+      relatedPosts={[{slug:"healthcare-security-challenges",title:"The Biggest Challenges in Healthcare Security — and How to Address Them",category:"Healthcare",excerpt:"Healthcare environments face unique security demands. Key challenges and proven strategies."},{slug:"what-to-look-for-in-a-security-provider",title:"What to Look for in a Commercial Security Provider",category:"Security Advice",excerpt:"The key factors to evaluate when selecting a commercial security provider in Melbourne."},{slug:"security-guard-cost-australia",title:"Security Guard Cost Australia 2025: What You Should Expect to Pay",category:"Security Advice",excerpt:"What security guards actually cost in Australia and how to evaluate a quote properly."}]}
     >
       <p>Aggression in healthcare settings is among the most significant occupational health and safety issues in Australian hospitals and health services. WorkSafe Victoria data consistently shows healthcare workers experience among the highest rates of occupational violence of any sector. Security plays a critical role — but only when it's properly integrated with clinical care and organisational systems.</p>
 

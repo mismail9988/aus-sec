@@ -22,6 +22,7 @@ export default function CrowdControlLicensedVenuesPost() {
       title="Crowd Control for Licensed Venues in Victoria: What the Law Requires"
       date="1 April 2025"
       readTime="6 min read"
+      relatedPosts={[{slug:"how-many-security-guards-do-i-need-for-my-event",title:"How Many Security Guards Do I Need for My Event?",category:"Event Security",excerpt:"A practical guide to calculating the right number of security guards for your event."},{slug:"security-guard-licence-victoria",title:"Security Guard Licensing in Victoria Explained",category:"Industry",excerpt:"What licences security guards and companies need, how to verify them, and why it matters."},{slug:"event-security-planning-guide",title:"Event Security Planning Guide for Melbourne Events",category:"Event Security",excerpt:"How to plan event security properly — from risk assessment to briefing your team."}]}
     >
       <p>Operating a licensed venue in Victoria comes with significant legal obligations around security. The Liquor Control Reform Act 1998, the Private Security Act 2004, and your specific licence conditions all have requirements that venue operators must understand — and that your security provider must comply with. This article outlines the key obligations.</p>
 

@@ -22,6 +22,7 @@ export default function CorporateSecurityOfficePost() {
       title="Building a Corporate Security Program for Melbourne Office Buildings"
       date="8 April 2025"
       readTime="7 min read"
+      relatedPosts={[{slug:"access-control-systems-melbourne-offices",title:"Access Control Systems for Melbourne Offices",category:"Electronic Security",excerpt:"Cards, biometrics, cloud platforms — what type of access control does your office actually need?"},{slug:"cctv-for-small-business-melbourne",title:"CCTV for Small Business Melbourne: What You Need to Know",category:"Electronic Security",excerpt:"A practical guide to CCTV — what works, what doesn't, and how to use footage."},{slug:"what-to-look-for-in-a-security-provider",title:"What to Look for in a Commercial Security Provider",category:"Security Advice",excerpt:"The key factors to evaluate when selecting a commercial security provider in Melbourne."}]}
     >
       <p>Corporate security for office buildings has evolved significantly from the days of a guard at a reception desk checking visitors in and out. Modern corporate buildings require integrated programs that combine physical security, electronic systems, and clear protocols — managed to a standard that reflects the building's professional environment.</p>
 

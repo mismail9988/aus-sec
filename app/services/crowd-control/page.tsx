@@ -50,9 +50,19 @@ export default function CrowdControlPage() {
         { label: "Crowd Control", href: "/services/crowd-control" },
       ]}
       bookingHref="/book/crowd-control/"
-
       ctaTitle="Get Crowd Control for Your Venue"
       ctaSubtitle="Professional, licenced door staff — available 7 nights a week."
+      testimonial={{
+        text: "We run three licensed venues and have used them for crowd control across all three. Their officers are licenced, professional, and know how to manage difficult situations without escalating them. RSA compliance is taken seriously. I've referred them to three other venue operators — all happy.",
+        name: "Lisa Nguyen",
+        role: "Venue Manager — Chapel Street Entertainment Group",
+      }}
+      faqs={[
+        { q: "Are your crowd controllers licenced in Victoria?", a: "Yes. All our crowd controllers hold a current Victoria security licence with a crowd management endorsement, as required under the Private Security Act 2004 for licensed venue work." },
+        { q: "What's the minimum booking for crowd control?", a: "Most venue engagements have a 4-hour minimum per officer per shift. For regular bookings we offer ongoing arrangements that are more cost-effective than ad hoc bookings." },
+        { q: "Do your crowd controllers understand RSA obligations?", a: "Yes. Our officers working at licensed premises understand their Responsible Service of Alcohol obligations and work cooperatively with venue staff to uphold these standards." },
+        { q: "Can you provide last-minute crowd control?", a: "We do our best to accommodate urgent requests. For weekend nights, we recommend booking at least 48 hours in advance. For very last-minute needs, call us directly — we often have availability." },
+      ]}
     />
   );
 }

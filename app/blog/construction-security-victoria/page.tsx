@@ -22,6 +22,7 @@ export default function ConstructionSecurityVictoriaPost() {
       title="Construction Site Security in Victoria: What Actually Works"
       date="25 April 2025"
       readTime="7 min read"
+      relatedPosts={[{slug:"construction-site-security-tips",title:"3 Ways to Protect Your Construction Site from Theft and Vandalism",category:"Construction",excerpt:"Construction sites lose millions to theft each year. These three strategies dramatically reduce your exposure."},{slug:"mobile-patrols-protect-business",title:"How Mobile Patrols Can Protect Your Business",category:"Mobile Patrols",excerpt:"Mobile patrol security offers flexibility, visibility, and cost-effectiveness for Melbourne businesses."},{slug:"security-guard-cost-australia",title:"Security Guard Cost Australia 2025: What You Should Expect to Pay",category:"Security Advice",excerpt:"What security guards actually cost in Australia and how to evaluate a quote properly."}]}
     >
       <p>Construction site theft in Victoria costs the industry hundreds of millions of dollars annually. Plant, equipment, copper, cable, tools, and building materials are all targeted — sometimes by opportunistic thieves, sometimes by organised theft networks that specifically target construction sites in identified areas.</p>
       <p>This guide focuses on what security measures actually work, based on real-world experience across Melbourne and regional Victoria construction sites.</p>
@@ -42,7 +43,7 @@ export default function ConstructionSecurityVictoriaPost() {
       <h2>What Actually Works</h2>
 
       <h3>1. Overnight Canine Patrol</h3>
-      <p>A security dog and handler team is the single most cost-effective deterrent for most construction sites. A dog team covers the site perimeter rapidly, responds aggressively to intrusions, and provides a level of deterrence that passive measures cannot match. Word travels fast among opportunistic thieves — a site with a regular dog patrol quickly develops a reputation that deters casual attempts.</p>
+      <p>A security dog and handler team is the single most cost-effective deterrent for most construction sites. A dog team covers the site perimeter rapidly, responds aggressively to intrusions, and provides a level of deterrence that passive measures cannot match. Word travels fast among opportunistic thieves — a site with a regular dog patrol quickly develops a reputation that deters casual attempts. Read our full guide on <a href="/blog/canine-security-dogs-melbourne/">canine security in Melbourne</a> for more detail on how dog-handler teams work.</p>
 
       <h3>2. Static Overnight Guard</h3>
       <p>A static overnight guard provides a continuous physical presence. More expensive than a patrol visit, but appropriate for sites with very high-value plant or materials, or where the theft risk is elevated due to location or previous incidents. Often combined with a gatehouse function for sites with after-hours deliveries or shift workers.</p>
@@ -64,7 +65,7 @@ export default function ConstructionSecurityVictoriaPost() {
         <li>Canine patrol visits 2–3 times per night (deterrence and response)</li>
         <li>GPS tracking on all plant (recovery capability)</li>
       </ul>
-      <p>This combination typically costs significantly less than a full-time overnight guard while delivering comparable deterrence for most sites. Sites with very high-value plant or elevated risk may warrant an overnight static guard in addition.</p>
+      <p>This combination typically costs significantly less than a full-time overnight guard while delivering comparable deterrence for most sites. See our <a href="/blog/do-i-need-static-guards-or-mobile-patrols/">static guard vs mobile patrol guide</a> to help decide which approach suits your site. Sites with very high-value plant or elevated risk may warrant an overnight static guard in addition.</p>
 
       <h2>Reporting Theft — Your Obligations and Options</h2>
       <p>All construction site theft should be reported to Victoria Police immediately. This creates a record that supports insurance claims and, importantly, contributes to intelligence about theft patterns in the area. Construction site theft is often serial — the same networks targeting multiple sites in the same postcode. Reporting helps police identify and act on these patterns.</p>

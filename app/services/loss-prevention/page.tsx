@@ -50,9 +50,18 @@ export default function LossPreventionPage() {
         { label: "Loss Prevention", href: "/services/loss-prevention" },
       ]}
       bookingHref="/book/loss-prevention/"
-
       ctaTitle="Reduce Your Retail Shrinkage"
       ctaSubtitle="Get a free shrinkage assessment and loss prevention proposal."
+      testimonial={{
+        text: "We brought them in after a significant increase in theft across three stores. Within the first month, shrinkage dropped noticeably. They don't just stand at the door — they study the patterns. The weekly data we receive is genuinely useful.",
+        name: "Peter Stamoulis",
+        role: "Owner — Northside Liquor Retail",
+      }}
+      faqs={[
+        { q: "What is loss prevention security?", a: "Loss prevention is a specialist approach to reducing retail theft and shrinkage. It combines uniformed deterrence, plain-clothes surveillance, staff training, and data-driven deployment strategies to identify and stop theft before it occurs — not just after." },
+        { q: "Do you offer plain-clothes loss prevention officers?", a: "Yes. Our plain-clothes loss prevention officers blend into the retail environment to observe and identify theft behaviours without deterring genuine customers. They work alongside or independently from uniformed guards." },
+        { q: "How do you measure loss prevention effectiveness?", a: "We provide weekly shrinkage reports, incident logs, and apprehension records. Most clients see measurable reductions in shrinkage within the first 4–8 weeks of deployment." },
+      ]}
     />
   );
 }

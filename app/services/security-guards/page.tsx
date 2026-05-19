@@ -51,9 +51,19 @@ export default function SecurityGuardsPage() {
         { label: "Security Guards", href: "/services/security-guards" },
       ]}
       bookingHref="/book/quote/"
-
       ctaTitle="Get a Security Guard Quote"
       ctaSubtitle="Fast response. Competitive pricing. No lock-in contracts."
+      testimonial={{
+        text: "Exceptional service from start to finish. Their guards are professional, punctual, and handle every situation with composure. When we've needed to escalate issues, their operations team responds immediately. Highly recommended.",
+        name: "James Hartley",
+        role: "Facility Manager — Collins Street Corporate Tower",
+      }}
+      faqs={[
+        { q: "How much does it cost to hire a security guard in Melbourne?", a: "Security guard rates in Melbourne typically range from $35–$55 per hour depending on the type of service, shift times, and level of experience required. We provide transparent, itemised quotes — no hidden fees. Contact us for a free assessment." },
+        { q: "How quickly can you provide a security guard?", a: "For standard requirements, we typically deploy within 24–48 hours. For urgent or emergency needs, we often provide same-day deployment. Call us directly for urgent requests." },
+        { q: "Do I need to sign a long-term contract?", a: "No. We offer flexible arrangements from single-shift bookings to ongoing month-to-month contracts. There are no lock-in contracts. Long-term clients benefit from preferential rates." },
+        { q: "Are your security guards insured?", a: "Yes. All our security guards are covered by comprehensive public liability and professional indemnity insurance. Certificates of currency are available on request." },
+      ]}
     />
   );
 }

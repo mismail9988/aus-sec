@@ -22,6 +22,7 @@ export default function CCTVSmallBusinessPost() {
       title="CCTV for Small Business Melbourne: What You Need to Know"
       date="28 April 2025"
       readTime="8 min read"
+      relatedPosts={[{slug:"alarm-system-guide-melbourne-business",title:"Alarm System Guide for Melbourne Businesses",category:"Electronic Security",excerpt:"What type of alarm system do you need, and what should you actually pay for monitoring? A complete guide."},{slug:"access-control-systems-melbourne-offices",title:"Access Control Systems for Melbourne Offices",category:"Electronic Security",excerpt:"Cards, biometrics, cloud platforms — what type of access control does your office actually need?"},{slug:"access-control-best-practices",title:"Access Control Best Practices for Melbourne Businesses",category:"Electronic Security",excerpt:"The eight practices that actually close access control gaps in Melbourne businesses."}]}
     >
       <p>CCTV is one of the most common security investments small businesses make — and one of the most inconsistently implemented. A camera in the wrong location, set to the wrong resolution, or recording to a DVR that was last checked six months ago isn&apos;t security — it&apos;s theatre.</p>
       <p>This guide covers what actually matters when setting up CCTV for a small business in Melbourne.</p>

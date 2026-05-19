@@ -1,25 +1,13 @@
-import type { Metadata } from "next";
-import Link from "next/link";
+"use client";
 
-export const metadata: Metadata = {
-  title: "Security Insights & Blog | Security Guard Company Melbourne",
-  description: "Expert security insights, tips, and industry news from Security Guard Company Melbourne. Stay informed about the latest in security technology and best practices.",
-  alternates: { canonical: "/blog/" },
-  openGraph: {
-    title: "Security Insights & Blog | Security Guard Company Melbourne",
-    description: "Expert security insights, tips, and industry news from Security Guard Company Melbourne. Stay informed about the latest in security technology and best practices.",
-    url: "https://securityguardcompanymelbourne.com/blog/",
-    siteName: "Security Guard Company Melbourne",
-    locale: "en_AU",
-    type: "website",
-  },
-};
+import Link from "next/link";
+import { useState } from "react";
 
 const posts = [
   {
     slug: "do-i-need-static-guards-or-mobile-patrols",
     title: "Do I Need Static Security Guards or Mobile Patrols?",
-    excerpt: "Understanding the difference between static guarding and mobile patrol services — and which is right for your business situation.",
+    excerpt: "Understanding the difference between static security guards and mobile patrol services — and how to choose the right option for your business.",
     category: "Security Advice",
     date: "15 May 2025",
     readTime: "5 min read",
@@ -131,10 +119,10 @@ const posts = [
   {
     slug: "what-to-look-for-in-a-security-provider",
     title: "What to Look for in a Commercial Security Provider",
-    excerpt: "Choosing the right security company is one of the most important decisions you'll make for your business. Here's what to look for.",
+    excerpt: "Choosing the right security company is one of the most important decisions you'll make for your business. Here's what to evaluate.",
     category: "Security Advice",
     date: "2 May 2025",
-    readTime: "6 min read",
+    readTime: "7 min read",
   },
   {
     slug: "retail-security-loss-prevention",
@@ -142,7 +130,7 @@ const posts = [
     excerpt: "How modern retail security goes beyond loss prevention to actively improve the customer experience and operational efficiency.",
     category: "Retail",
     date: "20 April 2025",
-    readTime: "4 min read",
+    readTime: "6 min read",
   },
   {
     slug: "mobile-patrols-protect-business",
@@ -150,7 +138,7 @@ const posts = [
     excerpt: "Mobile patrol security offers flexibility, visibility, and cost-effectiveness that static guarding cannot always match.",
     category: "Mobile Patrols",
     date: "10 April 2025",
-    readTime: "5 min read",
+    readTime: "6 min read",
   },
   {
     slug: "healthcare-security-challenges",
@@ -158,7 +146,7 @@ const posts = [
     excerpt: "Healthcare environments face unique security demands. We explore the key challenges and proven strategies to manage them effectively.",
     category: "Healthcare",
     date: "28 March 2025",
-    readTime: "7 min read",
+    readTime: "8 min read",
   },
   {
     slug: "construction-site-security-tips",
@@ -166,7 +154,7 @@ const posts = [
     excerpt: "Construction sites lose millions to theft each year. These three strategies can dramatically reduce your exposure.",
     category: "Construction",
     date: "15 March 2025",
-    readTime: "4 min read",
+    readTime: "6 min read",
   },
   {
     slug: "access-control-best-practices",
@@ -184,11 +172,65 @@ const posts = [
     date: "10 May 2025",
     readTime: "8 min read",
   },
+  {
+    slug: "security-guards-melbourne-cbd",
+    title: "Security Guards Melbourne CBD: What Businesses Need to Know",
+    excerpt: "Everything Melbourne CBD businesses need to know about hiring security guards — costs, requirements, types of coverage, and what to expect.",
+    category: "Security Advice",
+    date: "19 May 2025",
+    readTime: "7 min read",
+  },
+  {
+    slug: "warehouse-security-melbourne",
+    title: "Warehouse & Logistics Security Melbourne: A Practical Guide",
+    excerpt: "How to protect your warehouse or logistics facility — theft prevention, access control, guard patrols, and the security measures that actually work.",
+    category: "Security Advice",
+    date: "19 May 2025",
+    readTime: "7 min read",
+  },
+  {
+    slug: "how-to-write-a-security-management-plan",
+    title: "How to Write a Security Management Plan (Victoria)",
+    excerpt: "A step-by-step guide to writing an SMP for events, venues, and commercial sites — what it must include and how to get it approved.",
+    category: "Industry",
+    date: "19 May 2025",
+    readTime: "8 min read",
+  },
+  {
+    slug: "canine-security-dogs-melbourne",
+    title: "Canine Security Dogs Melbourne: When and Why to Use Them",
+    excerpt: "What security dogs are used for, how they work, legal requirements in Victoria, and when canine security is the right choice for your site.",
+    category: "Security Advice",
+    date: "19 May 2025",
+    readTime: "6 min read",
+  },
+  {
+    slug: "concierge-security-vs-receptionist",
+    title: "Concierge Security vs Receptionist: What's the Difference?",
+    excerpt: "Should your Melbourne office have a concierge security officer or a standard receptionist? The differences, costs, and when each makes sense.",
+    category: "Security Advice",
+    date: "19 May 2025",
+    readTime: "6 min read",
+  },
+  {
+    slug: "school-university-security-victoria",
+    title: "School & University Security Victoria: A Complete Guide",
+    excerpt: "How Victorian schools and universities approach security — student safety, access control, after-hours coverage, and what actually works.",
+    category: "Education",
+    date: "19 May 2025",
+    readTime: "7 min read",
+  },
 ];
 
-const categories = ["All", "Security Advice", "Event Security", "Electronic Security", "Industry", "Retail", "Healthcare", "Mobile Patrols", "Construction"];
+const categories = ["All", "Security Advice", "Event Security", "Electronic Security", "Industry", "Retail", "Healthcare", "Mobile Patrols", "Construction", "Education"];
 
 export default function BlogPage() {
+  const [activeCategory, setActiveCategory] = useState("All");
+
+  const filtered = activeCategory === "All" ? posts : posts.filter((p) => p.category === activeCategory);
+  const featured = filtered[0];
+  const rest = filtered.slice(1);
+
   return (
     <>
       <section className="bg-[#1a1a2e] py-20 relative overflow-hidden">
@@ -218,10 +260,11 @@ export default function BlogPage() {
             {categories.map((cat) => (
               <button
                 key={cat}
+                onClick={() => setActiveCategory(cat)}
                 className={`px-5 py-4 text-xs font-bold uppercase tracking-wide whitespace-nowrap border-b-2 transition-colors ${
-                  cat === "All"
+                  activeCategory === cat
                     ? "border-[#c8102e] text-[#c8102e]"
-                    : "border-transparent text-[#767676] hover:text-[#2d2d2d]"
+                    : "border-transparent text-[#767676] hover:text-[#2d2d2d] hover:border-gray-300"
                 }`}
               >
                 {cat}
@@ -233,53 +276,63 @@ export default function BlogPage() {
 
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Featured post */}
-          <div className="mb-10">
-            <Link href={`/blog/${posts[0].slug}`} className="group block bg-[#1a1a2e] p-10 hover:shadow-xl transition-shadow">
-              <div className="flex flex-col lg:flex-row gap-8 items-start">
-                <div className="flex-1">
-                  <span className="inline-block bg-[#c8102e] text-white text-xs font-bold uppercase tracking-widest px-3 py-1 mb-5">
-                    {posts[0].category}
-                  </span>
-                  <h2 className="text-3xl font-black text-white uppercase leading-tight mb-4 group-hover:text-[#c8102e] transition-colors">
-                    {posts[0].title}
-                  </h2>
-                  <p className="text-gray-400 leading-relaxed mb-6">{posts[0].excerpt}</p>
-                  <div className="flex items-center gap-4 text-gray-500 text-xs">
-                    <span>{posts[0].date}</span>
-                    <span>•</span>
-                    <span>{posts[0].readTime}</span>
-                  </div>
+          {filtered.length === 0 ? (
+            <p className="text-center text-gray-400 py-20">No posts in this category yet.</p>
+          ) : (
+            <>
+              {/* Featured post */}
+              {featured && (
+                <div className="mb-10">
+                  <Link href={`/blog/${featured.slug}`} className="group block bg-[#1a1a2e] p-10 hover:shadow-xl transition-shadow">
+                    <div className="flex flex-col lg:flex-row gap-8 items-start">
+                      <div className="flex-1">
+                        <span className="inline-block bg-[#c8102e] text-white text-xs font-bold uppercase tracking-widest px-3 py-1 mb-5">
+                          {featured.category}
+                        </span>
+                        <h2 className="text-3xl font-black text-white uppercase leading-tight mb-4 group-hover:text-[#c8102e] transition-colors">
+                          {featured.title}
+                        </h2>
+                        <p className="text-gray-400 leading-relaxed mb-6">{featured.excerpt}</p>
+                        <div className="flex items-center gap-4 text-gray-500 text-xs">
+                          <span>{featured.date}</span>
+                          <span>•</span>
+                          <span>{featured.readTime}</span>
+                        </div>
+                      </div>
+                      <div className="text-[#c8102e] shrink-0">
+                        <svg className="w-16 h-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                        </svg>
+                      </div>
+                    </div>
+                  </Link>
                 </div>
-                <div className="text-[#c8102e] shrink-0">
-                  <svg className="w-16 h-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                  </svg>
-                </div>
-              </div>
-            </Link>
-          </div>
+              )}
 
-          {/* Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-px bg-gray-200">
-            {posts.slice(1).map((post) => (
-              <Link key={post.slug} href={`/blog/${post.slug}`} className="group bg-white p-8 hover:shadow-md transition-shadow flex flex-col">
-                <span className="inline-block text-[#c8102e] text-xs font-bold uppercase tracking-widest mb-4">
-                  {post.category}
-                </span>
-                <h2 className="text-[#1a1a2e] font-black text-lg uppercase leading-tight mb-3 group-hover:text-[#c8102e] transition-colors flex-1">
-                  {post.title}
-                </h2>
-                <p className="text-[#767676] text-sm leading-relaxed mb-5 line-clamp-3">{post.excerpt}</p>
-                <div className="flex items-center justify-between">
-                  <div className="text-gray-400 text-xs">{post.date} · {post.readTime}</div>
-                  <svg className="w-4 h-4 text-[#c8102e] group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
+              {/* Grid */}
+              {rest.length > 0 && (
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-px bg-gray-200">
+                  {rest.map((post) => (
+                    <Link key={post.slug} href={`/blog/${post.slug}`} className="group bg-white p-8 hover:shadow-md transition-shadow flex flex-col">
+                      <span className="inline-block text-[#c8102e] text-xs font-bold uppercase tracking-widest mb-4">
+                        {post.category}
+                      </span>
+                      <h2 className="text-[#1a1a2e] font-black text-lg uppercase leading-tight mb-3 group-hover:text-[#c8102e] transition-colors flex-1">
+                        {post.title}
+                      </h2>
+                      <p className="text-[#767676] text-sm leading-relaxed mb-5 line-clamp-3">{post.excerpt}</p>
+                      <div className="flex items-center justify-between">
+                        <div className="text-gray-400 text-xs">{post.date} · {post.readTime}</div>
+                        <svg className="w-4 h-4 text-[#c8102e] group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                        </svg>
+                      </div>
+                    </Link>
+                  ))}
                 </div>
-              </Link>
-            ))}
-          </div>
+              )}
+            </>
+          )}
         </div>
       </section>
     </>

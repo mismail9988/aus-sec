@@ -22,6 +22,7 @@ export default function SecurityGuardCostAustraliaPost() {
       title="Security Guard Cost Australia 2025: What You Should Expect to Pay"
       date="10 May 2025"
       readTime="8 min read"
+      relatedPosts={[{slug:"do-i-need-static-guards-or-mobile-patrols",title:"Do I Need Static Security Guards or Mobile Patrols?",category:"Security Advice",excerpt:"Understanding the difference between static security guards and mobile patrol services — and how to choose the right option."},{slug:"security-budget-guide",title:"How to Budget for Business Security in Melbourne",category:"Security Advice",excerpt:"A practical framework for building a security budget — what things cost, what to prioritise, and how to get maximum impact."},{slug:"what-to-look-for-in-a-security-provider",title:"What to Look for in a Commercial Security Provider",category:"Security Advice",excerpt:"The key factors to evaluate when selecting a commercial security provider in Melbourne."}]}
     >
       <p>Security guard pricing in Australia is often poorly understood by buyers — and this misunderstanding is exploited by providers who offer unsustainably low rates that hide wage theft, licence non-compliance, or inadequate insurance. This guide explains what security guards actually cost, why, and how to evaluate a quote properly.</p>
 
@@ -72,7 +73,7 @@ export default function SecurityGuardCostAustraliaPost() {
       <p>Under the Security Industry Award, security guards are entitled to a minimum engagement of 4 hours per shift. This means if you need a guard for 2 hours, you'll pay for 4. Factor this into your cost calculations for short-duration requirements — it may make mobile patrols more cost-effective than a static guard.</p>
 
       <h2>Comparing Quotes Properly</h2>
-      <p>When comparing security quotes, ensure you're comparing the same thing:</p>
+      <p>When comparing security quotes, ensure you're comparing the same thing. Our guide on <a href="/blog/what-to-look-for-in-a-security-provider/">what to look for in a security provider</a> covers exactly which questions to ask before signing. Key checklist:</p>
       <ul>
         <li>Same hours (day vs evening vs night makes a significant difference)</li>
         <li>Same licence type (guard vs crowd controller)</li>
@@ -82,9 +83,9 @@ export default function SecurityGuardCostAustraliaPost() {
       <p>A quote that looks 20% cheaper but doesn't include supervisor oversight, operations centre backup, or doesn't carry adequate insurance is not actually cheaper — it's just hiding costs you'll pay differently if something goes wrong.</p>
 
       <h2>Getting the Best Value</h2>
-      <p>The best value in security comes from:</p>
+      <p>The best value in security comes from using the right tool for the job. For a full framework, see our <a href="/blog/security-budget-guide/">business security budgeting guide</a>. Key principles:</p>
       <ul>
-        <li><strong>Right-sizing the solution</strong> — mobile patrols where a static guard isn't needed</li>
+        <li><strong>Right-sizing the solution</strong> — <a href="/blog/do-i-need-static-guards-or-mobile-patrols/">mobile patrols</a> where a static guard isn't needed</li>
         <li><strong>Longer term contracts</strong> — ongoing commitments attract better pricing than ad-hoc requests</li>
         <li><strong>Combining services</strong> — security guard + mobile patrol + alarm monitoring from one provider</li>
         <li><strong>Electronic security integration</strong> — CCTV and access control reduce the number of officers needed</li>

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { supabaseAdmin } from "@/lib/supabaseAdmin";
 
 export const metadata: Metadata = {
   title: "About Us | Security Guard Company Melbourne",
@@ -38,7 +39,77 @@ const values = [
   },
 ];
 
-export default function AboutPage() {
+const fallbackTeam = [
+  {
+    name: "Daniel Marsh",
+    role: "Chief Executive Officer",
+    bio: "15+ years in Victoria's private security industry. Former police officer, now leads strategy and client relations.",
+    licence: "Licence No. VIC-003421",
+    initials: "DM",
+  },
+  {
+    name: "Karen Osei",
+    role: "Operations Manager",
+    bio: "Oversees daily guard deployment across all Melbourne sites. Specialist in large-scale event and construction security.",
+    licence: "Licence No. VIC-007812",
+    initials: "KO",
+  },
+  {
+    name: "James Tran",
+    role: "Training & Compliance",
+    bio: "Develops and delivers our internal training program. Ensures every officer exceeds minimum licensing standards.",
+    licence: "Licence No. VIC-011654",
+    initials: "JT",
+  },
+  {
+    name: "Samira Ali",
+    role: "Client Services Manager",
+    bio: "Your first point of contact for quotes, contract management, and ongoing service performance reviews.",
+    licence: "Licence No. VIC-009203",
+    initials: "SA",
+  },
+];
+
+const industries = [
+  { label: "Corporate & Office", icon: "🏢" },
+  { label: "Retail & Shopping", icon: "🛍️" },
+  { label: "Construction Sites", icon: "🏗️" },
+  { label: "Events & Venues", icon: "🎤" },
+  { label: "Healthcare & Hospitals", icon: "🏥" },
+  { label: "Aged Care Facilities", icon: "❤️" },
+  { label: "Warehousing & Logistics", icon: "📦" },
+  { label: "Hospitality & Hotels", icon: "🍽️" },
+  { label: "Government & Public", icon: "🏛️" },
+  { label: "Education Campuses", icon: "🎓" },
+  { label: "Industrial Estates", icon: "⚙️" },
+  { label: "Residential Towers", icon: "🏙️" },
+];
+
+type TeamMember = {
+  name: string;
+  role: string;
+  bio: string;
+  licence: string;
+  initials: string;
+};
+
+export default async function AboutPage() {
+  let team: TeamMember[] = fallbackTeam;
+
+  try {
+    const { data } = await supabaseAdmin
+      .from("team")
+      .select("name, role, bio, licence, initials")
+      .eq("active", true)
+      .order("display_order", { ascending: true });
+
+    if (data && data.length > 0) {
+      team = data as TeamMember[];
+    }
+  } catch {
+    // use fallback
+  }
+
   return (
     <>
       {/* Header */}
@@ -144,6 +215,75 @@ export default function AboutPage() {
                 <div className="w-8 h-0.5 bg-[#c8102e] mb-5" />
                 <h3 className="text-[#1a1a2e] font-black text-lg uppercase mb-3">{v.title}</h3>
                 <p className="text-[#767676] text-sm leading-relaxed">{v.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Industries We Serve */}
+      <section className="py-20 bg-white border-t border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-14">
+            <p className="text-[#c8102e] text-xs uppercase tracking-widest font-bold mb-3">Who We Protect</p>
+            <h2 className="text-4xl font-black text-[#1a1a2e] uppercase mb-4">Industries We Serve</h2>
+            <div className="w-12 h-1 bg-[#c8102e] mx-auto mb-6" />
+            <p className="text-[#767676] max-w-xl mx-auto font-light">
+              From high-rise office towers to outdoor construction sites — we provide tailored
+              security solutions across every major industry in Melbourne and Victoria.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+            {industries.map((ind, i) => (
+              <div
+                key={i}
+                className="flex items-center gap-3 bg-[#f4f4f4] border border-gray-200 px-5 py-4 hover:border-[#c8102e] hover:bg-white transition-all group"
+              >
+                <span className="text-2xl shrink-0">{ind.icon}</span>
+                <span className="text-[#1a1a2e] font-bold text-sm uppercase tracking-tight group-hover:text-[#c8102e] transition-colors">
+                  {ind.label}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Team */}
+      <section className="py-20 bg-[#f4f4f4]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-14">
+            <p className="text-[#c8102e] text-xs uppercase tracking-widest font-bold mb-3">The People Behind It</p>
+            <h2 className="text-4xl font-black text-[#1a1a2e] uppercase mb-4">Our Leadership Team</h2>
+            <div className="w-12 h-1 bg-[#c8102e] mx-auto mb-6" />
+            <p className="text-[#767676] max-w-xl mx-auto font-light">
+              Experienced security professionals who hold themselves to the same standards
+              they demand from every officer in the field.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-px bg-gray-200">
+            {team.map((member, i) => (
+              <div key={i} className="bg-white p-8 flex flex-col">
+                {/* Avatar */}
+                <div className="w-16 h-16 bg-[#1a1a2e] flex items-center justify-center mb-5 shrink-0">
+                  <span className="text-white font-black text-xl tracking-tight">
+                    {member.initials}
+                  </span>
+                </div>
+                <h3 className="text-[#1a1a2e] font-black text-base uppercase tracking-tight mb-1">
+                  {member.name}
+                </h3>
+                <p className="text-[#c8102e] text-xs font-bold uppercase tracking-widest mb-4">
+                  {member.role}
+                </p>
+                <p className="text-[#767676] text-sm leading-relaxed flex-1">{member.bio}</p>
+                {member.licence && (
+                  <p className="text-gray-400 text-xs mt-4 pt-4 border-t border-gray-100">
+                    {member.licence}
+                  </p>
+                )}
               </div>
             ))}
           </div>
