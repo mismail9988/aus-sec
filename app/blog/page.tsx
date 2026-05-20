@@ -340,6 +340,22 @@ const posts = [
     date: "20 May 2026",
     readTime: "7 min read",
   },
+  {
+    slug: "wedding-security-melbourne",
+    title: "Wedding Security Melbourne: Do You Need It and How to Get It Right",
+    excerpt: "When your Melbourne wedding needs security guards, what they actually do on the day, how many you need, and how to brief them so the day runs perfectly.",
+    category: "Event Security",
+    date: "20 May 2026",
+    readTime: "6 min read",
+  },
+  {
+    slug: "direct-hire-vs-contracted-security",
+    title: "Direct Hire vs Contracted Security: Which Is Better for Your Business?",
+    excerpt: "Should you employ security guards directly or use a contracted provider? The real cost, legal liability, and flexibility differences Melbourne businesses need to know.",
+    category: "Security Advice",
+    date: "20 May 2026",
+    readTime: "7 min read",
+  },
 ];
 
 const categories = ["All", "Security Advice", "Event Security", "Electronic Security", "Industry", "Retail", "Healthcare", "Mobile Patrols", "Construction", "Education"];
