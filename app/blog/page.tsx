@@ -220,6 +220,46 @@ const posts = [
     date: "19 May 2025",
     readTime: "7 min read",
   },
+  {
+    slug: "armed-security-guards-melbourne",
+    title: "Armed Security Guards Melbourne: When Are They Required?",
+    excerpt: "Who needs armed security in Melbourne, what Victorian law requires, how armed guards differ from unarmed officers, and how to request this service.",
+    category: "Security Advice",
+    date: "20 May 2026",
+    readTime: "7 min read",
+  },
+  {
+    slug: "hotel-security-melbourne",
+    title: "Hotel Security Melbourne: A Complete Guide for Property Managers",
+    excerpt: "How Melbourne hotels, serviced apartments, and hospitality venues approach security — guest safety, after-hours coverage, concierge integration, and what works.",
+    category: "Security Advice",
+    date: "20 May 2026",
+    readTime: "8 min read",
+  },
+  {
+    slug: "security-guard-incident-report",
+    title: "How Security Guards Write Incident Reports (And Why It Matters)",
+    excerpt: "What goes into a professional security incident report, why quality documentation matters for insurance and legal purposes, and what to expect from your provider.",
+    category: "Industry",
+    date: "20 May 2026",
+    readTime: "7 min read",
+  },
+  {
+    slug: "nightclub-security-melbourne",
+    title: "Nightclub Security Melbourne: What Venues Need to Know",
+    excerpt: "Crowd control, RSA integration, patron refusal, use of force, and Victorian licensing obligations — a complete guide to nightclub security in Melbourne.",
+    category: "Industry",
+    date: "20 May 2026",
+    readTime: "8 min read",
+  },
+  {
+    slug: "residential-security-melbourne",
+    title: "Residential Security Melbourne: Apartments, Strata & Gated Communities",
+    excerpt: "How Melbourne apartment buildings, strata complexes, and residential communities approach security — concierge guards, mobile patrols, access control, and what works.",
+    category: "Security Advice",
+    date: "20 May 2026",
+    readTime: "7 min read",
+  },
 ];
 
 const categories = ["All", "Security Advice", "Event Security", "Electronic Security", "Industry", "Retail", "Healthcare", "Mobile Patrols", "Construction", "Education"];
