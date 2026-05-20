@@ -300,6 +300,46 @@ const posts = [
     date: "20 May 2026",
     readTime: "7 min read",
   },
+  {
+    slug: "private-party-security-melbourne",
+    title: "Private Party Security Melbourne: Do You Need It and What Does It Cost?",
+    excerpt: "Should you hire security for your private party in Melbourne? What guards do at a private function, when it's genuinely worth it, and what it costs.",
+    category: "Event Security",
+    date: "20 May 2026",
+    readTime: "6 min read",
+  },
+  {
+    slug: "temporary-security-guards-melbourne",
+    title: "Temporary Security Guards Melbourne: Short-Term & Casual Security Hire",
+    excerpt: "Need temporary security guards in Melbourne? How casual security hire works, what it costs, minimum periods, and how quickly guards can be deployed.",
+    category: "Security Advice",
+    date: "20 May 2026",
+    readTime: "7 min read",
+  },
+  {
+    slug: "shopping-centre-security-melbourne",
+    title: "Shopping Centre Security Melbourne: What Centre Management Needs to Know",
+    excerpt: "How Melbourne shopping centres manage security at scale — staffing models, loss prevention, CCTV, car park coverage, and coordinating with tenants.",
+    category: "Retail",
+    date: "20 May 2026",
+    readTime: "8 min read",
+  },
+  {
+    slug: "emergency-security-guards-melbourne",
+    title: "Emergency Security Guards Melbourne: Fast Deployment When You Need It",
+    excerpt: "Need security urgently in Melbourne? How emergency deployment works, realistic response times, what to expect, and what to do first in a security emergency.",
+    category: "Security Advice",
+    date: "20 May 2026",
+    readTime: "6 min read",
+  },
+  {
+    slug: "luxury-retail-security-melbourne",
+    title: "Luxury Retail Security Melbourne: Protecting High-Value Stores",
+    excerpt: "How Melbourne's luxury and high-value retailers approach security — ORC threats, discreet guard presentation, display case protocols, and what actually works.",
+    category: "Retail",
+    date: "20 May 2026",
+    readTime: "7 min read",
+  },
 ];
 
 const categories = ["All", "Security Advice", "Event Security", "Electronic Security", "Industry", "Retail", "Healthcare", "Mobile Patrols", "Construction", "Education"];
