@@ -260,6 +260,46 @@ const posts = [
     date: "20 May 2026",
     readTime: "7 min read",
   },
+  {
+    slug: "aged-care-security-melbourne",
+    title: "Aged Care Security Melbourne: Protecting Residents and Staff",
+    excerpt: "Security in aged care facilities requires a careful balance — protecting vulnerable residents while maintaining a warm, homely environment. Here's how Melbourne providers get it right.",
+    category: "Healthcare",
+    date: "20 May 2026",
+    readTime: "8 min read",
+  },
+  {
+    slug: "security-risk-assessment-melbourne",
+    title: "Security Risk Assessment Melbourne: What It Is and Why You Need One",
+    excerpt: "What a professional security risk assessment involves, who needs one, and how to use the findings to build a proportionate security program for your Melbourne business.",
+    category: "Security Advice",
+    date: "20 May 2026",
+    readTime: "8 min read",
+  },
+  {
+    slug: "loss-prevention-strategies-retail",
+    title: "Loss Prevention Strategies for Retail: What Actually Works in 2026",
+    excerpt: "The retail loss prevention strategies that deliver real results — staff training, technology, LP officers, store design, and how to combine them for maximum impact.",
+    category: "Retail",
+    date: "20 May 2026",
+    readTime: "9 min read",
+  },
+  {
+    slug: "security-guard-duties-responsibilities",
+    title: "Security Guard Duties and Responsibilities in Victoria",
+    excerpt: "What security guards are legally authorised to do in Victoria, what their core duties include, and what to expect from a professionally deployed security officer.",
+    category: "Industry",
+    date: "20 May 2026",
+    readTime: "7 min read",
+  },
+  {
+    slug: "strata-security-melbourne",
+    title: "Strata Security Melbourne: A Guide for Owners Corporations",
+    excerpt: "How Owners Corporations in Melbourne manage strata security — what measures work, how to pass security spending at the AGM, and how to select the right provider.",
+    category: "Security Advice",
+    date: "20 May 2026",
+    readTime: "7 min read",
+  },
 ];
 
 const categories = ["All", "Security Advice", "Event Security", "Electronic Security", "Industry", "Retail", "Healthcare", "Mobile Patrols", "Construction", "Education"];
